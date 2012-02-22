@@ -2,12 +2,12 @@
 
 return array(
 
-	'manage' => 'Juhi',
+	'manage' => 'Halda',
 	'logout' => 'Lahku',
 	'logged_in_as' => 'Sisse loginud kasutajaga',
 
 	'posts' => 'Postitused',
-	'pages' => 'Lehted',
+	'pages' => 'Lehed',
 	'users' => 'Kasutajad',
 	'metadata' => 'Seaded',
 
