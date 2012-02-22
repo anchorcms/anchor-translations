@@ -12,8 +12,8 @@ return array(
 	'metadata' => 'Metadata',
 
 	'status_check' => 'Status check',
-	'found_a_problem' => 'Ooh nee, er is een probleem gevonden',
-	'found_some_problems' => 'Ooh nee, er zijn wat problemen gevonden',
+	'found_a_problem' => 'Oh nee, er is een probleem gevonden',
+	'found_some_problems' => 'Oh nee, er zijn wat problemen gevonden',
 	'nice_job' => 'Goed bezig, ga zo door!',
 	'visit_your_site' => 'Bezoek je website',
 	'show_database_profile' => 'Toon database profiel',

@@ -8,7 +8,7 @@ return array(
 	'create_user' => 'Voeg een gebruiker toe',
 	'reset_password' => 'Reset wachtwoord',
 	'reset_password_for' => 'Reset wachtwoord voor ',
-	'reset_password_explain' => 'Vul alsjeblieft een wachtwoord in die de gebruiker deze keer wel kan onthouden.',
+	'reset_password_explain' => 'Vul een wachtwoord in die de gebruiker deze keer wel kan onthouden.',
 	'back_to' => 'Terug naar ',
 
 	// english spelling confusion
@@ -42,7 +42,7 @@ return array(
 	'password_explain' => 'En het bijbehorende wachtwoord. Kan later aangepast worden.',
 	'password_blank' => 'Leeg laten om niet te wijzigen.',
 	'email' => 'Email',
-	'email_explain' => 'De gebruiker&rsquo;s email adres. Nodig voor het geval de gebruiker zijn/haar wachtwoord vergeet.',
+	'email_explain' => 'Het email-adres van de gebruiker. Nodig voor het geval de gebruiker zijn/haar wachtwoord vergeet.',
 
 	'create' => 'Voeg gebruiker toe',
 	'update' => 'Sla wijzigingen op',
@@ -50,20 +50,20 @@ return array(
 	'submit' => 'Verstuur',
 	'return_users' => 'Ga terug naar gebruikers',
 
-	'username_exists' => 'Deze gebruikersnaam is al bezet',
-	'missing_password' => 'Vul alsjeblieft een wachtwoord in',
-	'invalid_email' => 'Vul alsjeblieft een email adres in',
-	'missing_name' => 'Vul alsjeblieft een naam die getoond word in',
-	'missing_username' => 'Vul alsjeblieft een gebruikersnaam in',
+	'username_exists' => 'Deze gebruikersnaam is al in gebruik',
+	'missing_password' => 'Vul een wachtwoord in',
+	'invalid_email' => 'Vul een email adres in',
+	'missing_name' => 'Vul een naam in',
+	'missing_username' => 'Vul een gebruikersnaam in',
 	'user_success_created' => 'De nieuwe gebruiker is toegevoegd',
 	'user_success_updated' => 'De gebruiker is geupdate',
 	'user_success_deleted' => 'De gebruiker is verwijderd',
 	'user_success_password' => 'Je nieuwe wachtwoord is opgeslagen',
 	'user_notice_recover' => 'Er is een email verstuurd om je wachtwoordwijziging te bevestigen.',
-	'user_email_recover' => 'Je hebt een wachtwoord wijziging aangevraagd. Klik om de volgende link om verder te gaan.',
+	'user_email_recover' => 'Je hebt een wachtwoordwijziging aangevraagd. Klik om de volgende link om verder te gaan.',
 	'user_subject_recover' => 'Reset wachtwoord',
 	'invalid_account' => 'Account niet gevonden',
-	'missing_login_username' => 'Vul alsjeblieft je gebruikersnaam in',
-	'missing_login_password' => 'Vul alsjeblieft je wachtwoord in'
+	'missing_login_username' => 'Vul je gebruikersnaam in',
+	'missing_login_password' => 'Vul je wachtwoord in'
 
 );

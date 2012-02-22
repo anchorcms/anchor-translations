@@ -4,12 +4,12 @@ return array(
 
 	'metadata' => 'Site metadata',
 
-	'sitename' => 'Site naam',
+	'sitename' => 'Sitenaam',
 	'sitename_explain' => 'Je site&rsquo;s naam.',
 	'sitedescription' => 'Site beschrijving',
 	'sitedescription_explain' => 'Een korte tekst om je website te omschrijven.',
-	'homepage' => 'Home Pagina',
-	'homepage_explain' => 'Je huidige home pagina.',
+	'homepage' => 'Homepage',
+	'homepage_explain' => 'Je huidige homepage.',
 	'postspage' => 'Posts Pagina',
 	'postspage_explain' => 'De pagina die je posts zal tonen.',
 	'posts_per_page' => 'Posts per pagina',
