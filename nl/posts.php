@@ -7,7 +7,7 @@ return array(
 	'created' => 'Gemaakt op',
 	'create' => 'Maak',
 	'by' => 'door',
-	'noposts' => 'Er zijn nog geen posts, waarom voeg je er niet een toe?',
+	'noposts' => 'Er zijn nog geen posts.',
 	'return_posts' => 'Ga terug naar posts',
 
 	'add_post' => 'Voeg een post toe',
@@ -18,10 +18,10 @@ return array(
 	'custom_fields_explain' => 'Cree&euml;r hier eigen velden.',
 	'create_custom_field' => 'Cree&euml;r een eigen veld',
 	'comments' => 'Reacties',
-	'comments_explain' => 'Hier kun je de geplaatste reacties modereren.',
+	'comments_explain' => 'Hier kun je geplaatste reacties modereren.',
 	'no_comments' => 'Er zijn nog geen reacties geplaatst.',
 	'edit_comment' => 'Bewerk reactie',
-	'edit_comment_explain' => 'Update hier de reactie.',
+	'edit_comment_explain' => 'Werk hier de reactie bij.',
 
 	'publish' => 'Publiceer',
 	'edit' => 'Bewerk',
@@ -33,7 +33,7 @@ return array(
 	'editing_explain' => 'Een paar nuttige links.',
 	'view_post' => 'Bekijk deze post op je website',
 
-	'draft' => 'Schets',
+	'draft' => 'Concept',
 	'archived' => 'Gearchiveerd',
 	'published' => 'Gepubliceerd',
 	'pending' => 'Onbeslist',
@@ -63,10 +63,10 @@ return array(
 	'custom_js' => 'Custom JS',
 	'custom_js_explain' => 'Custom Javascript. Wordt geplaatst in een <code>&lt;script&gt;</code> blok.',
 
-	'missing_title' => 'Voeg alsjeblieft een titel toe',
-	'missing_description' => 'Voeg alsjeblieft een beschrijving toe',
-	'missing_html' => 'Voeg alsjeblieft je HTML toe',
-	'duplicate_slug' => 'Een post met dezelfde slug bestaat al, wijzig je slug alsjeblieft',
+	'missing_title' => 'Voeg een titel toe',
+	'missing_description' => 'Voeg een beschrijving toe',
+	'missing_html' => 'Voeg je HTML toe',
+	'duplicate_slug' => 'Een post met dezelfde slug bestaat al, wijzig je slug.',
 	'post_success_created' => 'Je nieuwe post is toegevoegd',
 	'post_success_updated' => 'Je post is geupdate.',
 	'post_success_deleted' => 'Je post is verwijderd'
