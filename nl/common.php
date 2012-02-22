@@ -1,0 +1,23 @@
+<?php defined('IN_CMS') or die('No direct access allowed.');
+
+return array(
+
+	'manage' => 'Beheer',
+	'logout' => 'Log uit',
+	'logged_in_as' => 'Ingelogd als',
+
+	'posts' => 'Posts',
+	'pages' => 'Pagina&rsquo;s',
+	'users' => 'Gebruikers',
+	'metadata' => 'Metadata',
+
+	'status_check' => 'Status check',
+	'found_a_problem' => 'Ooh nee, er is een probleem gevonden',
+	'found_some_problems' => 'Ooh nee, er zijn wat problemen gevonden',
+	'nice_job' => 'Goed bezig, ga zo door!',
+	'visit_your_site' => 'Bezoek je website',
+	'show_database_profile' => 'Toon database profiel',
+	'powered_by_anchor' => 'Powered by Anchor, version ',
+	'make_blogging_beautiful' => 'Make blogging beautiful.'
+
+);
