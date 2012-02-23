@@ -21,7 +21,7 @@ return array(
 	'twitter_explain' => 'Your twitter account. Displayed as @<span id="output"></span>.',
 	'save' => 'Save changes',
 
-	'missing_sitename' => 'You need a site sitename',
+	'missing_sitename' => 'You need a sitename',
 	'missing_sitedescription' => 'You need a site description',
 	'missing_theme' => 'You need a theme',
 	'meta_success_updated' => 'Your metadata has been updated'
