@@ -48,8 +48,8 @@ return array(
 
 	'title' => 'Title',
 		'title_explain' => 'Your post&rsquo;s title.',
-	'slug' => 'Slug',
-		'slug_explain' => 'The slug for your post (<code id="output">slug</code>).',
+	'slug' => 'Estyniad',
+		'slug_explain' => 'The slug for your post (<code id="output">estyniad</code>).',
 	'description' => 'Description',
 		'description_explain' => 'A brief outline of what your post is about. Used in the RSS feed.',
 	'content' => 'Content',
