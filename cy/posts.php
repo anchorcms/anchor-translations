@@ -2,8 +2,8 @@
 
 return array(
 
-	'posts' => 'Posts',
-	'create_post' => 'Create a new post',
+	'posts' => 'Swyddi',
+	'create_post' => 'Dechrau Swydd Newydd',
 	'created' => 'Created',
 	'create' => 'Create',
 	'by' => 'by',
