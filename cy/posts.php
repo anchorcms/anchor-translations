@@ -4,9 +4,9 @@ return array(
 
 	'posts' => 'Swyddi',
 	'create_post' => 'Dechrau Swydd Newydd',
-	'created' => 'Created',
-	'create' => 'Create',
-	'by' => 'by',
+	'created' => 'Creu',
+	'create' => 'Creu',
+	'by' => 'Trwy,
 	'noposts' => 'No posts just yet. Why not write a new one?',
 	'return_posts' => 'Return to posts',
 
