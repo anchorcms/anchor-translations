@@ -6,7 +6,7 @@ return array(
 	'create_post' => 'Dechrau Swydd Newydd',
 	'created' => 'Creu',
 	'create' => 'Creu',
-	'by' => 'Trwy,
+	'by' => 'Gan',
 	'noposts' => 'No posts just yet. Why not write a new one?',
 	'return_posts' => 'Return to posts',
 
