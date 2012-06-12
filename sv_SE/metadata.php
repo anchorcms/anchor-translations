@@ -23,7 +23,7 @@ return array(
 
 	'missing_sitename' => 'Du m&aring;ste ange ett webbplatsnamn.',
 	'missing_sitedescription' => 'Du m&aring;ste ange en webbplatsbeskrivning.',
-	'missing_theme' => 'Du m&aring;ste vŠlja ett tema.',
+	'missing_theme' => 'Du m&aring;ste v&auml;lja ett tema.',
 	'meta_success_updated' => 'Din metadata &auml;r uppdaterad'
 
 );
