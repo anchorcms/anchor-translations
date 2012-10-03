@@ -28,7 +28,7 @@ return array(
 	'delete' => 'Supprimer',
 	'save' => 'Enregistrer',
 	'label' => 'Label',
-	'key' => 'Valeur',
+	'key' => 'Clé',
 	'editing' => '&Eacute;dition',
 	'editing_explain' => 'Quelques liens utiles.',
 	'view_post' => 'Voir l&rsquo;article sur votre site',
@@ -44,7 +44,7 @@ return array(
 	'custom_field' => 'Champs personnalis&eacute;s',
 	'custom_field_explain' => 'Veuillez entrer le label et la valeur du champs personnalis&eacute;.',
 	'missing_label' => 'Merci de fournir le label du champs',
-	'missing_key' => 'Veuillez entrer une valeur au champs',
+	'missing_key' => 'Veuillez entrer une clé au champs',
 
 	'title' => 'Titre',
 	'title_explain' => 'Le titre de votre article.',
