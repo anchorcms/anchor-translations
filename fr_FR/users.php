@@ -49,6 +49,10 @@ return array(
 	'delete' => 'Supprimer',
 	'submit' => 'Enregistrer',
 	'return_users' => 'Retour aux utilisateurs',
+	
+	'delete_confirm' => 'Etes-vous s&ucirc;r que vous souhaitez supprimer cet utilisateur&nbsp;?', 
+	'delete_confirm_submit' => 'Oui, je comprends que l&rsquo;utilisateur sera d&eacute;finitivement supprim&eacute;', 
+	'delete_confirm_cancel' => 'Non, conserver cet utilisateur',
 
 	'username_exists' => 'Ce nom pseudonyme est d&eacute;j&agrave; utilis&eacute;',
 	'missing_password' => 'Merci d&rsquo;entrer un mot de passe',

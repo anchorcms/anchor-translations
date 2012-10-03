@@ -48,6 +48,8 @@ return array(
 
 	'title' => 'Titre',
 	'title_explain' => 'Le titre de votre article.',
+	'date' => 'Date',
+	'date_explain' => 'La date de publication de votre article. Utilise <code><a href="http://php.net/manual/en/function.strtotime.php">strtotime()</a></code>.',
 	'slug' => 'Alias',
 	'slug_explain' => 'L&rsquo;alias de votre page (<code id="output">alias</code>).',
 	'description' => 'Description',
@@ -62,10 +64,16 @@ return array(
 	'custom_css_explain' => 'Styles CSS Personnalis&eacute;s. Sera encadr&eacute; d&rsquo;une balise <code>&lt;style&gt;</code>.',
 	'custom_js' => 'JS Personnalis&eacute;',
 	'custom_js_explain' => 'Javascript Personnalis&eacute;. Sera encadr&eacute; d&rsquo;une balise <code>&lt;script&gt;</code>.',
-
+	
+	'delete_confirm' => 'Etes-vous s&ucirc;r que vous souhaitez supprimer cet article&nbsp;?', 
+	'delete_confirm_submit' => 'Oui, je comprends que l&rsquo;article sera d&eacute;finitivement supprim&eacute;', 
+	'delete_confirm_cancel' => 'Non, conserver cet article',
+	
+	'invalid_date' => 'Veuillez entrer une date valide.',
 	'missing_title' => 'Le titre de l&rsquo;article est requis',
 	'missing_description' => 'Merci d&rsquo;indiquer une description',
 	'missing_html' => 'Veuillez entre le code HTML',
+	
 	'duplicate_slug' => 'Un article avec cet alias existe d&eacute;j&agrave;, veuillez fournir un autre alias.',
 	'post_success_created' => 'Votre nouvel article a &eacute;t&eacute; ajout&eacute;e',
 	'post_success_updated' => 'Votre nouvel article a &eacute;t&eacute; mis &agrave; jour',

@@ -17,7 +17,9 @@ return array(
 	'slug' => 'Alias',
 	'slug_explain' => 'L&rsquo;alias de votre page (<code>' . $_SERVER['HTTP_HOST'] . '/<span id="output">alias</span></code>).',
 	'content' => 'Contenu',
-	'content_explain' => 'Your page\'s content. Accepts valid HTML.',
+	'content_explain' => 'Le contenu de votre page. Code HTML valide autoris&eacute;.',
+	'redirect_option' => 'Cette page d&eacute;clenche une redirection vers une autre URL',
+	'redirect_url' => 'URL de redirection',
 	'status' => 'Statut',
 	'status_explain' => 'Voulez-vous que votre page soit visible (publi&eacute;e), en attente (brouillon), ou cach&eacute;e (archiv&eacute;e)&nbsp;?',
 
@@ -29,6 +31,10 @@ return array(
 	'delete' => 'Supprimer',
 	'save' => 'Enregistrer',
 	'return_pages' => 'Retours aux pages',
+	
+	'delete_confirm' => 'Etes-vous s&ucirc;r que vous souhaitez supprimer cette page&nbsp;?', 
+	'delete_confirm_submit' => 'Oui, je comprends que la page sera d&eacute;finitivement supprim&eacute;e', 
+	'delete_confirm_cancel' => 'Non, conserver cette page',
 
 	'missing_name' => 'Veuillez entrer un nom',
 	'missing_title' => 'Merci d&rsquo;indiquer un titre',
