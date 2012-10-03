@@ -6,7 +6,7 @@ return array(
 	'create_page' => 'Cr&eacute;er une nouvelle page',
 	'no_pages' => 'Aucune page pour le moment. Pourquoi ne pas en publier une&nbsp;?',
 	'add_page' => 'Ajouter une page',
-	'editing' => '&Eacute;dition de',
+	'editing' => '&Eacute;dition',
 	'editing_explain' => 'Quelques liens utiles.',
 	'view_page' => 'Voir cette page sur votre site',
 

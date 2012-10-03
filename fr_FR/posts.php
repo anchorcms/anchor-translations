@@ -29,7 +29,7 @@ return array(
 	'save' => 'Enregistrer',
 	'label' => 'Label',
 	'key' => 'Valeur',
-	'editing' => '&Eacute;dition de',
+	'editing' => '&Eacute;dition',
 	'editing_explain' => 'Quelques liens utiles.',
 	'view_post' => 'Voir l&rsquo;article sur votre site',
 
