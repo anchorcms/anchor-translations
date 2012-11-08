@@ -48,6 +48,8 @@ return array(
 
 	'title' => 'T&iacute;tulo',
 	'title_explain' => 'O t&iacute;tulo do seu post.',
+	'date' => 'Data',
+	'date_explain' => 'A data que seu post ser&aacute; p&uacute;blicado. Usa <code><a href="http://php.net/manual/en/function.strtotime.php">strtotime()</a></code>.',
 	'slug' => 'Link Permanente',
 	'slug_explain' => 'O link permanente do seu post (<code id="output">Link Permanente</code>).',
 	'description' => 'Descri&ccedil;&atilde;o',
@@ -67,8 +69,8 @@ return array(
 	'missing_description' => 'Por favor insira uma Descri&ccedil;&atilde;o',
 	'missing_html' => 'Por favor insira seu html',
 	'duplicate_slug' => 'Um post com o mesmo link permanente j&aacute; existe, por favor altere o link permanente deste post.',
-	'post_success_created' => 'Seu novo post foi adicionado',
+	'post_success_created' => 'Seu novo post foi adicionado.',
 	'post_success_updated' => 'Seu post foi atualizado.',
-	'post_success_deleted' => 'Seu post foi removido'
+	'post_success_deleted' => 'Seu post foi removido.'
 
 );

@@ -29,7 +29,7 @@ return array(
 	'inactive' => 'Inativo',
 	'active' => 'Ativo',
 	'status_explain' => 'Se inativo, o usu&aacute;rio n&atilde;o conseguir&aacute; logar .',
-	'role' => 'Fu&ccedil;&atilde;o',
+	'role' => 'Fun&ccedil;&atilde;o',
 	'administrator' => 'Administrador',
 	'editor' => 'Editor',
 	'user' => 'Usu&aacute;rio',
@@ -49,7 +49,11 @@ return array(
 	'delete' => 'Deletar',
 	'submit' => 'Enviar',
 	'return_users' => 'Retornar aos usu&aacute;rios',
-
+	
+	'delete_confirm' => 'Tem certeza que deseja apagar este usu&aacute;rio?',
+	'delete_confirm_submit' => 'Sim, eu entendo que ele será apagado permanentemente',
+	'delete_confirm_cancel' => 'N&atilde;o, mantenha este usu&aacute;rio',
+	
 	'username_exists' => 'Nome de Usu&aacute;rio j&aacute; em uso',
 	'missing_password' => 'Por favor insira uma senha',
 	'invalid_email' => 'Por favor insira um email v&aacute;lido',
