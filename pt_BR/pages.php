@@ -18,8 +18,10 @@ return array(
 	'slug_explain' => 'O link permanente do seu post (<code>' . $_SERVER['HTTP_HOST'] . '/<span id="output">link permanente</span></code>).',
 	'content' => 'Conte&uacute;do',
 	'content_explain' => 'O conte&uacute;do da sua p&aacute;gina. HTML v&aacute;lido aceito.',
-	'status' => 'Status',
-	'status_explain' => 'Voc6e quer que sua p&aacute;gina seja live (publicada), pendente (rascunho), ou escondida (arquivada)?',
+		'redirect_option' => 'Esta p&aacute;gina cont&eacute;m um redirecionamento para outra url',
+		'redirect_url' => 'Url de redirecionamento',
+		'status' => 'Status',
+	'status_explain' => 'Voc&ecirc; quer que sua p&aacute;gina seja live (publicada), pendente (rascunho), ou escondida (arquivada)?',
 
 	'draft' => 'Rascunho',
 	'archived' => 'Arquivada',
@@ -29,7 +31,11 @@ return array(
 	'delete' => 'Remover',
 	'save' => 'Salvar',
 	'return_pages' => 'Retornar as P&aacute;ginas',
-
+	
+	'delete_confirm' => 'Tem certeza que deseja apagar esta p&aacute;gina?',
+	'delete_confirm_submit' => 'Sim, eu entendo que ela será apagada permanentemente',
+	'delete_confirm_cancel' => 'N&atilde;o, mantenha esta página',
+		
 	'missing_name' => 'Por favor insira um nome',
 	'missing_title' => 'Por favor insira um t&iacute;tulo',
 	'duplicate_slug' => 'Uma p&aacute;gina com o mesmo link permanente j&aacute; exite, por favor altere o link permanente desta p&aacute;gina.',
