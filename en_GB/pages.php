@@ -2,40 +2,28 @@
 
 return array(
 
-	'pages' => 'Pages',
-	'create_page' => 'Create a new page',
-	'no_pages' => 'No pages just yet. Why not write a new one?',
-	'add_page' => 'Add a Page',
-	'editing' => 'Editing',
-	'editing_explain' => 'Some useful links.',
-	'view_page' => 'View this page on your site',
+	'metadata' => 'Site metadata',
 
-	'name' => 'Name',
-	'name_explain' => 'The name of your page. This gets shown in the navigation.',
-	'title' => 'Title',
-	'title_explain' => 'The title of your page, which gets shown in the <code>&lt;title&gt;</code>.',
-	'slug' => 'Slug',
-	'slug_explain' => 'The slug for your post (<code>' . $_SERVER['HTTP_HOST'] . '/<span id="output">slug</span></code>).',
-	'content' => 'Content',
-	'content_explain' => 'Your page\'s content. Accepts valid HTML.',
-	'status' => 'Status',
-	'status_explain' => 'Do you want your page to be live (published), pending (draft), or hidden (archived)?',
+	'sitename' => 'Site name',
+	'sitename_explain' => 'Your site&rsquo;s name.',
+	'sitedescription' => 'Site description',
+	'sitedescription_explain' => 'A short paragraph to describe your site.',
+	'homepage' => 'Home Page',
+	'homepage_explain' => 'Your current home page.',
+	'postspage' => 'Posts Page',
+	'postspage_explain' => 'Your page that will show your posts.',
+	'posts_per_page' => 'Posts per page',
+	'posts_per_page_explain' => 'The number of posts to display per page.',
+	'current_theme' => 'Current theme',
+	'current_theme_explain' => 'Your current theme.',
+	'auto_publish_comments' => 'Auto publish comments',
+	'twitter' => 'Twitter',
+	'twitter_explain' => 'Your twitter account.',
+	'save' => 'Save changes',
 
-	'draft' => 'Draft',
-	'archived' => 'Archived',
-	'published' => 'Published',
-
-	'create' => 'Create',
-	'delete' => 'Delete',
-	'save' => 'Save',
-	'return_pages' => 'Return to pages',
-
-	'missing_name' => 'Please enter a name',
-	'missing_title' => 'Please enter a title',
-	'duplicate_slug' => 'A pages with the same slug already exists, please change your page slug.',
-	'page_success_created' => 'Your new page has been added',
-	'page_success_updated' => 'Your page has been updated',
-	'page_success_delete' => 'Your page has been deleted',
-	'page_error_delete' => 'Sorry, you can not delete your home page or posts page.'
+	'missing_sitename' => 'You need a site sitename',
+	'missing_sitedescription' => 'You need a site description',
+	'missing_theme' => 'You need a theme',
+	'meta_success_updated' => 'Your metadata has been updated'
 
 );
