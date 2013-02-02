@@ -34,7 +34,7 @@ return array(
 	
 	'delete_confirm' => 'Weet je zeker dat je deze pagina wilt verwijderen?', 
 	'delete_confirm_submit' => 'Ja, verwijder deze pagina permanent', 
-	'delete_confirm_cancel' => 'Nee, verwijder de pagina niet',
+	'delete_confirm_cancel' => 'Nee, verwijder deze pagina niet',
 
 	'missing_name' => 'Voeg een naam toe',
 	'missing_title' => 'Voeg een titel toe',
