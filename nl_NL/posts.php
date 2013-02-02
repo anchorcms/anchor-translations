@@ -48,6 +48,8 @@ return array(
 
 	'title' => 'Titel',
 	'title_explain' => 'De titel van je post.',
+	'date' => 'Datum',
+	'date_explain' => 'De &ldquo;publiceer&rdquo; datum voor je post. Gebruikt <code><a href="http://php.net/manual/en/function.strtotime.php">strtotime()</a></code>.',
 	'slug' => 'Slug',
 	'slug_explain' => 'De slug voor je post (<code id="output">slug</code>).',
 	'description' => 'Beschrijving',
@@ -63,9 +65,15 @@ return array(
 	'custom_js' => 'Custom JS',
 	'custom_js_explain' => 'Custom Javascript. Wordt geplaatst in een <code>&lt;script&gt;</code> blok.',
 
+	'delete_confirm' => 'Weet je zeker dat je deze post wilt verwijderen?', 
+	'delete_confirm_submit' => 'Ja, verwijder deze post permanent', 
+	'delete_confirm_cancel' => 'Nee, verwijder deze post niet',
+	
+	'invalid_date' => 'Voer een geldige datum in.',
 	'missing_title' => 'Voeg een titel toe',
 	'missing_description' => 'Voeg een beschrijving toe',
 	'missing_html' => 'Voeg je HTML toe',
+	
 	'duplicate_slug' => 'Een post met dezelfde slug bestaat al, wijzig je slug.',
 	'post_success_created' => 'Je nieuwe post is toegevoegd',
 	'post_success_updated' => 'Je post is geupdate.',
