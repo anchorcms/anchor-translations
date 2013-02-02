@@ -50,11 +50,17 @@ return array(
 	'submit' => 'Verstuur',
 	'return_users' => 'Ga terug naar gebruikers',
 
+	'delete_confirm' => 'Weet je zeker dat je deze gebruiker wilt verwijderen?',
+	'delete_confirm_submit' => 'Ja, verwijder deze gebruiker permanent',
+	'delete_confirm_cancel' => 'Nee, verwijder deze gebruiker niet',
+
 	'username_exists' => 'Deze gebruikersnaam is al in gebruik',
 	'missing_password' => 'Vul een wachtwoord in',
+	'password_too_short' => 'Je wachtwoord moet minimaal %s karakters lang zijn',
 	'invalid_email' => 'Vul een email adres in',
 	'missing_name' => 'Vul een naam in',
 	'missing_username' => 'Vul een gebruikersnaam in',
+	'invalid_status' => 'Je kunt je eigen status niet veranderen',
 	'user_success_created' => 'De nieuwe gebruiker is toegevoegd',
 	'user_success_updated' => 'De gebruiker is geupdate',
 	'user_success_deleted' => 'De gebruiker is verwijderd',
