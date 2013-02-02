@@ -18,6 +18,8 @@ return array(
 	'slug_explain' => 'De slug voor je post (<code>' . $_SERVER['HTTP_HOST'] . '/<span id="output">slug</span></code>).',
 	'content' => 'Inhoud',
 	'content_explain' => 'De inhoud van je pagina. HTML is toegestaan.',
+	'redirect_option' => 'Deze pagina dient als een omleiding naar een andere URL',
+	'redirect_url' => 'Leid pagina om',
 	'status' => 'Status',
 	'status_explain' => 'Wil je dat je pagina live (gepubliceerd), draft (concept) of onzichtbaar (gearchiveerd) is?',
 
@@ -29,6 +31,10 @@ return array(
 	'delete' => 'Verwijder pagina',
 	'save' => 'Sla wijzigingen op',
 	'return_pages' => 'Ga terug naar pagina&rsquo;s',
+	
+	'delete_confirm' => 'Weet je zeker dat je deze pagina wilt verwijderen?', 
+	'delete_confirm_submit' => 'Ja, verwijder deze pagina permanent', 
+	'delete_confirm_cancel' => 'Nee, verwijder de pagina niet',
 
 	'missing_name' => 'Voeg een naam toe',
 	'missing_title' => 'Voeg een titel toe',
