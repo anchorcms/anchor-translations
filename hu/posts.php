@@ -1,4 +1,4 @@
-<?php defined('IN_CMS') or die('Nincs közvetlen hozzáférés.');
+<?php
 
 return array(
 
@@ -48,24 +48,32 @@ return array(
 
 	'title' => 'Cím',
 	'title_explain' => 'A bejegyzés címe.',
+	'date' => 'Dátum',
+	'date_explain' => 'A &ldquo;publikált&rdquo; bejegyzések dátuma. Használd a <code><a href="http://php.net/manual/en/function.strtotime.php">strtotime()</a></code> kódot.',
 	'slug' => 'Slug',
-	'slug_explain' => 'A bejegyzés slug-ja (<code id="output">slug</code>).',
+	'slug_explain' => 'A bejegyzés linkje.',
 	'description' => 'Leírás',
 	'description_explain' => 'Egy rövid vázlat, amiről a bejegyzés szól. Az RSS feed használja.',
 	'content' => 'Tartalom',
-	'content_explain' => 'A bejegyzésed fő tartalma. Érvényes HTML kóddal.',
+	'content_explain' => 'A bejegyzésed fő tartalma. Érvényes Markdown kóddal.',
 	'status' => 'Státusz',
 	'status_explain' => 'Státusz: elő (publikált), szerkesztett (piszkozat), vagy rejtett (archivált).',
-	'allow_comments' => 'Hozzászólások engedélyezáse',
+	'allow_comments' => 'Hozzászólások engedélyezése',
 	'allow_comments_explain' => 'Ez lehetővé teszi, hogy hozzászoljanak a bejegyzésekhez.',
 	'custom_css' => 'Egyéni CSS',
 	'custom_css_explain' => 'Egyéni CSS. Meg fog jelenni a <code>&lt;style&gt;</code> blokkban.',
 	'custom_js' => 'Egyéni JS',
 	'custom_js_explain' => 'Egyéni Javascript. Meg fog jelenni a <code>&lt;script&gt;</code> blokkban.',
+	
+	'delete_confirm' => 'Biztos hogy szeretnéd törölni ezt a bejegyzést?', 
+	'delete_confirm_submit' => 'Igen, tisztában vagyok a végleges törléssel kapcsolatban', 
+	'delete_confirm_cancel' => 'Ne, tartsuk meg ezt a bejegyzést',
 
+	'invalid_date' => 'Kérlek érvényes dátumot adj meg.',
 	'missing_title' => 'Kérlek add meg a címet',
 	'missing_description' => 'Kérlek add meg a leírást',
 	'missing_html' => 'Kérlek addj meg html kódot',
+	
 	'duplicate_slug' => 'Az oldal azonos slug-gal már létezik, kérlek válassz másikat.',
 	'post_success_created' => 'Az új bejegyzés hozzáadva',
 	'post_success_updated' => 'A bejegyzés frissítve.',

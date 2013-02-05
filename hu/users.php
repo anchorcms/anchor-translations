@@ -1,4 +1,4 @@
-<?php defined('IN_CMS') or die('Nincs közvetlen hozzáférés.');
+<?php
 
 return array(
 
@@ -40,7 +40,7 @@ return array(
 	'username_explain' => 'A kívánt felhasználónév. Később megváltoztatható.',
 	'password' => 'Jelszó',
 	'password_explain' => 'És a megfelelő jelszó. Később megváltoztatható.',
-	'password_blank' => 'Hagyd üresen, ha nem változtatod.',
+	'password_blank' => 'Hagyd üresen, ha nem változik.',
 	'email' => 'Email',
 	'email_explain' => 'A felhasználó email címe. Szükséges, ha a felhasználó elfelejti a jelszavát.',
 
@@ -49,18 +49,24 @@ return array(
 	'delete' => 'Töröl',
 	'submit' => 'Küld',
 	'return_users' => 'Vissza a felhasználókhoz',
+	
+	'delete_confirm' => 'Biztos hogy szeretnéd törölni ezt a felhasználót?', 
+	'delete_confirm_submit' => 'Igen, tisztában vagyok a végleges törléssel kapcsolatban', 
+	'delete_confirm_cancel' => 'Ne, tartsuk meg ezt a felhasználót',
 
 	'username_exists' => 'A felhasználónév már használatban van',
 	'missing_password' => 'Kérlek add meg a jelszót',
+	'password_too_short' => 'A jelszavad legalább %s karakter hosszú legyen',
 	'invalid_email' => 'Kérlek valós email címet adj meg',
 	'missing_name' => 'Kérlek add meg a megjelenített nevet',
 	'missing_username' => 'Kérlek add me ga felhasználónevet',
+	'invalid_status' => 'Nem tudod a saját állapotodat megváltoztatni',
 	'user_success_created' => 'Új felhasználó hozzáadva',
 	'user_success_updated' => 'A felhasználó frissítve',
 	'user_success_deleted' => 'A felhasználó törölve',
 	'user_success_password' => 'Az új jelszavad elküldve',
 	'user_notice_recover' => 'Küldtünk egy levelet, hogy megváltozott a jelszavad.',
-	'user_email_recover' => 'Kérdet, állítsuk vissza a jelszavadat. A folytatáshoz kövesd a linket.',
+	'user_email_recover' => 'Kérdet, állítsuk vissza a jelszavadat. A folytatáshoz kövesd a linket.' . PHP_EOL . '%s',
 	'user_subject_recover' => 'Jelszó törlése',
 	'invalid_account' => 'A fiók nem található',
 	'missing_login_username' => 'Kérlek add meg a felhasználóneved',
