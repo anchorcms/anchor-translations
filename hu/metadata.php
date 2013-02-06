@@ -1,4 +1,4 @@
-<?php defined('IN_CMS') or die('Nincs közvetlen hozzáférés.');
+<?php
 
 return array(
 

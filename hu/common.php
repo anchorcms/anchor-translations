@@ -1,4 +1,4 @@
-<?php defined('IN_CMS') or die('Nincs közvetlen hozzáférés.');
+<?php
 
 return array(
 
@@ -15,9 +15,9 @@ return array(
 	'found_a_problem' => 'Oh ne, találtunk egy problémát',
 	'found_some_problems' => 'Oh ne, találtunk néhány problémát',
 	'nice_job' => 'Szép munka, haladj tovább!',
-	'visit_your_site' => 'Az oldalad meglátogatása',
+	'visit_your_site' => 'Az oldalad',
 	'show_database_profile' => 'Adatbázis profil megtekintése',
-	'powered_by_anchor' => 'Powered by Anchor, version ',
+	'powered_by_anchor' => 'Powered by Anchor, version %s',
 	'make_blogging_beautiful' => 'Tedd a bloggolást szebbé.'
 
 );
