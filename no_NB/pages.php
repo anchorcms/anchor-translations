@@ -2,28 +2,27 @@
 
 return array(
 
-	'metadata' => 'Site metadata',
+	'metadata' => 'Websidens metadata',
 
-	'sitename' => 'Site name',
-	'sitename_explain' => 'Your site&rsquo;s name.',
-	'sitedescription' => 'Site description',
-	'sitedescription_explain' => 'A short paragraph to describe your site.',
-	'homepage' => 'Home Page',
-	'homepage_explain' => 'Your current home page.',
-	'postspage' => 'Posts Page',
-	'postspage_explain' => 'Your page that will show your posts.',
-	'posts_per_page' => 'Posts per page',
-	'posts_per_page_explain' => 'The number of posts to display per page.',
-	'current_theme' => 'Current theme',
-	'current_theme_explain' => 'Your current theme.',
-	'auto_publish_comments' => 'Auto publish comments',
+	'sitename' => 'Sidensnavn',
+	'sitename_explain' => 'Navnet på nettsiden din.',
+	'sitedescription' => 'Websidebeskrivelse',
+	'sitedescription_explain' => 'En kort beskrivelse av din nettside.',
+	'homepage' => 'Startsiden',
+	'homepage_explain' => 'Din aktive startside.',
+	'postspage' => 'Innleggs side',
+	'postspage_explain' => 'Siden som kommer til å vise dine innlegg.',
+	'posts_per_page' => 'Innlegg per side',
+	'posts_per_page_explain' => 'Antall innlegg per som vises per side.',
+	'current_theme' => 'Aktivt tema',
+	'current_theme_explain' => 'Ditt aktive tema.',
+	'auto_publish_comments' => 'Publiser kommentarer automatisk',
 	'twitter' => 'Twitter',
-	'twitter_explain' => 'Your twitter account.',
-	'save' => 'Save changes',
+	'twitter_explain' => 'Din twitter konto.',
+	'save' => 'Lagre endinger',
 
-	'missing_sitename' => 'You need a site sitename',
-	'missing_sitedescription' => 'You need a site description',
-	'missing_theme' => 'You need a theme',
-	'meta_success_updated' => 'Your metadata has been updated'
-
+	'missing_sitename' => 'Du må angi et navn på nettsiden',
+	'missing_sitedescription' => 'Du må angi en beskrivelse av nettsiden',
+	'missing_theme' => 'Du må velge et tema',
+	'meta_success_updated' => 'Din metadata ble oppdatert'
 );
