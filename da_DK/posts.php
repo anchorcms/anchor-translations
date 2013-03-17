@@ -1,0 +1,82 @@
+<?php defined('IN_CMS') or die('No direct access allowed.');
+
+return array(
+
+	'posts' => 'Indl&aelig;g',
+	'create_post' => 'Tilf&oslash;j nyt indl&aelig;g',
+	'created' => 'Tilf&oslash;jet',
+	'create' => 'Tilf&oslash;j',
+	'by' => 'af',
+	'noposts' => 'Ingen indl&aelig;g endnu. Hvorfor ikke skrive et?',
+	'return_posts' => 'Tilbage til indl&aelig;g',
+
+	'add_post' => 'Tilf&oslash;j et indl&aelig;g',
+	'post' => 'Indl&aelig;g',
+	'customise' => 'Tilpas',
+	'customise_explain' => 'Her kan du tilpasse dine indl&aelig;g. Denne sektion er valgfri.',
+	'custom_fields' => 'Egne felter',
+	'custom_fields_explain' => 'Lav dine egne felter her.',
+	'create_custom_field' => 'Lav dit eget felt',
+	'comments' => 'Kommentarer',
+	'comments_explain' => 'Her kan du moderere dine kommentarer.',
+	'no_comments' => 'Ingen kommentarer endnu.',
+	'edit_comment' => 'Rediger kommentar',
+	'edit_comment_explain' => 'Rediger kommentarteksten her.',
+
+	'publish' => 'Publicer',
+	'edit' => 'Rediger',
+	'delete' => 'Slet',
+	'save' => 'Gem',
+	'label' => 'M&aelig;rke',
+	'key' => 'V&aelig;rdi',
+	'editing' => 'Redigering',
+	'editing_explain' => 'Nogle brugbare links.',
+	'view_post' => 'Vis dette indl&aelig;g p&aring; din side',
+
+	'draft' => 'Udkast',
+	'archived' => 'Arkiveret',
+	'published' => 'Publiceret',
+	'pending' => 'Afventer',
+	'spam' => 'Spam',
+	'update' => 'Opdater',
+	'close' => 'Luk',
+
+	'custom_field' => 'Eget felt',
+	'custom_field_explain' => 'Indtast venligst m&aelig;rke og v&aelig;rdi til dit felt.',
+	'missing_label' => 'Indtast venligst et feltm&aelig;rke',
+	'missing_key' => 'Indtast venligst en feltv&aelig;rdi',
+
+	'title' => 'Titel',
+	'title_explain' => 'Dit indl&aelig;gs titel.',
+	'date' => 'Dato',
+	'date_explain' => 'Datoen for &ldquo;publicering&rdquo; af dit indl&aelig;g. Bruger <code><a href="http://php.net/manual/en/function.strtotime.php">strtotime()</a></code>.',
+	'slug' => 'URL-navn',
+	'slug_explain' => 'Hvad der st&aring;r i adresselinjen for dit indl&aelig;g.',
+	'description' => 'Beskrivelse',
+	'description_explain' => 'En kort beskrivelse af hvad dit indl&aelig;g halnder om. Bruges i RSS-feedet.',
+	'content' => 'Indhold',
+	'content_explain' => 'Dit indl&aelig;gs hovedindhold. Kan godt lide masser af gyldig HTML',
+	'status' => 'Status',
+	'status_explain' => 'Statusser: live (publiceret), afventer (udkast) eller skjult (arkiveret).',
+	'allow_comments' => 'Tillad kommentarer',
+	'allow_comments_explain' => 'Dette vil tillade brugere at kommentere p&aring; dine indl&aelig;g.',
+	'custom_css' => 'Egen CSS',
+	'custom_css_explain' => 'Egen CSS. Vil blive pakket ind i en <code>&lt;style&gt;</code>-block.',
+	'custom_js' => 'Egen JS',
+	'custom_js_explain' => 'Egen Javascript. Vil blive pakket ind i en <code>&lt;script&gt;</code>-block.',
+
+	'delete_confirm' => 'Er du sikker p&aring; at du vil slette dette indl&aelig;g?', 
+	'delete_confirm_submit' => 'Ja, jeg forst&aring;r at det vil blive slettet permanent.', 
+	'delete_confirm_cancel' => 'Nej, behold indl&aelig;gget',
+
+	'invalid_date' => 'Indtast venligst en gyldig dato.',
+	'missing_title' => 'Indtast venligst en titel',
+	'missing_description' => 'Indtast venligst en beskrivelse',
+	'missing_html' => 'Indtast venligst din HTML',
+
+	'duplicate_slug' => 'Et indl&aelig;g med det samme URL-navn findes allerede, v&aelig;lg venligst et nyt.',
+	'post_success_created' => 'Dit indl&aelig;g er blevet tilf&oslash;jet.',
+	'post_success_updated' => 'Dit indl&aelig;g er blevet opdateret.',
+	'post_success_deleted' => 'Dit indl&aelig;g er blevet slettet.'
+
+);
