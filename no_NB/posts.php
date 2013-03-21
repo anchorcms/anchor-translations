@@ -1,0 +1,82 @@
+<?php defined('IN_CMS') or die('Ingen direkte aksess er tillatt.');
+
+return array(
+
+	'posts' => 'Innlegg',
+	'create_post' => 'Lag et nytt innledd',
+	'created' => 'Opprettet',
+	'create' => 'Opprett',
+	'by' => 'av',
+	'noposts' => 'Det fins ingen innlegg. Hva med å skrive et?',
+	'return_posts' => 'Gå tilbake til innlegg',
+
+	'add_post' => 'Opprett et innlegg',
+	'post' => 'Innlegg',
+	'customise' => 'Skreddersy',
+	'customise_explain' => 'Her kan du skreddersy ditt innlegg. Er ikke påkrevd.',
+	'custom_fields' => 'Spesialfelter',
+	'custom_fields_explain' => 'Lag et spesialfelt.',
+	'create_custom_field' => 'Opprett et spesialfelt',
+	'comments' => 'Kommentarer',
+	'comments_explain' => 'Her kon du moderere kommentarerene dine.',
+	'no_comments' => 'Ingen kommentarer ennå.',
+	'edit_comment' => 'Editer kommentarer',
+	'edit_comment_explain' => 'Oppdater kommentartekst her.',
+
+	'publish' => 'Publiser',
+	'edit' => 'Editer',
+	'delete' => 'Slett',
+	'save' => 'Lagre',
+	'label' => 'Etikett',
+	'key' => 'Nøkkel',
+	'editing' => 'Editer',
+	'editing_explain' => 'Noen nyttige linker.',
+	'view_post' => 'Vis innlegget på siden din',
+
+	'draft' => 'Utkast',
+	'archived' => 'Arkivert',
+	'published' => 'Publisert',
+	'pending' => 'Avventer',
+	'spam' => 'Spam',
+	'update' => 'Oppdatere',
+	'close' => 'Avslutt',
+
+	'custom_field' => 'Spesialfelt',
+	'custom_field_explain' => 'Vennligst angi en etikett og nøkkel for ditt felt.',
+	'missing_label' => 'Vennligst angi en etikett',
+	'missing_key' => 'Vennligst angi en nøkell',
+
+	'title' => 'Titel',
+	'title_explain' => 'Ditt innlegs titel.',
+	'date' => 'Dato',
+	'date_explain' => 'Innleggets publiserings dato.  <code><a href="http://php.net/manual/en/function.strtotime.php">strtotime()</a></code>.',
+	'slug' => 'Slug',
+	'slug_explain' => 'The slug for your post.',
+	'description' => 'Beskrivelse',
+	'description_explain' => 'En kort beskrivelse av ditt innlegg. Brukses i bla. RRS.',
+	'content' => 'Innhold',
+	'content_explain' => 'Innlegges hoved innhold. Bruk gjerne gyldig HTML.',
+	'status' => 'Status',
+	'status_explain' => 'Statuses: live (publisert), avventer (utkast), eller gjem (arkivert).',
+	'allow_comments' => 'Tillat kommentarer',
+	'allow_comments_explain' => 'Dette vil tillate besøkende å kommentere innlegget ditt.',
+	'custom_css' => 'Egen CSS',
+	'custom_css_explain' => 'Egen CSS. Kommer inkludert i  <code>&lt;style&gt;</code> block.',
+	'custom_js' => 'Egen JS',
+	'custom_js_explain' => 'Egen Javascript. Kommer inkludert i <code>&lt;script&gt;</code> block.',
+
+	'delete_confirm' => 'Sikker på at du vil slette innlegget?', 
+	'delete_confirm_submit' => 'Ja, Jeg forstår at innlegget blir slettet for alltid', 
+	'delete_confirm_cancel' => 'Nei, behold innlegget',
+
+	'invalid_date' => 'Vennligst angi en gyldig dato.',
+	'missing_title' => 'Vennligst angi en titel',
+	'missing_description' => 'Vennligst angi en beskrivelse',
+	'missing_html' => 'Vennligst angi html',
+
+	'duplicate_slug' => 'Ett innlegg med samme  slug eksisterer, vennlgist endre din slug.',
+	'post_success_created' => 'Ditt nye innlegg har blitt opprettet.',
+	'post_success_updated' => 'Ditt innlegg har blitt oppdatert.',
+	'post_success_deleted' => 'Ditt innlegg har blitt slettet.'
+
+);
