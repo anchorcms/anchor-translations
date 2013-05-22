@@ -1,3 +1,4 @@
-### All translations now live in the main Anchor repo
-
-[Translations](https://github.com/anchorcms/anchor-cms/tree/master/anchor/language)
+If you would like to add a new translation please
+[submit a pull request](https://github.com/anchorcms/anchor-translations/pull/new/master);
+make sure the folder name for the new translate follows the
+[ISO 639 'underscore' ISO 3166](http://www.localeplanet.com/icu/) format.
