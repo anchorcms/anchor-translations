@@ -6,7 +6,7 @@ return array(
 	'categories' => 'Catégories',
 
 	'create_category' => 'Créer une catégorie',
-	'edit_category' => 'Edition de &ldquo;%s&rdquo;',
+	'edit_category' => 'Editer une catégorie;',
 
 	// form fields
 	'title' => 'Titre ',
@@ -23,6 +23,6 @@ return array(
 	'created' => 'La catégorie vient d\'être ajoutée.',
 	'updated' => 'La catégorie vient d\'être mise à jour.',
 	'deleted' => 'La catégorie a été supprimée.',
-	'delete_error' => 'Vous devez avoir au moins une catégorie.',
+	'delete_error' => 'Vous devez séléctionner au moins une catégorie.',
 
 );
