@@ -3,6 +3,7 @@
 return array(
 
 	'extend' => 'Extend',
+	'extend_explain' => 'Extend your site',
 
 	'fields' => 'Custom Fields',
 	'fields_desc' => 'Create additional fields',
