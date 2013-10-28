@@ -14,7 +14,7 @@ return array(
 
 	'email' => 'Email адрес',
 	'email_explain' => 'Email автора.',
-	'email_missing', 'Введите email', // frontend message (appears on your site!)
+	'email_missing' => 'Введите email', // frontend message (appears on your site!)
 
 	'text' => 'Комментарий',
 	'text_explain' => '',
