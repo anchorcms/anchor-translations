@@ -14,7 +14,7 @@ return array(
 
 	'email' => 'Email',
 	'email_explain' => 'Email do autor',
-	'email_missing', 'Por favor preencha com um email válido', // frontend message (appears on your site!)
+	'email_missing' => 'Por favor preencha com um email válido', // frontend message (appears on your site!)
 
 	'text' => 'Comente',
 	'text_explain' => '',
