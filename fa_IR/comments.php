@@ -14,7 +14,7 @@ return array(
 
 	'email' => 'آدرس ایمیل',
 	'email_explain' => 'ایمیل نویسنده',
-	'email_missing', 'لطفا یک آدرس ایمیل معتبر وارد کنید', // frontend message (appears on your site!)
+	'email_missing' => 'لطفا یک آدرس ایمیل معتبر وارد کنید', // frontend message (appears on your site!)
 
 	'text' => 'نظر',
 	'text_explain' => '',
