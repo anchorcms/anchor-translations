@@ -14,7 +14,7 @@ return array(
 
 	'email' => '邮件地址',
 	'email_explain' => '作者的电子邮件地址',
-	'email_missing', '请输入一个有效的电子邮件地址', // frontend message (appears on your site!)
+	'email_missing' => '请输入一个有效的电子邮件地址', // frontend message (appears on your site!)
 
 	'text' => '回复',
 	'text_explain' => '',
