@@ -14,7 +14,7 @@ return array(
 
 	'email' => 'Adresse e-mail ',
 	'email_explain' => 'E-mail de l\'auteur',
-	'email_missing', 'Veuillez renseigner une adresse e-mail valide', // frontend message (appears on your site!)
+	'email_missing' => 'Veuillez renseigner une adresse e-mail valide', // frontend message (appears on your site!)
 
 	'text' => 'Commentaire',
 	'text_explain' => '',

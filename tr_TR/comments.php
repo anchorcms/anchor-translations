@@ -3,33 +3,33 @@
 return array(
 
 	'comments' => 'Yorumlar',
-	'nocomments_desc' => 'Henüz yorum yok.',
-	'editing_comment' => 'Yorum düzenleme',
-	'view_comment' => 'Yorum görüntüle',
+	'nocomments_desc' => 'Henï¿½z yorum yok.',
+	'editing_comment' => 'Yorum dï¿½zenleme',
+	'view_comment' => 'Yorum gï¿½rï¿½ntï¿½le',
 
 	// form fields
 	'name' => 'Name',
-	'name_explain' => 'Yazar adý',
-	'name_missing' => 'Lütfen isim girin',
+	'name_explain' => 'Yazar adï¿½',
+	'name_missing' => 'Lï¿½tfen isim girin',
 
 	'email' => 'Eposta adresi',
-	'email_explain' => 'Yazar epostasý',
-	'email_missing', 'Geçerli bir eposta adresi girin', // frontend message (appears on your site!)
+	'email_explain' => 'Yazar epostasï¿½',
+	'email_missing' => 'Geï¿½erli bir eposta adresi girin', // frontend message (appears on your site!)
 
 	'text' => 'Yorum',
 	'text_explain' => '',
-	'text_missing' => 'Yorum yazýsý girin', // frontend message (appears on your site!)
+	'text_missing' => 'Yorum yazï¿½sï¿½ girin', // frontend message (appears on your site!)
 
 	'status' => 'Durum',
 	'status_explain' => '',
 
 	// messages
 	'created' => 'Yorumunuz eklendi', // frontend message (appears on your site!)
-	'updated' => 'Yorumunuz güncellendi',
+	'updated' => 'Yorumunuz gï¿½ncellendi',
 	'deleted' => 'Yorumunuz silindi',
 
 	// email notification
 	'notify_subject' => 'Yeni yorum eklendi',
-	'nofity_heading' => 'Sitenize yeni bir yorum gönderildi.'
+	'nofity_heading' => 'Sitenize yeni bir yorum gï¿½nderildi.'
 
 );
