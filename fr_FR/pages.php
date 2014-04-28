@@ -9,27 +9,27 @@ return array(
 	'redirect' => 'Rediriger',
 
 	// form fields
-	'redirect_url' => 'URL de redirection',
+	'redirect_url' => 'URL de redirection ',
 	'redirect_missing' => 'Veuillez renseigner une URL valide',
 
-	'title' => 'Titre de la page',
+	'title' => 'Titre de la page ',
 	'title_explain' => '',
 	'title_missing' => 'Veuillez renseigner un titre',
 
-	'content' => 'Contenu',
-	'content_explain' => 'Le contenu de la page. Utilisez Markdown.',
+	'content' => 'Contenu ',
+	'content_explain' => 'Le contenu de la page. Vous pouvez utiliser Markdown.',
 
-	'show_in_menu' => 'Visible dans le menu ',
+	'show_in_menu' => 'Montrer dans le menu ',
 	'show_in_menu_explain' => '',
 
 	'name' => 'Nom ',
 	'name_explain' => '',
 
 	'slug' => 'Alias ',
-	'slug_explain' => 'Partie d\'URL propre à la page, doit contenir des caractères ascii uniquement.',
-	'slug_missing' => 'Veuillez renseigner un Alias, doit contenir des caractères ascii uniquement',
-	'slug_duplicate' => 'Cet Alias existe déjà',
-	'slug_invalid' => 'L\'Alias doit contenir des lettres uniquement',
+	'slug_explain' => 'Segment d\'URL propre à la page, doit contenir des caractères ASCII uniquement.',
+	'slug_missing' => 'Veuillez renseigner un alias, doit contenir des caractères ASCII uniquement',
+	'slug_duplicate' => 'Cet alias existe déjà',
+	'slug_invalid' => 'L\'alias doit contenir des lettres uniquement',
 
 	'status' => 'Statut ',
 	'status_explain' => '',
