@@ -21,6 +21,10 @@ return array(
 	'slug_duplicate' => 'Адрес уже используется',
 	'slug_invalid' => 'Адрес должен содержать буквы',
 
+	'time' => 'Опубликовано (GMT)',
+	'time_explain' => 'Шаблон: YYYY-MM-DD HH:MM:SS',
+	'time_invalid' => 'Ошибка в шаблоне даты-времени',
+
 	'description' => 'Описание',
 	'description_explain' => '',
 
