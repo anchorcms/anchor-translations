@@ -2,46 +2,44 @@
 
 return array(
 
-	'pages' => 'Oldalak',
-	'create_page' => 'Új oldal létrehozása',
-	'no_pages' => 'Nincs még oldal. Miért nem csinálsz egyet?',
-	'add_page' => 'Oldal hozzáadása',
-	'editing' => 'Szerkesztés',
-	'editing_explain' => 'Néhány hasznos link.',
-	'view_page' => 'Az oldal megtekintése a honlapon.',
+	'pages' => 'Oldal',
+
+	'create_page' => 'Új oldal',
+	'nopages_desc' => 'Jelenleg nincsenek oldalak.',
+	'redirect' => 'Átirányítás',
+
+	// form fields
+	'redirect_url' => 'Átirányítás hivatkozás',
+	'redirect_missing' => 'Érvényes hivatkozást adjunk meg',
+
+	'title' => 'Oldal név',
+	'title_explain' => '',
+	'title_missing' => 'Adjuk meg az oldal nevét',
+
+	'content' => 'Tartalom',
+	'content_explain' => 'Oldal tartalom Markdown használatával.',
+
+	'show_in_menu' => 'Megjelenítés a menüben',
+	'show_in_menu_explain' => '',
 
 	'name' => 'Név',
-	'name_explain' => 'Az oldal neve. Ez lesz látható a navigációban.',
-	'title' => 'Cím',
-	'title_explain' => 'Az oldal címe, ami lesz látható a <code>&lt;title&gt;</code>-ben.',
-	'slug' => 'Slug',
-	'slug_explain' => 'Az oldal linkje.',
-	'content' => 'Tartalom',
-	'content_explain' => 'Az oldal tartalma. Markdown engedélyezett.',
-	'redirect_option' => 'Ez az oldal át lesz irányítva egy másik url-re',
-	'redirect_url' => 'Átirányítás Url',
-	'status' => 'Státusz',
-	'status_explain' => 'Szeretnéd, hogy az oldalad élő (publikus), szerkesztett (piszkozat) vagy rejtett (archivált) legyen?',
+	'name_explain' => '',
 
-	'draft' => 'Piszkozat',
-	'archived' => 'Archivált',
-	'published' => 'Publikált',
+	'slug' => 'Keresőbarát név',
+	'slug_explain' => 'A keresőbarát név hivatkozás ascii karaktereket tartalmaz. Ez szerint adjuk meg.',
+	'slug_missing' => 'Adjuk meg a keresőbarát név hivatkozást amely csak ascii karaktereket tartalmazhat.',
+	'slug_duplicate' => 'Ez a keresőbarát név már létezik.',
+	'slug_invalid' => 'A keresőbarát név csak betűket tartalmazhat.',
 
-	'create' => 'Létrehoz',
-	'delete' => 'Töröl',
-	'save' => 'Ment',
-	'return_pages' => 'Vissza az oldalakhoz',
-	
-	'delete_confirm' => 'Biztos hogy szeretnéd törölni ezt az oldalt?', 
-	'delete_confirm_submit' => 'Igen, tisztában vagyok a végleges törléssel kapcsolatban', 
-	'delete_confirm_cancel' => 'Ne, tartsuk meg ezt az oldalt',
+	'status' => 'Állapot',
+	'status_explain' => '',
 
-	'missing_name' => 'Kérlek add meg a nevet',
-	'missing_title' => 'Kérlek add meg a címet',
-	'duplicate_slug' => 'Az oldal azonos slug-gal már létezik, kérlek válassz másikat.',
-	'page_success_created' => 'Az új oldal hozzáadva',
-	'page_success_updated' => 'Az oldal frissítve',
-	'page_success_delete' => 'Az oldal törölve',
-	'page_error_delete' => 'Sajnos nem törölheted a főoldalt vagy a bejegyzések oldalt.'
+	'parent' => 'Szülő',
+	'parent_explain' => 'Szülő oldal',
+
+	// messages
+	'updated' => 'Az oldal frissítésre került.',
+	'created' => 'Az oldal létrehozásra került.',
+	'deleted' => 'Az oldal törlésre került.'
 
 );

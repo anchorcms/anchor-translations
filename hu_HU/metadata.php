@@ -2,28 +2,44 @@
 
 return array(
 
-	'metadata' => 'Honlap metaadata',
+	'metadata' => 'Honlap adatok',
+	'metadata_desc' => 'Honlap adatok kezelése',
 
-	'sitename' => 'Honlap neve',
-	'sitename_explain' => 'Honlapod neve.',
-	'sitedescription' => 'Honlapod leírása',
-	'sitedescription_explain' => 'Rövid leírás az oldaladról.',
-	'homepage' => 'Főoldal',
-	'homepage_explain' => 'Az aktuális kezdőlap.',
-	'postspage' => 'Bejegyzés oldal',
-	'postspage_explain' => 'Az oldal, ahol megjelennek a bejegyzések.',
-	'posts_per_page' => 'Bejegyzés oldalanként',
-	'posts_per_page_explain' => 'Hány bejegyzés legyen megjelenítve egy oldalon.',
-	'current_theme' => 'Aktuális sablon',
-	'current_theme_explain' => 'Az aktuális sablonod.',
-	'auto_publish_comments' => 'Autómatikus hozzaszólás megjelenítés',
-	'twitter' => 'Twitter',
-	'twitter_explain' => 'Twitter fiókod. Megjelenik így: @<span id="output"></span>.',
-	'save' => 'Változások mentése',
+	'comment_settings' => 'Hozzászólások',
+	'theme_settings' => 'Megjelenés',
 
-	'missing_sitename' => 'Szükség van az oldal nevére',
-	'missing_sitedescription' => 'Szükség van az oldal leírására',
-	'missing_theme' => 'Szükség van egy sablonra',
-	'meta_success_updated' => 'A metaadatok frissítve'
+	// form fields
+	'sitename' => 'Honlap név',
+	'sitename_explain' => '',
+	'sitename_missing' => 'Adjuk meg a honlap nevét!',
+
+	'sitedescription' => 'Honlap leírás',
+	'sitedescription_explain' => '',
+	'sitedescription_missing' => 'Adjuk meg a honlap leírását!',
+
+	'homepage' => 'Kezdőlap',
+	'homepage_explain' => '',
+
+	'postspage' => 'Bejegyzések oldal',
+	'postspage_explain' => '',
+
+	'posts_per_page' => 'Bejegyzés / oldal',
+	'posts_per_page_explain' => '',
+
+	'auto_publish_comments' => 'Hozzászólások automatikus elfogadása',
+	'auto_publish_comments_explain' => '',
+
+	'comment_notifications' => 'Email felíratkozás új hozzászólás esetén',
+	'comment_notifications_explain' => '',
+
+	'comment_moderation_keys' => 'Spam kulcsszavak',
+	'comment_moderation_keys_explain' => 'A kulcsszavakat vesszővel elválasztva adjuk meg.
+		Ha ezeket a szavakat a hozzászólás tartalmazza akkor a rendszer automatikusan spamnak minősíti.',
+
+	'current_theme' => 'Jelenlegi sablon',
+	'current_theme_explain' => '',
+
+	// messages
+	'updated' => 'Honlap adatok frissítve.',
 
 );
