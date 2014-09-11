@@ -17,7 +17,7 @@ return array(
 	'title_missing' => 'Prosím, zadajte názov stránky',
 
 	'content' => 'Obsah',
-	'content_explain' => 'Obsah Vašej stránky. Pre formátovanie použite <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown</a>.',
+	'content_explain' => 'Obsah Vašej stránky. Pre formátovanie použite Markdown.',
 
 	'show_in_menu' => 'Zobraziť v navigácii',
 	'show_in_menu_explain' => '',
