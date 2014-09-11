@@ -2,47 +2,47 @@
 
 return array(
 
-	'pages' => 'Pages',
+	'pages' => 'Stránky',
 
-	'create_page' => 'Create a new page',
-	'nopages_desc' => 'You don’t have any pages.',
-	'redirect' => 'Redirect',
+	'create_page' => 'Vytvoriť novú stránku',
+	'nopages_desc' => 'Nemáte vytvorené žiadne stránky.',
+	'redirect' => 'Presmerovanie',
 
 	// form fields
-	'redirect_url' => 'Redirect Url',
-	'redirect_missing' => 'Please enter a valid url',
+	'redirect_url' => 'URL adresa pre presmerovanie',
+	'redirect_missing' => 'Prosím, zadajte valídnu URL adresu',
 
-	'title' => 'Page title',
+	'title' => 'Názov stránky',
 	'title_explain' => '',
-	'title_missing' => 'Please enter a page title',
+	'title_missing' => 'Prosím, zadajte názov stránky',
 
-	'content' => 'Content',
-	'content_explain' => 'Your page’s content. Uses Markdown.',
+	'content' => 'Obsah',
+	'content_explain' => 'Obsah Vašej stránky. Pre formátovanie použite <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown</a>.',
 
-	'show_in_menu' => 'Show In Menu',
+	'show_in_menu' => 'Zobraziť v navigácii',
 	'show_in_menu_explain' => '',
 
-	'name' => 'Name',
+	'name' => 'Meno',
 	'name_explain' => '',
 
 	'slug' => 'Slug',
-	'slug_explain' => 'Slug uri to identify your page, should only contain ascii characters',
-	'slug_missing' => 'Please enter a slug uri, slugs can only contain ascii characters',
-	'slug_duplicate' => 'Slug already exists',
-	'slug_invalid' => 'Slug must contain letters',
+	'slug_explain' => 'Slug pre Vašu stránku - zobrazí sa v URL. Slug by mal obsahovať iba znaky povolené v URL',
+	'slug_missing' => 'Prosím, zadajte slug pre Vašu stránku. Slug môže obsahovať iba znaky povolené v URL.',
+	'slug_duplicate' => 'Slug už existuje',
+	'slug_invalid' => 'Slug musí obsahovať písmená',
 
 	'status' => 'Status',
 	'status_explain' => '',
 
-	'parent' => 'Parent',
-	'parent_explain' => '',
+	'parent' => 'Rodičovská stránka',
+	'parent_explain' => 'Stránka, ktorá je nadradená tejto stránke',
 
 	// messages
-	'updated' => 'Your page was updated.',
-	'created' => 'Your page was created.',
-	'deleted' => 'Your page was deleted.',
+	'updated' => 'Stránka bola aktualizovaná.',
+	'created' => 'Stránka bola vytvorená.',
+	'deleted' => 'Stránka bola vymazaná.',
 
-	'cannot_delete_home_page' => 'You cannot delete the home page',
-	'cannot_delete_posts_page' => 'You cannot delete the post listings page',
+	'cannot_delete_home_page' => 'Nemožno vymazať domovskú stránku',
+	'cannot_delete_posts_page' => 'Nemožno vymazať stránku, ktorá zobrazuje zoznam článkov',
 
 );

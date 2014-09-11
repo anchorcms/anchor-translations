@@ -2,6 +2,6 @@
 
 return array(
 
-	'menu' => 'Menu',
+	'menu' => 'Navigácia',
 
 );

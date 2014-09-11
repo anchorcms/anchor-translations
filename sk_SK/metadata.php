@@ -2,44 +2,44 @@
 
 return array(
 
-	'metadata' => 'Site Metadata',
-	'metadata_desc' => 'Manage your site data',
+	'metadata' => 'Všeobecné nastavenia stránky',
+	'metadata_desc' => 'Spravujte metadáta na vašej stránke',
 
-	'comment_settings' => 'Comments',
-	'theme_settings' => 'Appearance',
+	'comment_settings' => 'Komentáre',
+	'theme_settings' => 'Vzhľad',
 
 	// form fields
-	'sitename' => 'Site name',
+	'sitename' => 'Názov stránky',
 	'sitename_explain' => '',
-	'sitename_missing' => 'Your site needs a name!',
+	'sitename_missing' => 'Vaša stránka potrebuje názov',
 
-	'sitedescription' => 'Site description',
+	'sitedescription' => 'Opis Vašej stránky',
 	'sitedescription_explain' => '',
-	'sitedescription_missing' => 'Your site needs a description!',
+	'sitedescription_missing' => 'Stručný opis Vašej stránky',
 
-	'homepage' => 'Home Page',
+	'homepage' => 'Domovská stránka',
 	'homepage_explain' => '',
 
-	'postspage' => 'Posts Page',
+	'postspage' => 'Stránka s článkami',
 	'postspage_explain' => '',
 
-	'posts_per_page' => 'Posts per page',
+	'posts_per_page' => 'Počet článkov na stránku',
 	'posts_per_page_explain' => '',
 
-	'auto_publish_comments' => 'Auto-allow comments',
+	'auto_publish_comments' => 'Automatické povolenie komentárov',
 	'auto_publish_comments_explain' => '',
 
-	'comment_notifications' => 'Email notification for new comments',
+	'comment_notifications' => 'E-mailové notifikácie pre nové komentáre',
 	'comment_notifications_explain' => '',
 
-	'comment_moderation_keys' => 'Spam keywords',
-	'comment_moderation_keys_explain' => 'Comma separated list of keywords to blacklist against.
-		Comments will automatically be set as spam.',
+	'comment_moderation_keys' => 'Kľúčové slová pre SPAM',
+	'comment_moderation_keys_explain' => 'Zoznam slov, ktoré chcete filtrovať ako SPAM - jednotlivé slová oddeľte čiarkami. 
+		Komentáre obsahujúce tieto slová budú automaticky zaradené do SPAMu.',
 
-	'current_theme' => 'Current theme',
+	'current_theme' => 'Aktuálna téma',
 	'current_theme_explain' => '',
 
 	// messages
-	'updated' => 'Metadata updated',
+	'updated' => 'Metadáta boli aktualizované',
 
 );

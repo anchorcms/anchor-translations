@@ -9,53 +9,53 @@
 return array(
 
 	// words
-	'save' => 'Save',
-	'delete' => 'Delete',
-	'update' => 'Update',
-	'edit' => 'Edit',
-	'editing' => 'Editing',
-	'create' => 'Create',
-	'created' => 'Created',
-	'submit' => 'Submit',
-	'close' => 'Close',
+	'save' => 'Uložiť',
+	'delete' => 'Vymazať',
+	'update' => 'Aktualizovať',
+	'edit' => 'Upraviť',
+	'editing' => 'Úpravy',
+	'create' => 'Vytvoriť',
+	'created' => 'Vytvorené',
+	'submit' => 'Odoslať',
+	'close' => 'Zavrieť',
 	'status' => 'Status',
-	'manage' => 'Manage',
-	'reset' => 'Reset',
-	'all' => 'All',
+	'manage' => 'Spravovať',
+	'reset' => 'Resetovať',
+	'all' => 'Všetko',
 
 	// pagination
-	'next' => 'Next',
-	'previous' => 'Previous',
-	'first' => 'First',
-	'last' => 'Last',
+	'next' => 'Ďalšia',
+	'previous' => 'Predošlá',
+	'first' => 'Prvá',
+	'last' => 'Posledná',
 
 	// statuses
-	'draft' => 'Draft',
-	'archived' => 'Archived',
-	'published' => 'Published',
-	'pending' => 'Pending',
-	'approved' => 'Approved',
+	'draft' => 'Koncept',
+	'archived' => 'Archivované',
+	'published' => 'Publikované',
+	'pending' => 'Čaká na schválenie',
+	'approved' => 'Schválené',
 	'spam' => 'Spam',
 
-	'inactive' => 'Inactive',
-	'active' => 'Active',
+	'inactive' => 'Neaktívny',
+	'active' => 'Aktívny',
 
 	// roles
-	'administrator' => 'Admin',
+	'administrator' => 'Administrátor',
 	'editor' => 'Editor',
-	'user' => 'User',
+	'user' => 'Používateľ',
 
-	'log_in' => 'Log in',
-	'login' => 'Login',
-	'log_out' => 'Log out',
-	'logout' => 'Logout',
+	'log_in' => 'Prihlásiť sa',
+	'login' => 'Prihlásenie',
+	'log_out' => 'Odhlásiť sa',
+	'logout' => 'Odhlásenie',
 
 	// pharses
-	'visit_your_site' => 'Visit your site',
-	'powered_by_anchor' => 'Powered by Anchor, version %s',
-	'make_blogging_beautiful' => 'Make blogging beautiful.',
+	'visit_your_site' => 'Navštíviť Vašu stránku',
+	'powered_by_anchor' => 'Poháňané systémom Anchor, verzia %s',
+	'make_blogging_beautiful' => 'Blogovanie s radosťou.',
 
 	// messages
-	'confirm_delete' => 'Are you sure you want to delete? This can’t be undone!'
+	'confirm_delete' => 'Ste si istí, že chcete zmazať túto položku? Tieto zmeny sú nenávratné.'
 
 );

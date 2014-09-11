@@ -18,7 +18,7 @@ return array(
 
 	'text' => 'Komentár',
 	'text_explain' => '',
-	'text_missing' => 'Prosím, vzplňte komentár', // frontend message (appears on your site!)
+	'text_missing' => 'Prosím, vyplňte komentár', // frontend message (appears on your site!)
 
 	'status' => 'Status',
 	'status_explain' => '',

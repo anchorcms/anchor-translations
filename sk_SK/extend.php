@@ -2,66 +2,66 @@
 
 return array(
 
-	'extend' => 'Extend',
+	'extend' => 'Rozšírenia',
 
-	'fields' => 'Custom Fields',
-	'fields_desc' => 'Create additional fields',
+	'fields' => 'Vlastné polia',
+	'fields_desc' => 'Vytvoriť vlastné polia pre formuláre',
 
-	'variables' => 'Site Variables',
-	'variables_desc' => 'Create additional metadata',
+	'variables' => 'Premenné prostredia',
+	'variables_desc' => 'Vytvoriť dodatočné globálne premenné',
 
-	'create_field' => 'Create a new field',
-	'editing_custom_field' => 'Editing field &ldquo;%s&rdquo;',
-	'nofields_desc' => 'No fields yet',
+	'create_field' => 'Vytvoriť nové pole',
+	'editing_custom_field' => 'Upraviť pole &ldquo;%s&rdquo;',
+	'nofields_desc' => 'Žiadne polia',
 
-	'create_variable' => 'Create a new variable',
-	'editing_variable' => 'Editing variable &ldquo;%s&rdquo;',
-	'novars_desc' => 'No variables yet',
+	'create_variable' => 'Vytvori novú premennú',
+	'editing_variable' => 'Upraviť premennú &ldquo;%s&rdquo;',
+	'novars_desc' => 'Žiadne premenné',
 
 	// form fields
-	'type' => 'Type',
-	'type_explain' => 'The type of content your want to add this field to.',
+	'type' => 'Typ',
+	'type_explain' => 'Typ obsahu, ktorému chcete pridať vlastné pole.',
 
-	'field' => 'Field',
-	'field_explain' => 'Html input type',
+	'field' => 'Typ poľa',
+	'field_explain' => 'Typ vlastného poľa',
 
-	'key' => 'Unique Key',
-	'key_explain' => 'The unique key for your field',
-	'key_missing' => 'Please enter a unique key',
-	'key_exists' => 'Key is already in use',
+	'key' => 'Kľúč',
+	'key_explain' => 'Unikátny názov pre Vaše pole',
+	'key_missing' => 'Prosím, zadajte unikátny kľúč',
+	'key_exists' => 'Tento kľúč sa už používa',
 
-	'label' => 'Label',
-	'label_explain' => 'Human readable name for your field',
-	'label_missing' => 'Please enter a label',
+	'label' => 'Názov poľa',
+	'label_explain' => 'Názov, ktorý sa zobrazí pri políčku',
+	'label_missing' => 'Prosím, zadajte názov poľa',
 
-	'attribute_type' => 'File types',
-	'attribute_type_explain' => 'Comma separated list of accepted file types, empty to accept all.',
+	'attribute_type' => 'Typy súborov',
+	'attribute_type_explain' => 'Typy súborov, ktoré budú akceptované. Pre viac typov súborov, oddeľte prípony čiarkami. Pre akceptovanie všetkých súborov nechajtre toto pole prázdne.',
 
 	// images
-	'attributes_size_width' => 'Image max width',
-	'attributes_size_width_explain' => 'Images will be resized if they are bigger than the max size',
+	'attributes_size_width' => 'Maximálna šírka obrázka',
+	'attributes_size_width_explain' => 'Obrázky, ktoré budú širššie ako táto hodnota budú zmenšené.',
 
-	'attributes_size_height' => 'Image max height',
-	'attributes_size_height_explain' => 'Images will be resized if they are bigger than the max size',
+	'attributes_size_height' => 'Maximálna výška obrázka',
+	'attributes_size_height_explain' => 'Obrázky, ktoré budú vzššie ako táto hodnota budú zmenšené.',
 
 	// custom vars
-	'name' => 'Name',
-	'name_explain' => 'A unique name',
-	'name_missing' => 'Please enter a unique name',
-	'name_exists' => 'Name is already in use',
+	'name' => 'Meno',
+	'name_explain' => 'Unikátny názov',
+	'name_missing' => 'Prosím, zadajte unikátne meno',
+	'name_exists' => 'Toto meno sa už používa',
 
-	'value' => 'Value',
-	'value_explain' => 'The data you want to store (up to 64kb)',
-	'value_code_snipet' => 'Snippet to insert into your template:<br>
+	'value' => 'Hodnota',
+	'value_explain' => 'Dáta, ktoré chcete uložiť (maximálne 64kb)',
+	'value_code_snipet' => 'Kód, ktorým premennú vložíte do šablony:<br>
 		<code>' . e('<?php echo site_meta(\'%s\'); ?>') . '</code>',
 
 	// messages
-	'variable_created' => 'Your variable was created',
-	'variable_updated' => 'Your variable was updated',
-	'variable_deleted' => 'Your variable was deleted',
+	'variable_created' => 'Premenná bola vytvorená',
+	'variable_updated' => 'Premenná bola upravená',
+	'variable_deleted' => 'Premenná bola vymazaná',
 
-	'field_created' => 'Your field was created',
-	'field_updated' => 'Your field was updated',
-	'field_deleted' => 'Your field was deleted'
+	'field_created' => 'Pole bolo vytvorené',
+	'field_updated' => 'Pole bolo upravené',
+	'field_deleted' => 'Pole bolo vymazané'
 
 );
