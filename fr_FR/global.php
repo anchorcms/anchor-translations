@@ -48,7 +48,7 @@ return array(
 	'log_in' => 'Connecté',
 	'login' => 'Se connecter',
 	'log_out' => 'Se déconnecter',
-	'logout' => 'Déconnexion',
+	'logout' => 'Quitter',
 
 	// pharses
 	'visit_your_site' => 'Voir',
