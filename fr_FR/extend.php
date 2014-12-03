@@ -2,13 +2,13 @@
 
 return array(
 
-	'extend' => 'Extentions',
+	'extend' => 'Extensions',
 
 	'fields' => 'Champs personnalisés',
 	'fields_desc' => 'Créer des champs additionnels',
 
 	'variables' => 'Variables du site',
-	'variables_desc' => 'Créer des métadonnées additionnelles',
+	'variables_desc' => 'Créer des variables additionnelles',
 
 	'create_field' => 'Créer un champ',
 	'editing_custom_field' => 'Edition du champ &ldquo;%s&rdquo;',
