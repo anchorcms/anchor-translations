@@ -3,39 +3,46 @@
 return array(
 
 	'pages' => 'Sidor',
+
 	'create_page' => 'Skapa en ny sida',
-	'no_pages' => 'Det finns inga sidor. Varfšr inte skapa en ny?',
-	'add_page' => 'L&auml;gg till en sida',
-	'editing' => 'Redigerar',
-	'editing_explain' => 'N&aring;gra anv&auml;ndbara l&auml;nkar.',
-	'view_page' => 'Visa den h&auml;r sidan p&aring; din webbplats',
+	'nopages_desc' => 'Du har inga sidor.',
+	'redirect' => 'Omdirigering',
+
+	// form fields
+	'redirect_url' => 'URL f&ouml;r omdirigering',
+	'redirect_missing' => 'URL:en m&aring;ste vara giltig',
+
+	'title' => 'Sidtitel',
+	'title_explain' => '',
+	'title_missing' => 'Gl&ouml;m inte att ange sidtitel',
+
+	'content' => 'Inneh&aring;ll',
+	'content_explain' => 'Din sidas inneh&aring;ll. Anv&auml;nder Markdown.',
+
+	'show_in_menu' => 'Visa i meny',
+	'show_in_menu_explain' => '',
 
 	'name' => 'Namn',
-	'name_explain' => 'Din sidas namn. Detta visas i navigationen.',
-	'title' => 'Titel',
-	'title_explain' => 'Din sidas titel, visas i <code>&lt;title&gt;</code>.',
-	'slug' => 'Slug',
-	'slug_explain' => 'Din sidas &quot;slug&quot; (<code>' . $_SERVER['HTTP_HOST'] . '/<span id="output">slug</span></code>).',
-	'content' => 'Inneh&aring;ll',
-	'content_explain' => 'Din sidas inneh&aring;ll. Du kan anv&auml;nda giltig HTML.',
+	'name_explain' => '',
+
+	'slug' => 'Permal&auml;nk',
+	'slug_explain' => 'Din sidas permal&auml;nk. (<code>' . $_SERVER['HTTP_HOST'] . '/permal&auml;nk</code>). Den best&aring;r vanligtvis endast av sm&aring; bokst&auml;ver, siffror och bindestreck',
+	'slug_missing' => 'Du m&aring;ste ha en permal&auml;nk. Den best&aring;r vanligtvis endast av sm&aring; bokst&auml;ver, siffror och bindestreck',
+	'slug_duplicate' => 'Permal&auml;nken finns redan',
+	'slug_invalid' => 'Permal&auml;nken m&aring;ste ha bokst&auml;ver',
+
 	'status' => 'Status',
-	'status_explain' => 'Vill du att sidan ska vara live (publicerad), avvaktande (utkast), eller dold (arkiverad)?',
+	'status_explain' => '',
 
-	'draft' => 'Utkast',
-	'archived' => 'Arkiverad',
-	'published' => 'Publicerad',
+	'parent' => 'F&ouml;r&auml;lder',
+	'parent_explain' => '',
 
-	'create' => 'Skapa',
-	'delete' => 'Ta bort',
-	'save' => 'Spara',
-	'return_pages' => '&Aring;terg&aring; till sidor',
+	// messages
+	'updated' => 'Din sida har uppdaterats',
+	'created' => 'Din sida har skapats',
+	'deleted' => 'Din sida har tagits bort',
 
-	'missing_name' => 'V&auml;nligen ange ett namn',
-	'missing_title' => 'V&auml;nligen ange en titel',
-	'duplicate_slug' => 'En sida med samma &quot;slug&quot; finns redan, v&auml;nligen ange en annan.',
-	'page_success_created' => 'Din nya sida har lagts till',
-	'page_success_updated' => 'Din sida &auml;r uppdaterad',
-	'page_success_delete' => 'Din sida har tagits bort',
-	'page_error_delete' => 'Tyv&auml;rr kan du inte ta bort din start- eller inl&auml;ggssida.'
+	'cannot_delete_home_page' => 'Du kan inte ta bort startsidan',
+	'cannot_delete_posts_page' => 'Du kan inte ta bort sidan med dina inl&auml;gg',
 
 );
