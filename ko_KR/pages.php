@@ -6,10 +6,10 @@ return array(
 
 	'create_page' => '새 페이지 만들기',
 	'nopages_desc' => '아무 페이지도 없습니다.',
-	'redirect' => '리다리렉트',
+	'redirect' => '리다이렉트',
 
 	// form fields
-	'redirect_url' => '리다리렉트 할 URL',
+	'redirect_url' => '리다이렉트 할 URL',
 	'redirect_missing' => '올바른 URL을 입력 해주세요',
 
 	'title' => '페이지 제목',
