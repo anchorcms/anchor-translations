@@ -34,7 +34,7 @@ return array(
 	'status' => '상태',
 	'status_explain' => '',
 
-	'parent' => '상위',
+	'parent' => '부모',
 	'parent_explain' => '',
 
 	// messages
