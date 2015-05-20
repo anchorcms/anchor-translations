@@ -53,7 +53,7 @@ return array(
 	// pharses
 	'visit_your_site' => '웹사이트 방문',
 	'powered_by_anchor' => 'Powered by Anchor, 버전 %s',
-	'make_blogging_beautiful' => 'Make blogging beautiful.',
+	'make_blogging_beautiful' => '블로깅을 아름답게.',
 
 	// intro
 	'welcome_to_anchor' => 'Anchor에 오신 것을 환영합니다.',
