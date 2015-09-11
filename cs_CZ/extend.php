@@ -22,7 +22,7 @@ return array(
 	'type' => 'Typ obsahu',
 	'type_explain' => 'Typ obsahu, ke kterému chcete přiřadit toto pole.',
 
-	'field' => 'Fole',
+	'field' => 'Pole',
 	'field_explain' => 'HTML typ pole',
 
 	'key' => 'Unikátní klíč',

@@ -2,11 +2,11 @@
 
 return array(
 
-	'plugins' => 'Plugins',
-	'plugins_desc' => 'Manage your plugins',
-	'noplugins_desc' => 'Get Coding',
+	'plugins' => 'Pluginy',
+	'plugins_desc' => 'Správa pluginů',
+	'noplugins_desc' => 'Nemáte žádné pluginy',
 
 	// messages
-	'installed' => '%s has been installed',
-	'uninstalled' => '%s has been uninstalled'
+	'installed' => '%s byl nainstalován',
+	'uninstalled' => '%s byl odinstalován'
 );
