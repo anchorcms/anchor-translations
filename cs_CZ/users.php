@@ -7,7 +7,7 @@ return array(
 	'create_user' => 'Vytvořit uživatele',
 	'add_user' => 'Přidat uživatele',
 	'editing_user' => 'Upravujete uživatele %s',
-	'remembered' => 'Už jsem si vzpomňel',
+	'remembered' => 'Pamatujete si heslo?',
 	'forgotten_password' => 'Zapomenuté heslo?',
 
 	// roles

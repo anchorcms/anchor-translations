@@ -6,14 +6,14 @@ return array(
 	'categories' => 'Kategorie',
 
 	'create_category' => 'Vytvořit novou katergorii',
-	'edit_category' => 'Updavujete &ldquo;%s&rdquo;',
+	'edit_category' => 'Upravujete &ldquo;%s&rdquo;',
 
 	// form fields
 	'title' => 'Název',
 	'title_explain' => 'Název kategorie.',
 	'title_missing' => 'Zadejte prosím název',
 
-	'slug' => 'Slug',
+	'slug' => 'URL Segment',
 	'slug_explain' => 'URL segment kategorie',
 
 	'description' => 'Popis',

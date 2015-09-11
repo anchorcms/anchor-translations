@@ -8,7 +8,7 @@ return array(
 	'view_comment' => 'Zobrazit Komentář',
 
 	// form fields
-	'name' => 'Name',
+	'name' => 'Jméno',
 	'name_explain' => 'Jméno',
 	'name_missing' => 'Zadejte prosím jméno',
 

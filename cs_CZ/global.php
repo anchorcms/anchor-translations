@@ -12,12 +12,12 @@ return array(
 	'save' => 'Uložit',
 	'delete' => 'Smazat',
 	'update' => 'Aktualizovat',
-	'edit' => 'Updavit',
+	'edit' => 'Upravit',
 	'editing' => 'Upravujete',
 	'create' => 'Vytvořit',
 	'created' => 'Vytvořeno',
 	'submit' => 'Odeslat',
-	'close' => 'Zavřit',
+	'close' => 'Zavřít',
 	'status' => 'Stav',
 	'manage' => 'Spravovat',
 	'reset' => 'Obnovit',
@@ -45,17 +45,17 @@ return array(
 	'editor' => 'Editor',
 	'user' => 'Uživatel',
 
-	'log_in' => 'Přihlásit se',
-	'login' => 'Přihlášení',
-	'log_out' => 'Odhlásit se',
-	'logout' => 'Odhlášení',
+	'log_in' => 'Přihlášení',
+	'login' => 'Přihlásit se',
+	'log_out' => 'Odhlášení',
+	'logout' => 'Odhlásit se',
 
 	// pharses
-	'visit_your_site' => 'Zobrazit stránku',
+	'visit_your_site' => 'Domů',
 	'powered_by_anchor' => 'Powered by Anchor, version %s',
 	'make_blogging_beautiful' => 'Make blogging beautiful.',
 
 	// messages
-	'confirm_delete' => 'Jste si jistí? TUto akci nelze vzít zpět!'
+	'confirm_delete' => 'Jste si jistí? Tuto akci nelze vzít zpět!'
 
 );

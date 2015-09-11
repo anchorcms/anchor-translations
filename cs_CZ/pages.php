@@ -26,7 +26,7 @@ return array(
 	'name_explain' => '',
 
 	'slug' => 'URL Segment',
-	'slug_explain' => 'URL segment pro tuto stránku, měl by obsahivat jen ASCII znaky',
+	'slug_explain' => 'URL segment pro tuto stránku, měl by obsahovat jen ASCII znaky',
 	'slug_missing' => 'Zadejte prosím URL segment, měl by obsahovat jen ASCII znaky',
 	'slug_duplicate' => 'Stránka s touto URL už existuje',
 	'slug_invalid' => 'URL musí obsahovat písmena',
