@@ -9,53 +9,53 @@
 return array(
 
 	// words
-	'save' => 'Save',
-	'delete' => 'Delete',
-	'update' => 'Update',
-	'edit' => 'Edit',
-	'editing' => 'Editing',
-	'create' => 'Create',
-	'created' => 'Created',
-	'submit' => 'Submit',
-	'close' => 'Close',
-	'status' => 'Status',
-	'manage' => 'Manage',
-	'reset' => 'Reset',
-	'all' => 'All',
+	'save' => 'Uložit',
+	'delete' => 'Smazat',
+	'update' => 'Aktualizovat',
+	'edit' => 'Updavit',
+	'editing' => 'Upravujete',
+	'create' => 'Vytvořit',
+	'created' => 'Vytvořeno',
+	'submit' => 'Odeslat',
+	'close' => 'Zavřit',
+	'status' => 'Stav',
+	'manage' => 'Spravovat',
+	'reset' => 'Obnovit',
+	'all' => 'Vše',
 
 	// pagination
-	'next' => 'Next',
-	'previous' => 'Previous',
-	'first' => 'First',
-	'last' => 'Last',
+	'next' => 'Další',
+	'previous' => 'Předchozí',
+	'first' => 'První',
+	'last' => 'Poslední',
 
 	// statuses
-	'draft' => 'Draft',
-	'archived' => 'Archived',
-	'published' => 'Published',
-	'pending' => 'Pending',
-	'approved' => 'Approved',
+	'draft' => 'Koncept',
+	'archived' => 'Archivováno',
+	'published' => 'Publikováno',
+	'pending' => 'Čeká',
+	'approved' => 'Schválený',
 	'spam' => 'Spam',
 
-	'inactive' => 'Inactive',
-	'active' => 'Active',
+	'inactive' => 'Neaktivní',
+	'active' => 'Aktivní',
 
 	// roles
 	'administrator' => 'Admin',
 	'editor' => 'Editor',
-	'user' => 'User',
+	'user' => 'Uživatel',
 
-	'log_in' => 'Log in',
-	'login' => 'Login',
-	'log_out' => 'Log out',
-	'logout' => 'Logout',
+	'log_in' => 'Přihlásit se',
+	'login' => 'Přihlášení',
+	'log_out' => 'Odhlásit se',
+	'logout' => 'Odhlášení',
 
 	// pharses
-	'visit_your_site' => 'Visit your site',
+	'visit_your_site' => 'Zobrazit stránku',
 	'powered_by_anchor' => 'Powered by Anchor, version %s',
 	'make_blogging_beautiful' => 'Make blogging beautiful.',
 
 	// messages
-	'confirm_delete' => 'Are you sure you want to delete? This can’t be undone!'
+	'confirm_delete' => 'Jste si jistí? TUto akci nelze vzít zpět!'
 
 );
