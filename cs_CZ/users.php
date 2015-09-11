@@ -2,13 +2,13 @@
 
 return array(
 
-	'users' => 'Users',
+	'users' => 'Uživatelé',
 
-	'create_user' => 'Create a new user',
-	'add_user' => 'Add a new user',
-	'editing_user' => 'Editing %s&rsquo;s Profile',
-	'remembered' => 'I know my password',
-	'forgotten_password' => 'Forgotten your password?',
+	'create_user' => 'Vytvořit uživatele',
+	'add_user' => 'Přidat uživatele',
+	'editing_user' => 'Upravujete uživatele %s',
+	'remembered' => 'Už jsem si vzpomňel',
+	'forgotten_password' => 'Zapomenuté heslo?',
 
 	// roles
 	'administrator' => 'Admin',
@@ -17,51 +17,51 @@ return array(
 	'editor' => 'Editor',
 	'editor_explain' => '',
 
-	'user' => 'User',
+	'user' => 'Uživatel',
 	'user_explain' => '',
 
 	// form fields
-	'real_name' => 'Real Name',
+	'real_name' => 'Opravdové jméno',
 	'real_name_explain' => '',
 
-	'bio' => 'Biography',
+	'bio' => 'O mně',
 	'bio_explain' => '',
 
-	'status' => 'Status',
+	'status' => 'Stav',
 	'status_explain' => '',
 
 	'role' => 'Role',
 	'role_explain' => '',
 
-	'username' => 'Username',
+	'username' => 'Jméno',
 	'username_explain' => '',
-	'username_missing' => 'Please enter a username, must be at least %s characters',
+	'username_missing' => 'Zadejte prosím uživetelské jméno, dlouhé alespoň %s zanků',
 
-	'password' => 'Password',
+	'password' => 'Heslo',
 	'password_explain' => '',
-	'password_too_short' => 'Password must be at least %s characters',
+	'password_too_short' => 'Heslo musí být alespoň %s znaků dlouhé',
 
-	'new_password' => 'New Password',
+	'new_password' => 'Nové Heslo',
 
 	'email' => 'Email',
 	'email_explain' => '',
-	'email_missing' => 'Please enter a valid email address',
-	'email_not_found' => 'Profile not found.',
+	'email_missing' => 'Zadejte prosím platnou emailovou adresu',
+	'email_not_found' => 'Profil nenalezen.',
 
 	// messages
-	'updated' => 'User profile updated.',
-	'created' => 'User profile created.',
-	'deleted' => 'User profile deleted.',
-	'delete_error' => 'You cannot delete your own profile',
-	'login_error' => 'Username or password is wrong.',
-	'logout_notice' => 'You are now logged out.',
-	'recovery_sent' => 'We have sent you an email to confirm your password change.',
-	'recovery_expired' => 'Password recovery token has expired, please try again.',
-	'password_reset' => 'Your new password has been set. Go and login now!',
+	'updated' => 'Profil byl aktualizován.',
+	'created' => 'Profil byl vytvořen.',
+	'deleted' => 'Profil byl smazán.',
+	'delete_error' => 'Nemůžete smazat vlastní profil',
+	'login_error' => 'Špatné jméno nebo heslo.',
+	'logout_notice' => 'Byli jste odhlášeni.',
+	'recovery_sent' => 'Poslali jsme vám email s odkazem na obnovení hesla.',
+	'recovery_expired' => 'Tento odkaz je neplatný, nechte si poslat nový.',
+	'password_reset' => 'Nové heslo bylo uloženo, nyní se můžete přihlásit!',
 
 	// password recovery email
-	'recovery_subject' => 'Password Reset',
-	'recovery_message' => 'You have requested to reset your password.' .
-		'To continue follow the link below.' . PHP_EOL . '%s',
+	'recovery_subject' => 'Obnova hesla',
+	'recovery_message' => 'Požádali jste o nové heslo.' .
+		'Pro pokračování klikněte na následující odkaz.' . PHP_EOL . '%s',
 
 );
