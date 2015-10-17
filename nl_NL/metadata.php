@@ -2,28 +2,47 @@
 
 return array(
 
-	'metadata' => 'Site metadata',
+	'metadata' => 'Site Metadata',
+	'metadata_desc' => 'Beheer je site metadata',
 
-	'sitename' => 'Sitenaam',
-	'sitename_explain' => 'Je site&rsquo;s naam.',
-	'sitedescription' => 'Site beschrijving',
-	'sitedescription_explain' => 'Een korte tekst om je website te omschrijven.',
-	'homepage' => 'Homepage',
-	'homepage_explain' => 'Je huidige homepage.',
-	'postspage' => 'Posts Pagina',
-	'postspage_explain' => 'De pagina die je posts zal tonen.',
-	'posts_per_page' => 'Posts per pagina',
-	'posts_per_page_explain' => 'Het aantal posts per pagina dat getoond wordt.',
+	'comment_settings' => 'Reacties',
+	'theme_settings' => 'Uiterlijk',
+
+	// form fields
+	'sitename' => 'Site naam',
+	'sitename_explain' => '',
+	'sitename_missing' => 'Je site heeft een naam nodig!',
+
+	'sitedescription' => 'Site omschrijving',
+	'sitedescription_explain' => '',
+	'sitedescription_missing' => 'Je site heeft een omschrijving nodig!',
+
+	'homepage' => 'Hoofdpagina',
+	'homepage_explain' => '',
+
+	'postspage' => 'Berichtenpagina',
+	'postspage_explain' => '',
+
+	'posts_per_page' => 'Berichten per pagina',
+	'posts_per_page_explain' => '',
+
+	'show_all_posts' => 'Laat alle berichten zien',
+	'show_all_posts_explain' => 'Haal alle berichten op (kan de site vertragen)',
+
+	'auto_publish_comments' => 'Keur alle reacties automatisch goed',
+	'auto_publish_comments_explain' => '',
+
+	'comment_notifications' => 'e-mail notificatie wanneer er een nieuwe reactie is',
+	'comment_notifications_explain' => '',
+
+	'comment_moderation_keys' => 'Spam sleutelwoorden',
+	'comment_moderation_keys_explain' => 'Kommagescheiden lijst met woorden die geblokkeerd moeten worden.
+		Reacties zullen als spam gemarkeerd worden',
+
 	'current_theme' => 'Huidig thema',
-	'current_theme_explain' => 'Je huidige thema.',
-	'auto_publish_comments' => 'Publiceer reacties automatisch',
-	'twitter' => 'Twitter',
-	'twitter_explain' => 'Je twitter account. Wordt getoond als @<span id="output"></span>.',
-	'save' => 'Sla wijzigingen op',
+	'current_theme_explain' => '',
 
-	'missing_sitename' => 'Je moet een sitenaam invullen',
-	'missing_sitedescription' => 'Je moet een beschrijving invullen',
-	'missing_theme' => 'Je moet een thema kiezen',
-	'meta_success_updated' => 'Je metadata is geupdate'
+	// messages
+	'updated' => 'Metadata bijgewerkt',
 
 );

@@ -2,74 +2,66 @@
 
 return array(
 
-	'add_user' => 'Voeg een nieuwe gebruiker toe',
-	'recover_password' => 'Herstel wachtwoord',
 	'users' => 'Gebruikers',
-	'create_user' => 'Voeg een gebruiker toe',
-	'reset_password' => 'Reset wachtwoord',
-	'reset_password_for' => 'Reset wachtwoord voor ',
-	'reset_password_explain' => 'Vul een wachtwoord in die de gebruiker deze keer wel kan onthouden.',
-	'back_to' => 'Terug naar ',
 
-	// english spelling confusion
-	'log_in' => 'Inloggen', // verb
-	'login' => 'Login', // noun
+	'create_user' => 'Maak een nieuwe gebruiker aan',
+	'add_user' => 'Voeg een nieuwe gebruiker toe',
+	'editing_user' => 'Wijzig profiel van %s',
+	'remembered' => 'Ik weet mijn wachtwoord',
+	'forgotten_password' => 'Wachtwoord vergeten?',
 
-	'forgotten_password' => 'Ben je je wachtwoord vergeten?',
+	// roles
+	'administrator' => 'Admin',
+	'administrator_explain' => '',
 
-	'recover' => 'Herstel',
-	'editing' => 'Bewerken',
-	'profile' => 'profiel',
+	'editor' => 'Bewerker',
+	'editor_explain' => '',
 
-	'real_name' => 'Echte naam',
-	'real_name_explain' => 'De gebruiker zijn echte naam. Wordt gebruikt in de auteurs omschrijving (zichtbaar voor bezoekers).',
-	'bio' => 'Biografie',
-	'bio_explain' => 'Een korte biografie voor je gebruiker. HTML is toegestaan.',
-	'status' => 'Status',
-	'inactive' => 'inactief',
-	'active' => 'actief',
-	'status_explain' => 'Als dit op inactief staat, kan de gebruiker niet inloggen.',
-	'role' => 'Rol',
-	'administrator' => 'Administrator',
-	'editor' => 'Redacteur',
 	'user' => 'Gebruiker',
-	'role_explain' => 'De rol van de gebruiker. Zie <a href="//anchorcms.com/docs/roles">hier</a> (Engels) voor meer informatie.',
-	'user_details' => 'Gebruiker details',
-	'user_details_explain' => 'Vul de details in voor de gebruiker.',
+	'user_explain' => '',
+
+	// form fields
+	'real_name' => 'Echte naam',
+	'real_name_explain' => '',
+
+	'bio' => 'Biografie',
+	'bio_explain' => '',
+
+	'status' => 'Status',
+	'status_explain' => '',
+
+	'role' => 'Rol',
+	'role_explain' => '',
+
 	'username' => 'Gebruikersnaam',
-	'username_explain' => 'De gewenste gebruikersnaam. Kan later aangepast worden.',
+	'username_explain' => '',
+	'username_missing' => 'Voer een gebruikersnaam in, bestaande uit minimaal %s tekens',
+
 	'password' => 'Wachtwoord',
-	'password_explain' => 'En het bijbehorende wachtwoord. Kan later aangepast worden.',
-	'password_blank' => 'Leeg laten om niet te wijzigen.',
-	'email' => 'Email',
-	'email_explain' => 'Het email-adres van de gebruiker. Nodig voor het geval de gebruiker zijn/haar wachtwoord vergeet.',
+	'password_explain' => '',
+	'password_too_short' => 'Het wachtwoord moet minimaal uit %s tekens bestaan',
 
-	'create' => 'Voeg gebruiker toe',
-	'update' => 'Sla wijzigingen op',
-	'delete' => 'Verwijder gebruiker',
-	'submit' => 'Verstuur',
-	'return_users' => 'Ga terug naar gebruikers',
+	'new_password' => 'Nieuwe wachtwoord',
 
-	'delete_confirm' => 'Weet je zeker dat je deze gebruiker wilt verwijderen?',
-	'delete_confirm_submit' => 'Ja, verwijder deze gebruiker permanent',
-	'delete_confirm_cancel' => 'Nee, verwijder deze gebruiker niet',
+	'email' => 'E-mailadres',
+	'email_explain' => '',
+	'email_missing' => 'Voer een geldig e-mailadres in',
+	'email_not_found' => 'Gebruikersprofiel niet gevonden',
 
-	'username_exists' => 'Deze gebruikersnaam is al in gebruik',
-	'missing_password' => 'Vul een wachtwoord in',
-	'password_too_short' => 'Je wachtwoord moet minimaal %s karakters lang zijn',
-	'invalid_email' => 'Vul een email adres in',
-	'missing_name' => 'Vul een naam in',
-	'missing_username' => 'Vul een gebruikersnaam in',
-	'invalid_status' => 'Je kunt je eigen status niet veranderen',
-	'user_success_created' => 'De nieuwe gebruiker is toegevoegd',
-	'user_success_updated' => 'De gebruiker is geupdate',
-	'user_success_deleted' => 'De gebruiker is verwijderd',
-	'user_success_password' => 'Je nieuwe wachtwoord is opgeslagen',
-	'user_notice_recover' => 'Er is een email verstuurd om je wachtwoordwijziging te bevestigen.',
-	'user_email_recover' => 'Je hebt een wachtwoordwijziging aangevraagd. Klik om de volgende link om verder te gaan.',
-	'user_subject_recover' => 'Reset wachtwoord',
-	'invalid_account' => 'Account niet gevonden',
-	'missing_login_username' => 'Vul je gebruikersnaam in',
-	'missing_login_password' => 'Vul je wachtwoord in'
+	// messages
+	'updated' => 'Gebruikersprofiel gewijzigd.',
+	'created' => 'Gebruikersprofiel aangemaakt.',
+	'deleted' => 'Gebruikersprofiel verwijderd.',
+	'delete_error' => 'Je kunt niet je eigen profiel verwijderen',
+	'login_error' => 'Gebruikersnaam of wachtwoord is onjuist',
+	'logout_notice' => 'Je bent nu uitgelogd',
+	'recovery_sent' => 'We hebben je een mail gestuurd om het wijzigen van je wachtwoord te bevestigen',
+	'recovery_expired' => 'Wachtwoord reset token is verlopen, probeer het opnieuw',
+	'password_reset' => 'Je nieuwe wachtwoord is doorgevoegd, je kunt nu weer inloggen!',
+
+	// password recovery email
+	'recovery_subject' => 'Wachtwoord vergeten',
+	'recovery_message' => 'Je hebt een verzoek gedaan om je wachtwoord te wijzigen.' .
+		'Om door te gaan, klik op de link hieronder. ' . PHP_EOL . '%s',
 
 );
