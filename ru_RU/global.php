@@ -51,9 +51,9 @@ return array(
 	'logout' => 'Выйти',
 
 	// pharses
-	'visit_your_site' => 'Перейти на сайт',
-	'powered_by_anchor' => 'Работает на Anchor, версии %s',
-	'make_blogging_beautiful' => 'Делает мир лучше.',
+	'visit_your_site' => 'Открыть блог',
+	'powered_by_anchor' => 'Anchor, версия %s',
+	'make_blogging_beautiful' => 'Сделайте блоггинг красивым.',
 
 	// intro
 	'welcome_to_anchor' => 'Добро пожаловать',
