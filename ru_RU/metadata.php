@@ -20,16 +20,16 @@ return array(
 	'homepage' => 'Главная страница',
 	'homepage_explain' => '',
 
-	'postspage' => 'Страница записей',
+	'postspage' => 'Страница с записями',
 	'postspage_explain' => '',
 
-	'posts_per_page' => 'Записей на страницу',
+	'posts_per_page' => 'Записей на странице',
 	'posts_per_page_explain' => '',
 
-	'auto_publish_comments' => 'Авто-публикация комменатриев',
+	'auto_publish_comments' => 'Автоматически публиковать комментарии?',
 	'auto_publish_comments_explain' => '',
 
-	'comment_notifications' => 'Email уведомления о новых комментариях',
+	'comment_notifications' => 'Отправлять уведомления о новых комментариях?',
 	'comment_notifications_explain' => '',
 
 	'comment_moderation_keys' => 'Стоп-слова',
