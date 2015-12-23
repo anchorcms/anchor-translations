@@ -11,7 +11,7 @@ return array(
 	// words
 	'save' => 'Сохранить',
 	'delete' => 'Удалить',
-	'update' => 'Обновить',
+	'update' => 'Сохранить',
 	'edit' => 'Изменить',
 	'editing' => 'Редактирование',
 	'create' => 'Создать',
@@ -19,31 +19,31 @@ return array(
 	'submit' => 'Отправить',
 	'close' => 'Закрыть',
 	'status' => 'Статус',
-	'manage' => 'Управление',
-	'reset' => 'Сброс',
+	'manage' => 'Настройки',
+	'reset' => 'Сбросить',
 	'all' => 'Все',
 
 	// pagination
 	'next' => 'Вперед',
 	'previous' => 'Назад',
-	'first' => 'Первый',
-	'last' => 'Последний',
+	'first' => 'Первая',
+	'last' => 'Последняя',
 
 	// statuses
-	'draft' => 'Черновик',
-	'archived' => 'Архив',
-	'published' => 'Публикация',
-	'pending' => 'В ожидании',
-	'approved' => 'Проверено',
+	'draft' => 'В черновиках',
+	'archived' => 'В архиве',
+	'published' => 'Опубликовано',
+	'pending' => 'Ожидает',
+	'approved' => 'Проверен',
 	'spam' => 'Спам',
 
-	'inactive' => 'Неактивный',
-	'active' => 'Активный',
+	'inactive' => 'Неактивен',
+	'active' => 'Активен',
 
 	// roles
 	'administrator' => 'Администратор',
 	'editor' => 'Редактор',
-	'user' => 'Пользователь',
+	'user' => 'Читатель',
 
 	'log_in' => 'Вход',
 	'login' => 'Войти',
@@ -63,15 +63,15 @@ return array(
 	// upgrade
 	'upgrade' => 'Проверка обновлений',
 	'good_news' => 'Отличные новости!',
-	'new_version_available' => 'Появилась новая версия Anchor.',
+	'new_version_available' => 'Доступна новая версия Anchor.',
 	'download_now' => 'Установить сейчас',
-	'upgrade_later' => 'Отложить на потом',
+	'upgrade_later' => 'Отложить обновление',
 
 	// debug profiler
 	'profile' => 'Профилировка',
 	'profile_memory_usage' => 'Использование памяти',
 
 	// messages
-	'confirm_delete' => 'Вы действительно хотите это удалить? '
+	'confirm_delete' => 'Вы уверены? '
 
 );
