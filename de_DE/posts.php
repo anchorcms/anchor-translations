@@ -2,73 +2,50 @@
 
 return array(
 
-	'posts' => 'Beiträge',
-	'create_post' => 'Neuen Beitrag erstellen',
-	'created' => 'Erstellte',
-	'create' => 'Erstellen',
-	'by' => 'von',
-	'noposts' => 'Bis jetzt hast du noch keine Beiträge. Warum schreibst du nicht gleich einen neuen?',
-	'return_posts' => 'Zurück zu den Beiträgen',
+	'posts' => 'Einträge',
 
-	'add_post' => 'Beitrag hinzufügen',
-	'post' => 'Beitrag',
-	'customise' => 'Anpassen',
-	'customise_explain' => 'Hier kannst du deine Beiträge anpassen. Dieser Abschnitt ist optional.',
-	'custom_fields' => 'Zusatzfelder',
-	'custom_fields_explain' => 'Hier kannst du ein Zusatzfeld erstellen.',
-	'create_custom_field' => 'Zusatzfeld erstellen',
-	'comments' => 'Kommentare',
-	'comments_explain' => 'Hier kannst du Kommentare moderieren.',
-	'no_comments' => 'Bist jetzt hast du noch keine Kommentare.',
-	'edit_comment' => 'Kommentare bearbeiten',
-	'edit_comment_explain' => 'Bearbeite deinen Kommentar hier.',
+	'create_post' => 'Neuen Eintrag erstellen',
+	'noposts_desc' => 'Du hast noch keine Einträge!',
 
-	'publish' => 'Veröffentlichen',
-	'edit' => 'Bearbeiten',
-	'delete' => 'Löschen',
-	'save' => 'Speichern',
-	'label' => 'Beschriftung',
-	'key' => 'Schlüsselwort',
-	'editing' => 'Editieren',
-	'editing_explain' => 'Einige nützliche Links.',
-	'view_post' => 'Schau dir diesen Beitrag auf deiner Seite an',
+	// form fields
+	'title' => 'Titel des Eintrags',
+	'title_explain' => '',
+	'title_missing' => 'Bitte einen Titel eingeben',
 
-	'draft' => 'Entwurf',
-	'archived' => 'Archiviert',
-	'published' => 'Veröffentlicht',
-	'pending' => 'Wartend',
-	'spam' => 'Spam',
-	'update' => 'Bearbeiten',
-	'close' => 'Schließen',
+	'content' => 'Inhalt des Eintrags',
+	'content_explain' => 'Schreib einfach.',
 
-	'custom_field' => 'Zusatzfeld',
-	'custom_field_explain' => 'Bitte gib eine Beschriftung und ein Schlüsselwort für dein Zusatzfeld ein.',
-	'missing_label' => 'Bitte gib eine Beschriftung ein',
-	'missing_key' => 'Bitte gib ein Schlüsselwort ein',
-
-	'title' => 'Titel',
-	'title_explain' => 'Das ist der Titel deines Beitrags.',
 	'slug' => 'Slug',
-	'slug_explain' => 'Der Slug für deinen Beitrag (<code id="output">slug</code>).',
-	'description' => 'Beschreibung',
-	'description_explain' => 'Hier kommt eine kurze Zusammenfassung über deinen Beitrag. Sie wird im RSS Feed angezeigt.',
-	'content' => 'Inhalt',
-	'content_explain' => 'Hier folgt der Hauptinhalt deines Beitrags. Dieser Teil kann gerne HTML enthalten.',
-	'status' => 'Status',
-	'status_explain' => 'Statusse: online (veröffentlicht), wartend (Entwurf), oder versteckt (archiviert).',
-	'allow_comments' => 'Kommentare erlauben',
-	'allow_comments_explain' => 'Dies ermöglicht deinen Besuchern Beiträge zu kommentieren.',
-	'custom_css' => 'Eigenes CSS',
-	'custom_css_explain' => 'Eigenes CSS wird von <code>&lt;style&gt;</code> umschlossen.',
-	'custom_js' => 'Eigenes JS',
-	'custom_js_explain' => 'Eigenes Javascript wird von <code>&lt;script&gt;</code> umschlossen.',
+	'slug_explain' => 'Slug uri um deine Seite anzuzeigen; sollte nur ascii Zeichen enthalten',
+	'slug_missing' => 'Bitte gib eine slug uri an: Slugs dürfen nur ascii Zeichen enthalten',
+	'slug_duplicate' => 'Slug existiert schon',
+	'slug_invalid' => 'Slug muss Buchstaben enthalten',
 
-	'missing_title' => 'Bitte gib einen Titel ein.',
-	'missing_description' => 'Bitte gib eine Beschreibung ein.',
-	'missing_html' => 'Bitte füge hier dein HTML hinzu.',
-	'duplicate_slug' => 'Ein Beitrag mit dem gleichen Slug existiert bereits. Bitte ändere den Slug dieses Beitrags.',
-	'post_success_created' => 'Dein neuer Beitrag wurde hinzugefügt.',
-	'post_success_updated' => 'Dein neuer Beitrag wurde aktualisiert.',
-	'post_success_deleted' => 'Dein Beitrag wurde gelöscht.'
+	'time' => 'Veröffentlicht am (GMT)',
+	'time_explain' => 'Schema: YYYY-MM-DD HH:MM:SS',
+	'time_invalid' => 'Falsches Schema',
+
+	'description' => 'Beschreibung',
+	'description_explain' => '',
+
+	'status' => 'Status',
+	'status_explain' => '',
+
+	'category' => 'Kategorie',
+	'category_explain' => '',
+
+	'allow_comments' => 'Kommentare erlauben',
+	'allow_comments_explain' => '',
+
+	'custom_css' => 'Benutzerdefiniertes CSS',
+	'custom_css_explain' => '',
+
+	'custom_js' => 'Benutzerdefiniertes JS',
+	'custom_js_explain' => '',
+
+	// messages
+	'updated' => 'Dein Eintrag wurde aktualisiert',
+	'created' => 'Dein Eintrag wurde erstellt',
+	'deleted' => 'Dein Eintrag wurde gelöscht'
 
 );
