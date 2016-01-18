@@ -3,18 +3,18 @@
 return array(
 
 	'comments' => 'Комментарии',
-	'nocomments_desc' => 'Комментариев пока что нет.',
+	'nocomments_desc' => 'Здесь пусто',
 	'editing_comment' => 'Редактировать комментарий',
 	'view_comment' => 'Смотреть комментарий',
 
 	// form fields
 	'name' => 'Имя',
-	'name_explain' => 'Имя автора.',
+	'name_explain' => 'Кто оставил комментарий',
 	'name_missing' => 'Пожалуйста, введите имя',
 
-	'email' => 'Email адрес',
-	'email_explain' => 'Email автора.',
-	'email_missing' => 'Введите email', // frontend message (appears on your site!)
+	'email' => 'Email',
+	'email_explain' => 'Адрес для связи',
+	'email_missing' => 'Введите Email', // frontend message (appears on your site!)
 
 	'text' => 'Комментарий',
 	'text_explain' => '',
@@ -25,11 +25,11 @@ return array(
 
 	// messages
 	'created' => 'Комментарий добавлен', // frontend message (appears on your site!)
-	'updated' => 'Ваш комментарий был обновлен',
-	'deleted' => 'Ваш комментарий был удален',
+	'updated' => 'Комментарий успешно обновлен',
+	'deleted' => 'Комментарий удалён',
 
 	// email notification
-	'notify_subject' => 'Был добавлен новый комментарий',
+	'notify_subject' => 'Новый комментарий в блоге',
 	'nofity_heading' => 'На вашем сайте появился новый комменатрий.'
 
 );

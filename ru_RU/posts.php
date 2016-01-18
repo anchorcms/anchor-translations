@@ -4,21 +4,21 @@ return array(
 
 	'posts' => 'Записи',
 
-	'create_post' => 'Написать запись',
-	'noposts_desc' => 'У вас нет еще записей!',
+	'create_post' => 'Создать запись',
+	'noposts_desc' => 'Здесь пусто',
 
 	// form fields
 	'title' => 'Заголовок',
 	'title_explain' => '',
-	'title_missing' => 'Пожалуйста введите заголовок',
+	'title_missing' => 'Пожалуйста, введите заголовок',
 
 	'content' => 'Содержимое записи',
-	'content_explain' => 'Просто пишите.',
+	'content_explain' => 'Ваша фантазия',
 
 	'slug' => 'Адрес',
-	'slug_explain' => 'Адрес может содержить только латинские символы',
-	'slug_missing' => 'Пожалуйста введите адрес',
-	'slug_duplicate' => 'Адрес уже используется',
+	'slug_explain' => 'Уникальная ссылка на Вашу запись',
+	'slug_missing' => 'Пожалуйста, введите адрес',
+	'slug_duplicate' => 'Такой адрес уже используется',
 	'slug_invalid' => 'Адрес должен содержать буквы',
 
 	'time' => 'Опубликовано (GMT)',
@@ -34,7 +34,7 @@ return array(
 	'category' => 'Категория',
 	'category_explain' => '',
 
-	'allow_comments' => 'Разрешить комментарии',
+	'allow_comments' => 'Разрешить комментирование?',
 	'allow_comments_explain' => '',
 
 	'custom_css' => 'CSS',
@@ -44,8 +44,8 @@ return array(
 	'custom_js_explain' => '',
 
 	// messages
-	'updated' => 'Ваша запись была обновлена',
-	'created' => 'Ваша запись была добавлена',
-	'deleted' => 'Ваша запись была удалена'
+	'updated' => 'Запись обновлена',
+	'created' => 'Запись была добавлена',
+	'deleted' => 'Запись удалена'
 
 );
