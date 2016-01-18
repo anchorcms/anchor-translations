@@ -2,11 +2,27 @@
 
 return array(
 
-  'missing_title' => 'Vul een titel in',
-	'category_failed_delete' => 'Er moet minimaal &egrave;&egrave;n categorie aanwezig zijn',
+	'category' => 'Categorie',
+	'categories' => 'Categorieën',
 
-	'category_success_created' => 'De categorie is toegevoegd.',
-	'category_success_updated' => 'De categorie is bijgewerkt.',
-	'category_success_deleted' => 'De categorie is verwijderd.'
+	'create_category' => 'Maak een nieuwe categorie',
+	'edit_category' => 'Bewerken: &ldquo;%s&rdquo;',
+
+	// form fields
+	'title' => 'Titel',
+	'title_explain' => 'Je categorie titel.',
+	'title_missing' => 'Voer een titel in van mininmaal 3 characters.',
+
+	'slug' => 'Slug',
+	'slug_explain' => 'De slug van de categorie.',
+
+	'description' => 'Omschrijving',
+	'description_explain' => 'Beschrijf je categorie.',
+
+	// messages
+	'created' => 'Je nieuwe categorie is toegevoegd.',
+	'updated' => 'Je categorie is gewijzigd.',
+	'deleted' => 'Je categorie is verwijderd.',
+	'delete_error' => 'Er moet minimaal een categorie overblijven.',
 
 );
