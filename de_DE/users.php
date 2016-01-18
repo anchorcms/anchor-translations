@@ -2,67 +2,66 @@
 
 return array(
 
-	'add_user' => 'Neuen Benutzer hinzufügen',
-	'recover_password' => 'Passwort neu anfordern',
 	'users' => 'Benutzer',
-	'create_user' => 'Neuen Benutzer erstellen',
-	'reset_password' => 'Password zurücksetzen',
-	'reset_password_for' => 'Passwort zurücksetzen für ',
-	'reset_password_explain' => 'Bitte gib eine neues Passwort ein, das du nicht vergisst.',
-	'back_to' => 'Zurück zu ',
 
-	'log_in' => 'Anmelden', // verb
-	'login' => 'Anmeldung', // noun
+	'create_user' => 'Erstelle einen neuen Benutzer',
+	'add_user' => 'Einen neuen Benutzer hinzufügen',
+	'editing_user' => 'Bearbeite %s&rsquo;s Profil',
+	'remembered' => 'Ich kenne mein Passwort',
+	'forgotten_password' => 'Passwort vergessen?',
 
-	'forgotten_password' => 'Hast du dein Passwort vergessen?',
+	// roles
+	'administrator' => 'Admin',
+	'administrator_explain' => '',
 
-	'recover' => 'Neu anfordern',
-	'editing' => 'Bearbeiten',
-	'profile' => 'Profil',
+	'editor' => 'Editor',
+	'editor_explain' => '',
 
-	'real_name' => 'Voller Name',
-	'real_name_explain' => 'Dies ist der echte Name des Benutzers. Er wird bei den Beiträgen angezeigt (öffentlich sichtbar).',
-	'bio' => 'Biografie',
-	'bio_explain' => 'Eine kurze Biografie über den Benutzer. Valides HTML wird akzeptiert.',
-	'status' => 'Status',
-	'inactive' => 'Inaktiv',
-	'active' => 'Aktiv',
-	'status_explain' => 'Wenn der Nutzer auf inaktiv gestellt ist, kann er sich nicht anmelden.',
-	'role' => 'Rechte',
-	'administrator' => 'Administrator',
-	'editor' => 'Autor',
 	'user' => 'Benutzer',
-	'role_explain' => 'Die Rechte eines Nutzers. <a href="//anchorcms.com/docs/roles">Hier</a> erfährst du mehr darüber.',
-	'user_details' => 'Informationen für den Benutzer',
-	'user_details_explain' => 'Schreibe Informationen für neue Benutzer, welche sich bei Anchor anmelden.',
+	'user_explain' => '',
+
+	// form fields
+	'real_name' => 'Richtiger Name',
+	'real_name_explain' => '',
+
+	'bio' => 'Bio',
+	'bio_explain' => '',
+
+	'status' => 'Status',
+	'status_explain' => '',
+
+	'role' => 'Rolle',
+	'role_explain' => '',
+
 	'username' => 'Benutzername',
-	'username_explain' => 'Der gewünschte Benutzername. Er kann später geändert werden.',
+	'username_explain' => '',
+	'username_missing' => 'Bitte einen Benutzernamen eingeben: Sollte mindestens %s Zeichen lang sein',
+
 	'password' => 'Passwort',
-	'password_explain' => 'Und das passende Kennwort. Es kann später geändert werden.',
-	'password_blank' => 'Leerlassen, wenn keine Änderungen vorgenommen werden sollen.',
-	'email' => 'E-Mail',
-	'email_explain' => 'Die E-Mail-Adresse des Benutzers. Sie wirde benötigt, wenn der Nutzer sein Passwort vergisst.',
+	'password_explain' => '',
+	'password_too_short' => 'Das Passwort sollte mindestens %s Zeichen lang sein',
 
-	'create' => 'Erstellen',
-	'update' => 'Bearbeiten',
-	'delete' => 'Löschen',
-	'submit' => 'Absenden',
-	'return_users' => 'Zurück zu den Benutzern',
+	'new_password' => 'Neues Passwort',
 
-	'username_exists' => 'Der Nutzername ist bereits vergeben',
-	'missing_password' => 'Bitte gib ein Passwort ein',
-	'invalid_email' => 'Bitte gib eine gültige E-Mail-Adresse an',
-	'missing_name' => 'Bitte gib einen Nicknamen an',
-	'missing_username' => 'Bitte gib einen Benutzernamen an',
-	'user_success_created' => 'Ein neuer Benutzer wurde hinzugefügt',
-	'user_success_updated' => 'Der Benutzer wurde bearbeitet',
-	'user_success_deleted' => 'Der Benutzer wurde gelöscht',
-	'user_success_password' => 'Dein neues Passwort wurde aktiviert',
-	'user_notice_recover' => 'Wir haben dir eine E-Mail gesendet, um deine Passwortänderung zu bestätigen.',
-	'user_email_recover' => 'Du hast eine Zurücksetzung deines Passworts angefordert. Um fortzufahren, klicke den folgenden Link.',
-	'user_subject_recover' => 'Passwort zurücksetzen',
-	'invalid_account' => 'Account wurde nicht gefunden',
-	'missing_login_username' => 'Bitte gib einen Bnutzernamen ein',
-	'missing_login_password' => 'Bitte gib ein Passwort ein'
+	'email' => 'Email',
+	'email_explain' => '',
+	'email_missing' => 'Bitte eine valide Email Adresse eingeben',
+	'email_not_found' => 'Profil nicht gefunden.',
+
+	// messages
+	'updated' => 'Beutzerprofil aktualisiert.',
+	'created' => 'Beutzerprofil erstellt.',
+	'deleted' => 'Beutzerprofil gelöscht.',
+	'delete_error' => 'Du kannst dein eigenes Profil nicht löschen',
+	'login_error' => 'Benutzername oder Passwort falsch.',
+	'logout_notice' => 'Du bist jetzt ausgeloggt.',
+	'recovery_sent' => 'Wir haben dir eine Email geschickt um die Passwortänderung zu bestätigen.',
+	'recovery_expired' => 'Der Passwort Wiederherstellungs-Token ist leider abgelaufen. Bitte versuche es erneut.',
+	'password_reset' => 'Dein neues Passwort wurde gesetzt. Los, jetzt einloggen!',
+
+	// password recovery email
+	'recovery_subject' => 'Passwort Rücksetzung',
+	'recovery_message' => 'Du hast angefragt, dein Passwort zurück zu setzen.' .
+		'Um weiter zu machen, klicke auf den unten stehenden Link.' . PHP_EOL . '%s',
 
 );

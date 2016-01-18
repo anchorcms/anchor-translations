@@ -2,28 +2,47 @@
 
 return array(
 
-	'metadata' => 'Meta-Daten der Seite',
+	'metadata' => 'Metadaten der Seite',
+	'metadata_desc' => 'Metadaten der Seite verwalten',
 
-	'sitename' => 'Name der Seite',
-	'sitename_explain' => 'Der Name deiner Seite.',
+	'comment_settings' => 'Kommentare',
+	'theme_settings' => 'Theme',
+
+	// form fields
+	'sitename' => 'Seitenname',
+	'sitename_explain' => '',
+	'sitename_missing' => 'Deine Seite braucht einen Namen!',
+
 	'sitedescription' => 'Beschreibung der Seite',
-	'sitedescription_explain' => 'Ein kurzer Satz, der deine Seite beschreibt.',
-	'homepage' => 'Startseite',
-	'homepage_explain' => 'Deine aktuelle Startseite.',
-	'postspage' => 'Beitragsseite',
-	'postspage_explain' => 'Deine Seite, welche die Beiträge anzeigt.',
-	'posts_per_page' => 'Beiträge pro Seite',
-	'posts_per_page_explain' => 'Die Anzahl der Beiträge pro Seite.',
-	'current_theme' => 'Design',
-	'current_theme_explain' => 'Dein aktuelles Design.',
-	'auto_publish_comments' => 'Kommentare automatisch publizieren',
-	'twitter' => 'Twitter',
-	'twitter_explain' => 'Dein Twitter-Account - wird angezeigt als @<span id="output"></span>.',
-	'save' => 'Änderungen speichern',
+	'sitedescription_explain' => '',
+	'sitedescription_missing' => 'Deine Seite braucht eine Beschreibung!',
 
-	'missing_sitename' => 'Du musst einen Seitennamen angeben',
-	'missing_sitedescription' => 'Du musst eine Seitenbeschreibung angeben.',
-	'missing_theme' => 'Du musst ein Design einstellen',
-	'meta_success_updated' => 'Deine Meta-Daten wurden bearbeitet!'
+	'homepage' => 'Home Page',
+	'homepage_explain' => '',
+
+	'postspage' => 'Posts Page',
+	'postspage_explain' => '',
+
+	'posts_per_page' => 'Posts pro Seite',
+	'posts_per_page_explain' => '',
+
+	'show_all_posts' => 'Alle Posts anzeigen',
+	'show_all_posts_explain' => 'Alle Posts anzeigen ohne Seitennavigation (könnte langsam sein)',	
+	
+	'auto_publish_comments' => 'Kommentare automatisch erlauben',
+	'auto_publish_comments_explain' => '',
+
+	'comment_notifications' => 'Email Benachrichtigung bei neuen Kommentaren',
+	'comment_notifications_explain' => '',
+
+	'comment_moderation_keys' => 'Spam keywords',
+	'comment_moderation_keys_explain' => 'Komma getrennte Liste von Begriffen, die geprüft werden sollen (Blacklist).
+		Kommentare werden automatisch als Spam markiert.',
+
+	'current_theme' => 'Aktuelles Theme',
+	'current_theme_explain' => '',
+
+	// messages
+	'updated' => 'Metadaten aktualisiert',
 
 );
