@@ -36,7 +36,10 @@ return array(
 
 	'parent' => 'Elternelement',
 	'parent_explain' => '',
-
+	
+	'pagetype' => 'Seiten Set',
+	'pagetype_explain' => 'Wähle Sie zu welchem Set diese Seite gehört.',
+	
 	// messages
 	'updated' => 'Deine Seite wurde aktualisiert.',
 	'created' => 'Deine Seite wurde erstellt.',
