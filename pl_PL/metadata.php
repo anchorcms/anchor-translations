@@ -2,8 +2,8 @@
 
 return array(
 
-	'metadata' => 'Ustawienia strony',
-	'metadata_desc' => 'Zadządzaj ustawieniami strony',
+	'metadata' => 'Ustawienia globalne',
+	'metadata_desc' => 'Zadządzaj ustawieniami globalnymi',
 
 	'comment_settings' => 'Ustawienia komentarzy',
 	'theme_settings' => 'Ustawienia wyglądu',
@@ -25,6 +25,9 @@ return array(
 
 	'posts_per_page' => 'Artykułów na stronę',
 	'posts_per_page_explain' => 'Liczba artykułów wyświetlanych na jednej stronie',
+
+	'show_all_posts' => 'Wszystkie artykuły',
+	'show_all_posts_explain' => 'Opcja ta wyświetli wszystkiartykuły bez podziały na strony (może powoli wczytywać stronę py bardzo dużej ilości artykułów)',
 
 	'auto_publish_comments' => 'Automatczne włączenie',
 	'auto_publish_comments_explain' => 'Automatycznie włącz komentowanie artykułow',

@@ -6,7 +6,7 @@ return array(
 
 	'create_user' => 'Dodaj nowego użytkownika',
 	'add_user' => 'Dodaj nowego użytkownika',
-	'editing_user' => 'Edytujesz profil &ldquo;%s&rdquo',
+	'editing_user' => 'Edytujesz profil &ldquo;%s&rdquo;',
 	'remembered' => 'Znam swoje hasło',
 	'forgotten_password' => 'Zapomniałeś hasła?',
 

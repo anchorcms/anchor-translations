@@ -21,6 +21,10 @@ return array(
 	'slug_duplicate' => 'Podany alias URL już istnieje',
 	'slug_invalid' => 'Alias URL musi zawierać litery',
 
+	'time' => 'Opubikowano (GMT)',
+	'time_explain' => 'Przykładowy wzorzec czasu: YYYY-MM-DD HH:MM:SS',
+	'time_invalid' => 'Niepoprawny wzorzec czasu',
+
 	'description' => 'Opis',
 	'description_explain' => '',
 
@@ -34,10 +38,10 @@ return array(
 	'allow_comments_explain' => 'Włącz komentowanie tego artykułu',
 
 	'custom_css' => 'Własny CSS',
-	'custom_css_explain' => '',
+	'custom_css_explain' => 'Możesz dodać indywidualny kod CSS dla tego artykułu',
 
 	'custom_js' => 'Własny JS',
-	'custom_js_explain' => '',
+	'custom_js_explain' => 'Możesz dodać indywidualny kod JS dla tego artykułu',
 
 	// messages
 	'updated' => 'Twój artykuł został zaktualizowany',

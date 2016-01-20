@@ -37,6 +37,9 @@ return array(
 	'parent' => 'Nadrzędna pozycja',
 	'parent_explain' => 'Wskarz czy Twoja pozycja menu ma być podpozycją menu czy nie',
 
+	'pagetype' => 'Typ strony',
+	'pagetype_explain' => 'Wybierz typ strony',
+
 	// messages
 	'updated' => 'Twoja strona została zaktualizowana',
 	'created' => 'Twoja strona została zapisana',
