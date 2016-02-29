@@ -22,6 +22,7 @@ return array(
 	'manage' => 'Verwalten',
 	'reset' => 'Zurücksetzen',
 	'all' => 'Alle',
+	'cancel' => 'Abbrechen',
 
 	// pagination
 	'next' => 'Weiter',
@@ -51,8 +52,8 @@ return array(
 	'logout' => 'Ausloggen',
 
 	// pharses
-	'visit_your_site' => 'Deine Seite besuchen',
-	'powered_by_anchor' => 'Powered by Anchor, version %s',
+	'visit_your_site' => 'Zur Seite',
+	'powered_by_anchor' => 'Bereitgestellt durch Anchor, version %s',
 	'make_blogging_beautiful' => 'Make blogging beautiful.',
 
 	// intro
