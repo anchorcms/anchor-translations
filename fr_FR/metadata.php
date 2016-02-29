@@ -3,25 +3,25 @@
 return array(
 
 	'metadata' => 'Métadonnées du site',
-	'metadata_desc' => 'Gérer les données du site',
+	'metadata_desc' => 'Gérer les métadonnées du site',
 
 	'comment_settings' => 'Commentaires',
-	'theme_settings' => 'Apperence',
+	'theme_settings' => 'Apparence',
 
 	// form fields
 	'sitename' => 'Nom du site ',
 	'sitename_explain' => '',
-	'sitename_missing' => 'Your site needs a name!',
+	'sitename_missing' => 'Vous devez donner un nom à votre site !',
 
 	'sitedescription' => 'Description du site ',
 	'sitedescription_explain' => '',
-	'sitedescription_missing' => 'Your site needs a description!',
+	'sitedescription_missing' => 'Vous devez fournir une description pour votre site !',
 
 	'homepage' => 'Page d\'accueil ',
-	'homepage_explain' => '',
+	'homepage_explain' => 'La page qui sera affichée comme accueil du site',
 
 	'postspage' => 'Page des articles ',
-	'postspage_explain' => '',
+	'postspage_explain' => 'La page affichant la liste des articles',
 
 	'posts_per_page' => 'Articles par page ',
 	'posts_per_page_explain' => '',
