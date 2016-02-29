@@ -16,7 +16,7 @@ return array(
 	'email_explain' => 'Adres email autora',
 	'email_missing' => 'Podaj Twój adres email', // frontend message (appears on your site!)
 
-	'text' => 'Koemntarz',
+	'text' => 'Komentarz',
 	'text_explain' => '',
 	'text_missing' => 'Podaj treść komentarza', // frontend message (appears on your site!)
 

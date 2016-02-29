@@ -4,8 +4,11 @@ return array(
 
 	// words
 	'save' => 'Zapisz',
+	'saving' => 'Zapisywanie...',
 	'delete' => 'Usuń',
+	'deleting' => 'Usuwanie...',
 	'update' => 'Zaktualizuj',
+	'updating' => 'Aktualizowanie...',
 	'edit' => 'Edytuj',
 	'editing' => 'Edytowanie',
 	'create' => 'Utwórz',
