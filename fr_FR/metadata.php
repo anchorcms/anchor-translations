@@ -29,12 +29,12 @@ return array(
 	'auto_publish_comments' => 'Accepter les commentaires ',
 	'auto_publish_comments_explain' => '',
 
-	'comment_notifications' => 'Notifier les commentaires par e-mail ',
+	'comment_notifications' => 'Notifier les nouveaux commentaires par e-mail ',
 	'comment_notifications_explain' => '',
 
 	'comment_moderation_keys' => 'Spam (mots interdits) ',
 	'comment_moderation_keys_explain' => 'Liste séparée par une virgule de mots-clé identifiables comme étant du spam.
-		Les commentaires seront automatiquement notifiés comme du spam.',
+		Les commentaires contenant ces mots seront automatiquement notifiés comme du spam.',
 
 	'current_theme' => 'Thème actuel ',
 	'current_theme_explain' => '',

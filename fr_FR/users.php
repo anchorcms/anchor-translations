@@ -7,7 +7,7 @@ return array(
 	'create_user' => 'Créer un utilisateur',
 	'add_user' => 'Ajour d\'un nouvel utilisateur',
 	'editing_user' => 'Edition du profil &ldquo;%s&rdquo;',
-	'remembered' => 'Je connaîs mon mot de passe',
+	'remembered' => 'Je connais mon mot de passe',
 	'forgotten_password' => 'Mot de passe oublié ?',
 
 	// roles
@@ -35,18 +35,18 @@ return array(
 
 	'username' => 'Nom d\'utilisateur ',
 	'username_explain' => '',
-	'username_missing' => 'Veuille renseigner un nom d\'utilisateur, doit contenir au moins %s caractères',
+	'username_missing' => 'Veuillez renseigner un nom d\'utilisateur (doit contenir au moins %s caractères)',
 
 	'password' => 'Mot de passe ',
 	'password_explain' => '',
 	'password_too_short' => 'Le mot de passe doit contenir au moins %s caractères',
 
-	'new_password' => 'Nouveau mot de passe',
+	'new_password' => 'Nouveau mot de passe ',
 
 	'email' => 'E-mail ',
 	'email_explain' => '',
 	'email_missing' => 'Veuillez renseigner une adresse e-mail valide',
-	'email_not_found' => 'Profil introuvable.',
+	'email_not_found' => 'Cette adresse e-mail ne correspond à aucun profil.',
 
 	// messages
 	'updated' => 'Profil utilisateur mis à jour.',

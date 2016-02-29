@@ -14,7 +14,7 @@ return array(
 	'title_missing' => 'Veuillez renseigner un titre',
 
 	'slug' => 'Alias ',
-	'slug_explain' => 'Partie d\'URL propre à cette catégorie, doit contenir des caractères ascii uniquement.',
+	'slug_explain' => 'Segment d\'URL propre à cette catégorie, doit contenir des caractères ascii uniquement.',
 
 	'description' => 'Description ',
 	'description_explain' => 'Le sujet de cette catégorie.',

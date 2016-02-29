@@ -15,15 +15,15 @@ return array(
 	'nofields_desc' => 'Aucun champ pour l\'instant',
 
 	'create_variable' => 'Créer une variable',
-	'editing_variable' => 'Edition de la variable &ldquo;%s&rdquo;',
+	'editing_variable' => 'Édition de la variable &ldquo;%s&rdquo;',
 	'novars_desc' => 'Aucune variable pour l\'instant',
 
 	// form fields
-	'type' => 'Type',
+	'type' => 'Type ',
 	'type_explain' => 'Le type de contenu destiné à ce nouveau champ.',
 
 	'field' => 'Champ ',
-	'field_explain' => 'Type de champ Html',
+	'field_explain' => 'Type de champ HTML',
 
 	'key' => 'Clé unique ',
 	'key_explain' => 'L\'identifiant unique de ce champ',
@@ -39,10 +39,10 @@ return array(
 
 	// images
 	'attributes_size_width' => 'Image (largeur maxi.) ',
-	'attributes_size_width_explain' => 'Les images seront retaillées si elles sont plus grandes que la largeur maxi.',
+	'attributes_size_width_explain' => 'Les images seront redimensionnées si elles sont plus grandes que la largeur maxi.',
 
 	'attributes_size_height' => 'Image (hauteur maxi.) ',
-	'attributes_size_height_explain' => 'Les images seront retaillées si elles sont plus grandes que la hauteur maxi.',
+	'attributes_size_height_explain' => 'Les images seront redimensionnées si elles sont plus grandes que la hauteur maxi.',
 
 	// custom vars
 	'name' => 'Nom ',

@@ -12,8 +12,8 @@ return array(
 	'save' => 'Sauvegarder',
 	'delete' => 'Supprimer',
 	'update' => 'Mettre à jour',
-	'edit' => 'Editer',
-	'editing' => 'Edition',
+	'edit' => 'Éditer',
+	'editing' => 'Édition',
 	'create' => 'Créer',
 	'created' => 'Créé',
 	'submit' => 'Envoyer',
@@ -42,7 +42,7 @@ return array(
 
 	// roles
 	'administrator' => 'Admin',
-	'editor' => 'Editeur',
+	'editor' => 'Éditeur',
 	'user' => 'Utilisateur',
 
 	'log_in' => 'Connecté',
@@ -61,9 +61,9 @@ return array(
 	'run_the_installer' => 'Lancer l\'installation',
 
 	// upgrade
-	'upgrade' => 'Mettre à niveau',
+	'upgrade' => 'Mettre à jour',
 	'good_news' => 'Bonne nouvelle !',
-	'new_version_available' => 'Il existe une nouvelle version de anchor disponible.',
+	'new_version_available' => 'Une nouvelle version de Anchor est disponible.',
 	'download_now' => 'Télécharger maintenant',
 	'upgrade_later' => 'Mettre à miveau plus tard',
 
