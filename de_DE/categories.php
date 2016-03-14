@@ -10,11 +10,11 @@ return array(
 
 	// form fields
 	'title' => 'Titel',
-	'title_explain' => 'Dein Kategorie Name.',
+	'title_explain' => 'Dein Name für die Kategorie.',
 	'title_missing' => 'Bitte gib einen Titel ein',
 
 	'slug' => 'Slug',
-	'slug_explain' => 'Der slug für deine Kategorie.',
+	'slug_explain' => 'Der Slug für deine Kategorie.',
 
 	'description' => 'Beschreibung',
 	'description_explain' => 'Beschreibung deiner Kategorie.',

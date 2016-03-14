@@ -2,23 +2,23 @@
 
 return array(
 
-	'posts' => 'Einträge',
+	'posts' => 'Beiträge',
 
-	'create_post' => 'Neuen Eintrag erstellen',
-	'noposts_desc' => 'Du hast noch keine Einträge!',
+	'create_post' => 'Neuen Beitrag erstellen',
+	'noposts_desc' => 'Du hast noch keine Beiträge!',
 
 	// form fields
 	'title' => 'Titel des Eintrags',
 	'title_explain' => '',
-	'title_missing' => 'Bitte einen Titel eingeben',
+	'title_missing' => 'Der Titel muss mindestens 3 Zeichen enthalten',
 
 	'content' => 'Inhalt des Eintrags',
 	'content_explain' => 'Schreib einfach.',
 
 	'slug' => 'Slug',
-	'slug_explain' => 'Slug uri um deine Seite anzuzeigen; sollte nur ascii Zeichen enthalten',
-	'slug_missing' => 'Bitte gib eine slug uri an: Slugs dürfen nur ascii Zeichen enthalten',
-	'slug_duplicate' => 'Slug existiert schon',
+	'slug_explain' => 'Slug-URI um deine Seite anzuzeigen; kann nur ASCII-Zeichen enthalten',
+	'slug_missing' => 'Die Slug-URI muss mindestens 3 Zeichen enthalten und darf nur aus ASCII-Zeichen bestehen',
+	'slug_duplicate' => 'Slug existiert bereits',
 	'slug_invalid' => 'Slug muss Buchstaben enthalten',
 
 	'time' => 'Veröffentlicht am (GMT)',
@@ -44,8 +44,8 @@ return array(
 	'custom_js_explain' => '',
 
 	// messages
-	'updated' => 'Dein Eintrag wurde aktualisiert',
-	'created' => 'Dein Eintrag wurde erstellt',
-	'deleted' => 'Dein Eintrag wurde gelöscht'
+	'updated' => 'Dein Beitrag wurde aktualisiert',
+	'created' => 'Dein Beitrag wurde erstellt',
+	'deleted' => 'Dein Beitrag wurde gelöscht'
 
 );

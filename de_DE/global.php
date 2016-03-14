@@ -10,10 +10,13 @@ return array(
 
 	// words
 	'save' => 'Speichern',
+	'saving' => 'Speichere...',
 	'delete' => 'Löschen',
+	'deleting' => 'Lösche...',
 	'update' => 'Ändern',
+	'updating' => 'Ändere...',
 	'edit' => 'Bearbeiten',
-	'editing' => 'Bearbeiten',
+	'editing' => 'Bearbeite',
 	'create' => 'Erstellen',
 	'created' => 'Erstellt',
 	'submit' => 'Absenden',
@@ -51,7 +54,7 @@ return array(
 	'log_out' => 'Ausloggen',
 	'logout' => 'Ausloggen',
 
-	// pharses
+	// phrases
 	'visit_your_site' => 'Zur Seite',
 	'powered_by_anchor' => 'Bereitgestellt durch Anchor, version %s',
 	'make_blogging_beautiful' => 'Make blogging beautiful.',
@@ -59,20 +62,20 @@ return array(
 	// intro
 	'welcome_to_anchor' => 'Willkommen bei Anchor',
 	'welcome_to_anchor_lets_go' => 'Willkommen bei Anchor. Lass uns loslegen.',
-	'run_the_installer' => 'Installer ausführen',
+	'run_the_installer' => 'Installation durchführen',
 
 	// upgrade
 	'upgrade' => 'Upgrade',
 	'good_news' => 'Großartige Neuigkeiten!',
 	'new_version_available' => 'Eine neue Version von anchor ist verfügbar.',
 	'download_now' => 'Jetzt herunterladen',
-	'upgrade_later' => 'Später upgraden',
+	'upgrade_later' => 'Upgrade später durchführen',
 
 	// debug profiler
-	'profile' => 'Profile',
+	'profile' => 'Profil',
 	'profile_memory_usage' => 'Gesamter Speicherverbrauch',
 
 	// messages
-	'confirm_delete' => 'Bist du sicher, dass du löschen willst? Das kann nicht rückgängig gemacht werden!'
+	'confirm_delete' => 'Bist du sicher, dass du löschen willst? Dies kann nicht rückgängig gemacht werden!'
 
 );
