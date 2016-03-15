@@ -6,7 +6,7 @@ return array(
 	'metadata_desc' => 'Metadaten der Seite verwalten',
 
 	'comment_settings' => 'Kommentare',
-	'theme_settings' => 'Theme',
+	'theme_settings' => 'Aussehen',
 
 	// form fields
 	'sitename' => 'Seitenname',
@@ -17,27 +17,29 @@ return array(
 	'sitedescription_explain' => '',
 	'sitedescription_missing' => 'Deine Seite braucht eine Beschreibung!',
 
-	'homepage' => 'Home Page',
+	'homepage' => 'Homepage',
 	'homepage_explain' => '',
 
-	'postspage' => 'Posts Page',
+	'postspage' => 'Beitragsseite',
 	'postspage_explain' => '',
 
-	'posts_per_page' => 'Posts pro Seite',
+	'dashboard_page' => 'Dashboard-Seite',
+    'dashboard_page_explain' => 'Standardseite des Dashboard',
+
+	'posts_per_page' => 'Beiträge pro Seite',
 	'posts_per_page_explain' => '',
 
-	'show_all_posts' => 'Alle Posts anzeigen',
-	'show_all_posts_explain' => 'Alle Posts anzeigen ohne Seitennavigation (könnte langsam sein)',	
+	'show_all_posts' => 'Alle Beiträge anzeigen',
+	'show_all_posts_explain' => 'Alle Beiträge anzeigen ohne Seitennavigation (könnte langsam sein)',	
 	
 	'auto_publish_comments' => 'Kommentare automatisch erlauben',
 	'auto_publish_comments_explain' => '',
 
-	'comment_notifications' => 'Email Benachrichtigung bei neuen Kommentaren',
+	'comment_notifications' => 'E-Mail-Benachrichtigung bei neuen Kommentaren',
 	'comment_notifications_explain' => '',
 
-	'comment_moderation_keys' => 'Spam keywords',
-	'comment_moderation_keys_explain' => 'Komma getrennte Liste von Begriffen, die geprüft werden sollen (Blacklist).
-		Kommentare werden automatisch als Spam markiert.',
+	'comment_moderation_keys' => 'Spam-Schlüsselwörter',
+	'comment_moderation_keys_explain' => 'Komma-separierte Liste von Begriffen, durch welche ein Kommentar automatisch als Spam gekennzeichnet wird.',
 
 	'current_theme' => 'Aktuelles Theme',
 	'current_theme_explain' => '',

@@ -10,11 +10,11 @@ return array(
 	// form fields
 	'name' => 'Name',
 	'name_explain' => 'Name des Autors',
-	'name_missing' => 'Bitt einen Namen eingeben',
+	'name_missing' => 'Bitte einen Namen eingeben',
 
-	'email' => 'Email Adresse',
-	'email_explain' => 'Email des Autors',
-	'email_missing' => 'Bitte eine valide Email Adresse eingeben', // frontend message (appears on your site!)
+	'email' => 'E-Mail-Adresse',
+	'email_explain' => 'E-Mail des Autors',
+	'email_missing' => 'Bitte eine valide E-Mail-Adresse eingeben', // frontend message (appears on your site!)
 
 	'text' => 'Kommentieren',
 	'text_explain' => '',

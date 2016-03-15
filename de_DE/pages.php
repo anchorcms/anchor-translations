@@ -9,12 +9,12 @@ return array(
 	'redirect' => 'Weiterleitung',
 
 	// form fields
-	'redirect_url' => 'Weiterleitungs Url',
-	'redirect_missing' => 'Bitte gib eine valide Url ein',
+	'redirect_url' => 'Weiterleitungs-URL',
+	'redirect_missing' => 'Bitte gib eine valide URL ein',
 
 	'title' => 'Seitentitel',
 	'title_explain' => '',
-	'title_missing' => 'Bitte einen Titel für die Seite angeben',
+	'title_missing' => 'Der Titel der Seite muss mindestens 3 Zeichen enthalten',
 
 	'content' => 'Inhalt',
 	'content_explain' => 'Der Inhalt deiner Seite. Verwendet Markdown.',
@@ -26,9 +26,9 @@ return array(
 	'name_explain' => '',
 
 	'slug' => 'Slug',
-	'slug_explain' => 'Slug uri um deine Seite anzuzeigen; sollte nur ascii Zeichen enthalten',
-	'slug_missing' => 'Bitte gib eine slug uri an: Slugs dürfen nur ascii Zeichen enthalten',
-	'slug_duplicate' => 'Slug existiert schon',
+	'slug_explain' => 'Slug-URI um deine Seite anzuzeigen; kann nur ASCII-Zeichen enthalten',
+	'slug_missing' => 'Die Slug-URI muss mindestens 3 Zeichen enthalten und darf nur aus ASCII-Zeichen bestehen',
+	'slug_duplicate' => 'Slug existiert bereits',
 	'slug_invalid' => 'Slug muss Buchstaben enthalten',
 
 	'status' => 'Status',
@@ -37,8 +37,8 @@ return array(
 	'parent' => 'Elternelement',
 	'parent_explain' => '',
 	
-	'pagetype' => 'Seiten Set',
-	'pagetype_explain' => 'Wähle Sie zu welchem Set diese Seite gehört.',
+	'pagetype' => 'Seitentyp',
+	'pagetype_explain' => 'Wähle aus, zu welchem Typ diese Seite gehört.',
 	
 	// messages
 	'updated' => 'Deine Seite wurde aktualisiert.',
