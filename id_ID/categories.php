@@ -9,11 +9,11 @@ return array(
     'edit_category' => 'Menyunting &ldquo;%s&rdquo;',
 
     // form fields
-    'title' => 'Title',
+    'title' => 'Judul',
     'title_explain' => 'Judul kategori Anda.',
     'title_missing' => 'Mohon masukkan judul, minimal 3 karakter.',
 
-    'slug' => 'Slug',
+    'slug' => 'Alur',
     'slug_explain' => 'Alur untuk kategori Anda.',
 
     'description' => 'Deskripsi',
