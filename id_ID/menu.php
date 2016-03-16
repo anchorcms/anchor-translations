@@ -2,6 +2,7 @@
 
 return array(
 
-	'menu' => 'Daftar',
+    'menu'        => 'Menu',
+    'edit_menu' => 'Sunting menu'
 
 );

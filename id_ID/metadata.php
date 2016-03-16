@@ -2,44 +2,49 @@
 
 return array(
 
-	'metadata' => 'Metadata Situs',
-	'metadata_desc' => 'Atur situs data Anda',
+    'metadata' => 'Pengaturan Situs',
+    'metadata_desc' => 'Sesuaikan pengaturan situs Anda.',
 
-	'comment_settings' => 'Komentar',
-	'theme_settings' => 'Penampilan',
+    'comment_settings' => 'Komentar',
+    'theme_settings' => 'Tampilan',
 
-	// form fields
-	'sitename' => 'Nama situs',
-	'sitename_explain' => '',
-	'sitename_missing' => 'Situs Anda butuh nama!',
+    // form fields
+    'sitename' => 'Nama situs',
+    'sitename_explain' => '',
+    'sitename_missing' => 'Situs Anda membutuhkan nama!',
 
-	'sitedescription' => 'Deskripsi situs',
-	'sitedescription_explain' => '',
-	'sitedescription_missing' => 'Situs Anda butuh deskripsi!',
+    'sitedescription' => 'Deskripsi situs',
+    'sitedescription_explain' => 'Deskripsi situs Anda.',
+    'sitedescription_missing' => 'Situs Anda membutuhkan deskripsi!',
 
-	'homepage' => 'Halaman Utama',
-	'homepage_explain' => '',
+    'homepage' => 'Beranda',
+    'homepage_explain' => '',
 
-	'postspage' => 'Halaman Post',
-	'postspage_explain' => '',
+    'postspage' => 'Halaman Pos',
+    'postspage_explain' => '',
 
-	'posts_per_page' => 'Posts per halaman',
-	'posts_per_page_explain' => '',
+    'dashboard_page' => 'Halaman Dasbor',
+    'dashboard_page_explain' => 'Halaman dasbor bawaan.',
 
-	'auto_publish_comments' => 'Mengizinkan komentar otomatis',
-	'auto_publish_comments_explain' => '',
+    'posts_per_page' => 'Banyak pos per halaman',
+    'posts_per_page_explain' => '',
 
-	'comment_notifications' => 'Kirim Email untuk komentar baru',
-	'comment_notifications_explain' => '',
+    'show_all_posts' => 'Tampilkan semua pos',
+    'show_all_posts_explain' => 'Tampilkan semua pos tanpa memisahkannya menjadi halaman-halaman (dapat menjadi lambat).',
 
-	'comment_moderation_keys' => 'Kata kunci spam',
-	'comment_moderation_keys_explain' => 'Kata kunci yang dibatasi dengan koma akan diblacklist.
-		Komentar akan otomatis ditandai sebagai spam.',
+    'auto_publish_comments' => 'Otomatis mengizinkan komentar',
+    'auto_publish_comments_explain' => '',
 
-	'current_theme' => 'Tema sekarang',
-	'current_theme_explain' => '',
+    'comment_notifications' => 'Notifikasi surel untuk komentar baru',
+    'comment_notifications_explain' => '',
 
-	// messages
-	'updated' => 'Metadata diperbarui',
+    'comment_moderation_keys' => 'Kata kunci spam',
+    'comment_moderation_keys_explain' => 'Daftar kata kunci yang harus diblokir (dipisahkan dengan tanda koma), untuk memisahkan komentar-komentar yang masuk secara otomatis sebagai spam.',
+
+    'current_theme' => 'Tema saat ini',
+    'current_theme_explain' => '',
+
+    // messages
+    'updated' => 'Metadata diperbaharui.',
 
 );
