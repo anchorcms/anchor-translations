@@ -2,66 +2,80 @@
 
 return array(
 
-	'extend' => 'Perluas',
+    'extend' => 'Perluasan',
 
-	'fields' => 'Custom Fields',
-	'fields_desc' => 'Buat field tambahan',
+    'fields' => 'Bidang Tambahan',
+    'fields_desc' => 'Buat bidang tambahan.',
 
-	'variables' => 'Variabel Situs',
-	'variables_desc' => 'Buat metadata tambahan',
+    'pagetypes' => 'Jenis Halaman Situs',
+    'pagetypes_desc' => 'Buat jenis halaman yang berbeda.',
 
-	'create_field' => 'Buat field baru',
-	'editing_custom_field' => 'Sunting field &ldquo;%s&rdquo;',
-	'nofields_desc' => 'Belum ada field',
+    'variables' => 'Variabel Situs',
+    'variables_desc' => 'Buat metadata tambahan.',
 
-	'create_variable' => 'Buat variabel baru',
-	'editing_variable' => 'Sunting variabel &ldquo;%s&rdquo;',
-	'novars_desc' => 'Belum ada variabel',
+    'create_field' => 'Buat bidang baru',
+    'editing_custom_field' => 'Menyunting bidang &ldquo;%s&rdquo;',
+    'nofields_desc' => 'Belum ada bidang.',
 
-	// form fields
-	'type' => 'Tipe',
-	'type_explain' => 'Tipe dari konten yang ingin ditambahkan.',
+    'create_variable' => 'Buat variabel baru',
+    'editing_variable' => 'Menyunting variabel &ldquo;%s&rdquo;',
+    'novars_desc' => 'Belum ada variabel.',
 
-	'field' => 'Field',
-	'field_explain' => 'Tipe masukkan HTML',
+    'create_pagetype' => 'Buat jenis halaman baru',
+    'editing_pagetype' => 'Menyunting jenis halaman &ldquo;%s&rdquo;',
 
-	'key' => 'Kunci unik',
-	'key_explain' => 'Kunci unik untuk field Anda',
-	'key_missing' => 'Silahkan masukkan kunci unik',
-	'key_exists' => 'Kunci telah dipakai',
+    // form fields
+    'type' => 'Jenis',
+    'type_explain' => 'Jenis konten yang ingin Anda tambahkan bidang.',
+    'notypes_desc' => 'Belum ada jenis halaman.',
 
-	'label' => 'Label',
-	'label_explain' => 'Nama yang dapat dibaca manusia untuk field Anda',
-	'label_missing' => 'Silahkan masukkan label',
+    'pagetype' => 'Jenis halaman',
+    'pagetype_explain' => 'Jenis halaman yang ingin Anda tambahkan bidang.',
 
-	'attribute_type' => 'Tipe Berkas',
-	'attribute_type_explain' => 'Gunakan koma untuk menerima tipe berkas, kosongkan untuk menerima semuanya.',
+    'field' => 'Bidang',
+    'field_explain' => 'Jenis masukan HTML.',
 
-	// images
-	'attributes_size_width' => 'Maksimal lebar gambar',
-	'attributes_size_width_explain' => 'Gambar akan diubah ukuran jika lebih besar dari ukuran maksimal',
+    'key' => 'Kunci unik',
+    'key_explain' => 'Kunci unik untuk bidang Anda.',
+    'key_missing' => 'Mohon masukkan kunci unik.',
+    'key_exists' => 'Kunci sudah terpakai.',
 
-	'attributes_size_height' => 'Maksimal tinggi gambar',
-	'attributes_size_height_explain' => 'Gambar akan diubah ukuran jika lebih besar dari ukuran maksimal',
+    'label' => 'Label',
+    'label_explain' => 'Nama label untuk ditampilkan di antarmuka.',
+    'label_missing' => 'Mohon masukkan label.',
 
-	// custom vars
-	'name' => 'Nama',
-	'name_explain' => 'Nama yang unik',
-	'name_missing' => 'Silahkan masukkan nama yang unik',
-	'name_exists' => 'Nama telah dipakai',
+    'attribute_type' => 'Jenis berkas',
+    'attribute_type_explain' => 'Daftar jenis berkas yang diizinkan (dipisahkan dengan tanda koma), kosongkan untuk mengizinkan semua jenis berkas.',
 
-	'value' => 'Nilai',
-	'value_explain' => 'Data yang akan disimpan (sampai dengan 64kb)',
-	'value_code_snipet' => 'Potongan untuk disisipkan ke template Anda:<br>
+    // images
+    'attributes_size_width' => 'Lebar maksimal gambar',
+    'attributes_size_width_explain' => 'Gambar akan diperkecil jika melebihi lebar maksimal.',
+
+    'attributes_size_height' => 'Tinggi maksimal gambar',
+    'attributes_size_height_explain' => 'Gambar akan diperkecil jika melebihi tinggi maksimal.',
+
+    // custom vars
+    'name' => 'Nama',
+    'name_explain' => 'Nama unik untuk variabel Anda.',
+    'name_missing' => 'Mohon masukkan nama unik.',
+    'name_exists' => 'Nama sudah terpakai.',
+
+    'value' => 'Nilai',
+    'value_explain' => 'Data yang ingin Anda simpan (sampai 64kb).',
+    'value_code_snipet' => 'Potongan untuk menyisipkan ke dalam template Anda:<br>
 		<code>' . e('<?php echo site_meta(\'%s\'); ?>') . '</code>',
 
-	// messages
-	'variable_created' => 'Variabel Anda telah dibuat',
-	'variable_updated' => 'Variabel Anda telah diperbarui',
-	'variable_deleted' => 'Variabel Anda telah dihapus',
+    // messages
+    'variable_created' => 'Variabel Anda telah ditambahkan.',
+    'variable_updated' => 'Variabel Anda telah diperbaharui.',
+    'variable_deleted' => 'Variabel Anda telah dihapus.',
 
-	'field_created' => 'Field Anda telah dibuat',
-	'field_updated' => 'Field Anda telah diperbarui',
-	'field_deleted' => 'Field Anda telah dihapus'
+    'pagetype_created' => 'Jenis halaman Anda telah ditambahkan.',
+    'pagetype_updated' => 'Jenis halaman Anda telah diperbaharui.',
+    'pagetype_deleted' => 'Jenis halaman Anda telah dihapus.',
+
+    'field_created' => 'Bidang Anda telah ditambahkan.',
+    'field_updated' => 'Bidang Anda telah diperbaharui.',
+    'field_deleted' => 'Bidang Anda telah dihapus.'
 
 );

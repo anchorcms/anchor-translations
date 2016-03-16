@@ -2,11 +2,11 @@
 
 return array(
 
-	'plugins' => 'Plugins',
-	'plugins_desc' => 'Atur plugins Anda',
-	'noplugins_desc' => 'Ayo ngoding',
+	'plugins' => 'Plugin',
+	'plugins_desc' => 'Atur plugin Anda.',
+	'noplugins_desc' => 'Ayo ngoding!',
 
 	// messages
-	'installed' => '%s telah dipasang',
-	'uninstalled' => '%s telah dicopot'
+	'installed' => 'Plugin %s telah dipasang.',
+	'uninstalled' => 'Plugin %s telah dicopot.'
 );

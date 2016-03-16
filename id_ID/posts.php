@@ -2,46 +2,50 @@
 
 return array(
 
-	'posts' => 'Artikel',
+    'posts' => 'Pos',
 
-	'create_post' => 'Buat artikel baru',
-	'noposts_desc' => 'Anda tidak punya artikel!',
+    'create_post' => 'Buat pos baru',
+    'noposts_desc' => 'Anda tidak mempunyai satupun pos.',
 
-	// form fields
-	'title' => 'Judul Artikel',
-	'title_explain' => '',
-	'title_missing' => 'Silahkan masukkan judul',
+    // form fields
+    'title' => 'Judul pos',
+    'title_explain' => '',
+    'title_missing' => 'Judul pos minimal terdiri dari 3 karakter.',
 
-	'content' => 'Isi Artikel',
-	'content_explain' => 'Tulis isi artikel.',
+    'content' => 'Konten',
+    'content_explain' => 'Konten pos Anda, menggunakan markdown.',
 
-	'slug' => 'Slug',
-	'slug_explain' => 'Slug url untuk identifikas artikel Anda, harus hanya mengandung karakter ascii',
-	'slug_missing' => 'Silahkan masukkan slug url, slugs hanya bisa mengandung karakter ascii',
-	'slug_duplicate' => 'Slug sudah ada',
-	'slug_invalid' => 'Slug harus mengandung huruf',
+    'slug' => 'Alur',
+    'slug_explain' => 'Alur URI untuk mengidentifikasikan pos Anda, hanya terdiri dari karakter ASCII.',
+    'slug_missing' => 'Alur URI minimal terdiri dari 3 karakter dan hanya terdiri dari karakter ASCII.',
+    'slug_duplicate' => 'Alur sudah terpakai.',
+    'slug_invalid' => 'Alur harus mengandung huruf.',
 
-	'description' => 'Deskripsi',
-	'description_explain' => '',
+    'time' => 'Diterbitkan pada (GMT)',
+    'time_explain' => 'Pola: YYYY-MM-DD HH:MM:SS',
+    'time_invalid' => 'Pola waktu tidak valid.',
 
-	'status' => 'Status',
-	'status_explain' => '',
+    'description' => 'Deskripsi',
+    'description_explain' => '',
 
-	'category' => 'Kategori',
-	'category_explain' => '',
+    'status' => 'Status',
+    'status_explain' => '',
 
-	'allow_comments' => 'Izinkan Komentar',
-	'allow_comments_explain' => '',
+    'category' => 'Kategori',
+    'category_explain' => '',
 
-	'custom_css' => 'Custom CSS',
-	'custom_css_explain' => '',
+    'allow_comments' => 'Izinkan komentar',
+    'allow_comments_explain' => '',
 
-	'custom_js' => 'Custom JS',
-	'custom_js_explain' => '',
+    'custom_css' => 'CSS khusus',
+    'custom_css_explain' => '',
 
-	// messages
-	'updated' => 'Artikel Anda telah diperbarui',
-	'created' => 'Artikel Anda telah dibuat',
-	'deleted' => 'Artikel Anda telah dihapus'
+    'custom_js' => 'JavaScript khusus',
+    'custom_js_explain' => '',
+
+    // messages
+    'updated' => 'Pos Anda telah diperbaharui.',
+    'created' => 'Pos Anda telah ditambahkan.',
+    'deleted' => 'Pos Anda telah dihapus.'
 
 );

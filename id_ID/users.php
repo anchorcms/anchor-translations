@@ -2,66 +2,67 @@
 
 return array(
 
-	'users' => 'Pengguna',
+    'users' => 'Pengguna',
 
-	'create_user' => 'Buat pengguna baru',
-	'add_user' => 'Tambah pengguna baru',
-	'editing_user' => 'Sunting %s&rsquo;s Profile',
-	'remembered' => 'Saya tahu sandi saya',
-	'forgotten_password' => 'Lupa sandi Anda?',
+    'create_user' => 'Buat pengguna baru',
+    'add_user' => 'Tambahkan pengguna baru',
+    'editing_user' => 'Menyunting profil %s',
+    'remembered' => 'Saya ingat kata sandi saya.',
+    'forgotten_password' => 'Lupa kata sandi Anda?',
 
-	// roles
-	'administrator' => 'Admin',
-	'administrator_explain' => '',
+    // roles
+    'administrator' => 'Pengurus',
+    'administrator_explain' => '',
 
-	'editor' => 'Editor',
-	'editor_explain' => '',
+    'editor' => 'Penyunting',
+    'editor_explain' => '',
 
-	'user' => 'Pengguna',
-	'user_explain' => '',
+    'user' => 'Pengguna',
+    'user_explain' => '',
 
-	// form fields
-	'real_name' => 'Nama Asli',
-	'real_name_explain' => '',
+    // form fields
+    'real_name' => 'Nama',
+    'real_name_explain' => '',
 
-	'bio' => 'Biografi',
-	'bio_explain' => '',
+    'bio' => 'Biografi',
+    'bio_explain' => '',
 
-	'status' => 'Status',
-	'status_explain' => '',
+    'status' => 'Status',
+    'status_explain' => '',
 
-	'role' => 'Tugas',
-	'role_explain' => '',
+    'role' => 'Peran',
+    'role_explain' => '',
 
-	'username' => 'Nama Pengguna',
-	'username_explain' => '',
-	'username_missing' => 'Silahkan masukkan nama pengguna, setidaknya harus %s karakter',
+    'username' => 'Nama pengguna',
+    'username_explain' => '',
+    'username_missing' => 'Mohon masukkan nama pengguna, minimal terdiri dari %s karakter.',
 
-	'password' => 'Sandi',
-	'password_explain' => '',
-	'password_too_short' => 'Sandi setidaknya harus %s karakter',
+    'password' => 'Kata sandi',
+    'password_explain' => '',
+    'password_too_short' => 'Kata sandi minimal terdiri dari %s karakter.',
 
-	'new_password' => 'Sandi baru',
+    'new_password' => 'Kata sandi baru',
 
-	'email' => 'Email',
-	'email_explain' => '',
-	'email_missing' => 'Silahkan masukkan alamat email yang sah/benar',
-	'email_not_found' => 'Profile tidak ada.',
+    'email' => 'Surel',
+    'email_explain' => '',
+    'email_missing' => 'Mohon masukkan alamat surel yang valid.',
+    'email_not_found' => 'Profil tidak ditemukan.',
 
-	// messages
-	'updated' => 'Profil pengguna telah diperbarui.',
-	'created' => 'Profil pengguna telah dibuat.',
-	'deleted' => 'Profil pengguna telah dihapus.',
-	'delete_error' => 'Anda tidak bisa menghapus profil sendiri',
-	'login_error' => 'Nama pengguna atau sandi salah.',
-	'logout_notice' => 'Anda sekarang sudah keluar.',
-	'recovery_sent' => 'Kami telah mengirimkan Anda sebuah email untuk konfirmasi perubahan sandi.',
-	'recovery_expired' => 'Token pemulihan sandi telah kadaluarsa, silahkan mencoba kembali.',
-	'password_reset' => 'Sandi baru Anda telah diatur. Pergi dan masuk sekarang!',
+    // messages
+    'updated' => 'Profil pengguna telah diperbaharui.',
+    'created' => 'Profil pengguna telah ditambahkan.',
+    'deleted' => 'Profil pengguna telah dihapus.',
+    'delete_error' => 'Anda tidak dapat menghapus profil Anda sendiri.',
+    'login_error' => 'Nama pengguna atau kata sandi salah.',
+    'logout_notice' => 'Anda telah keluar.',
+    'recovery_sent' => 'Kami telah mengirim surel untuk mengonfirmasi pemulihan kata sandi Anda.',
+    'recovery_expired' => 'Token pemulihan kata sandi telah kadaluwarsa, silakan coba lagi.',
+    'password_reset' => 'Kata sandi Anda berhasil diatur ulang. Silakan masuk sekarang.',
 
-	// password recovery email
-	'recovery_subject' => 'Atur ulang sandi',
-	'recovery_message' => 'Anda telah meminta untuk atur ulang sandi Anda.' .
-		'Selanjutnya ikuti tautan dibawah.' . PHP_EOL . '%s',
+    // password recovery email
+    'recovery_subject' => 'Permintaan pemulihan kata sandi.',
+    'recovery_message' => 'Anda telah meminta pemulihan kata sandi.' .
+        'Untuk melanjutkan silakan ikuti tautan berikut.' .
+        PHP_EOL . '%s',
 
 );
