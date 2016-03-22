@@ -21,7 +21,7 @@ return array(
 	'user_explain' => '',
 
 	// form fields
-	'real_name' => 'Opravdové jméno',
+	'real_name' => 'Skutečné jméno',
 	'real_name_explain' => '',
 
 	'bio' => 'O mně',
@@ -43,25 +43,25 @@ return array(
 
 	'new_password' => 'Nové Heslo',
 
-	'email' => 'Email',
+	'email' => 'E-mail',
 	'email_explain' => '',
-	'email_missing' => 'Zadejte prosím platnou emailovou adresu',
+	'email_missing' => 'Zadejte prosím platnou e-mailovou adresu',
 	'email_not_found' => 'Profil nenalezen.',
 
 	// messages
 	'updated' => 'Profil byl aktualizován.',
 	'created' => 'Profil byl vytvořen.',
 	'deleted' => 'Profil byl smazán.',
-	'delete_error' => 'Nemůžete smazat vlastní profil',
+	'delete_error' => 'Nemůžete smazat vlastní profil.',
 	'login_error' => 'Špatné jméno nebo heslo.',
 	'logout_notice' => 'Byli jste odhlášeni.',
-	'recovery_sent' => 'Poslali jsme vám email s odkazem na obnovení hesla.',
+	'recovery_sent' => 'Poslali jsme vám e-mail s&#160;odkazem na obnovení hesla.',
 	'recovery_expired' => 'Tento odkaz je neplatný, nechte si poslat nový.',
 	'password_reset' => 'Nové heslo bylo uloženo, nyní se můžete přihlásit!',
 
 	// password recovery email
 	'recovery_subject' => 'Obnova hesla',
-	'recovery_message' => 'Požádali jste o nové heslo.' .
+	'recovery_message' => 'Požádali jste o&#160;nové heslo.' .
 		'Pro pokračování klikněte na následující odkaz.' . PHP_EOL . '%s',
 
 );

@@ -2,43 +2,47 @@
 
 return array(
 
-	'metadata' => 'Metadata Webu',
-	'metadata_desc' => 'Správa metadat',
+    'metadata' => 'Nastavení webu',
+    'metadata_desc' => 'Nastavení webu a správa metadat.',
 
-	'comment_settings' => 'Komentáře',
-	'theme_settings' => 'Vzhled',
+    'comment_settings' => 'Komentáře',
+    'theme_settings' => 'Vzhled',
 
-	// form fields
-	'sitename' => 'Název webu',
-	'sitename_explain' => '',
-	'sitename_missing' => 'Váš web potřebuje jméno!',
+    // form fields
+    'sitename' => 'Název webu',
+    'sitename_explain' => '',
+    'sitename_missing' => 'Váš web potřebuje jméno!',
 
-	'sitedescription' => 'Popis webu',
-	'sitedescription_explain' => '',
-	'sitedescription_missing' => 'Váš web potřebuje popis!',
+    'sitedescription' => 'Popis webu',
+    'sitedescription_explain' => '',
+    'sitedescription_missing' => 'Váš web potřebuje popis!',
 
-	'homepage' => 'Domovská Stránka',
-	'homepage_explain' => '',
+    'homepage' => 'Domovská Stránka',
+    'homepage_explain' => '',
 
-	'postspage' => 'Stránka s příspěvky',
-	'postspage_explain' => '',
+    'postspage' => 'Stránka s příspěvky',
+    'postspage_explain' => '',
 
-	'posts_per_page' => 'Příspěvků na stránku',
-	'posts_per_page_explain' => '',
+    'posts_per_page' => 'Příspěvků na stránku',
+    'posts_per_page_explain' => '',
+    
+    'show_all_posts' => 'Zobrazit všechny příspěvky',
+    'show_all_posts_explain' => 'Zobrazí všechny příspěvky bez stránkování (může být pomalé).',
 
-	'auto_publish_comments' => 'Automatické schválení komentářů',
-	'auto_publish_comments_explain' => '',
 
-	'comment_notifications' => 'Emailové notifikace pro nové komentáře',
-	'comment_notifications_explain' => '',
+    'auto_publish_comments' => 'Automatické schválení komentářů',
+    'auto_publish_comments_explain' => '',
 
-	'comment_moderation_keys' => 'Zakázaná slova',
-	'comment_moderation_keys_explain' => 'Seznam slov, oddělených čárkami, která způsobí automatické označení komentáře za spam.',
+    'comment_notifications' => 'Emailové notifikace pro nové komentáře',
+    'comment_notifications_explain' => '',
 
-	'current_theme' => 'Aktuální šablona',
-	'current_theme_explain' => '',
+    'comment_moderation_keys' => 'Zakázaná slova',
+    'comment_moderation_keys_explain' => 'Seznam slov oddělených čárkami, která způsobí automatické označení komentáře za spam.',
 
-	// messages
-	'updated' => 'Aktualizováno',
+    'current_theme' => 'Aktuální šablona',
+    'current_theme_explain' => '',
+
+    // messages
+    'updated' => 'Aktualizováno',
 
 );
