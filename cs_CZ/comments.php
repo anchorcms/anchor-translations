@@ -12,9 +12,9 @@ return array(
 	'name_explain' => 'Jméno',
 	'name_missing' => 'Zadejte prosím jméno',
 
-	'email' => 'Email',
-	'email_explain' => 'Autorova emailová adresa',
-	'email_missing'=> 'Zadejte prosím platnou emailovou adresu', // frontend message (appears on your site!)
+	'email' => 'E-mail',
+	'email_explain' => 'Autorova e-mailová adresa',
+	'email_missing'=> 'Zadejte prosím platnou e-mailovou adresu', // frontend message (appears on your site!)
 
 	'text' => 'Obsah',
 	'text_explain' => 'Obsah komentáře',
