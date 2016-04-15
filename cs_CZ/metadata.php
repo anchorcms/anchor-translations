@@ -14,7 +14,7 @@ return array(
     'sitename_missing' => 'Váš web potřebuje jméno!',
 
     'sitedescription' => 'Popis webu',
-    'sitedescription_explain' => '',
+    'sitedescription_explain' => 'Popis vašeho webu.',
     'sitedescription_missing' => 'Váš web potřebuje popis!',
 
     'homepage' => 'Domovská Stránka',
@@ -22,6 +22,9 @@ return array(
 
     'postspage' => 'Stránka s příspěvky',
     'postspage_explain' => '',
+    
+    'dashboard_page' => 'Dashboard Page',
+    'dashboard_page_explain' => 'Default dashboard page',
 
     'posts_per_page' => 'Příspěvků na stránku',
     'posts_per_page_explain' => '',
@@ -33,7 +36,7 @@ return array(
     'auto_publish_comments' => 'Automatické schválení komentářů',
     'auto_publish_comments_explain' => '',
 
-    'comment_notifications' => 'Emailové notifikace pro nové komentáře',
+    'comment_notifications' => 'E-mailové notifikace pro nové komentáře',
     'comment_notifications_explain' => '',
 
     'comment_moderation_keys' => 'Zakázaná slova',
