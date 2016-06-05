@@ -2,34 +2,34 @@
 
 return array(
 
-	'comments' => '回复',
-	'nocomments_desc' => '还没有恢复.',
-	'editing_comment' => '编辑回复',
-	'view_comment' => '查看回复',
+	'comments' => '评论',
+	'nocomments_desc' => '还没有评论',
+	'editing_comment' => '编辑评论',
+	'view_comment' => '查看评论',
 
 	// form fields
-	'name' => 'Name',
-	'name_explain' => '作者',
-	'name_missing' => '请输入作者',
+	'name' => '名字',
+	'name_explain' => '您的名字',
+	'name_missing' => '请输入名字',
 
 	'email' => '邮件地址',
-	'email_explain' => '作者的电子邮件地址',
-	'email_missing' => '请输入一个有效的电子邮件地址', // frontend message (appears on your site!)
+	'email_explain' => '您的电子邮件地址',
+	'email_missing' => '请输入有效的电子邮件地址', // frontend message (appears on your site!)
 
-	'text' => '回复',
+	'text' => '评论',
 	'text_explain' => '',
-	'text_missing' => '请输入回复内容', // frontend message (appears on your site!)
+	'text_missing' => '请输入评论内容', // frontend message (appears on your site!)
 
-	'status' => '统计',
+	'status' => '状态',
 	'status_explain' => '',
 
 	// messages
-	'created' => '您的回复已添加', // frontend message (appears on your site!)
-	'updated' => '您的回复已更新',
-	'deleted' => '您的回复已删除',
+	'created' => '评论已添加', // frontend message (appears on your site!)
+	'updated' => '评论已更新',
+	'deleted' => '评论已删除',
 
 	// email notification
-	'notify_subject' => '新回复已添加',
-	'nofity_heading' => '有新回复来了.'
+	'notify_subject' => '有新评论',
+	'nofity_heading' => '您的站点有新评论'
 
 );
