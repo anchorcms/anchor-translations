@@ -15,6 +15,7 @@ return array(
 	'created' => 'Utworzono',
 	'submit' => 'Dodaj',
 	'close' => 'Zamknij',
+	'cancel' => 'Anuluj',
 	'status' => 'Status',
 	'manage' => 'Zarządzaj',
 	'reset' => 'Resetuj',
