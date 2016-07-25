@@ -1,17 +1,18 @@
 <?php
 
 return array(
+	// TODO: zbyt techniczne słownictwo
 
-	'extend' => 'Zaawansowane',
+	'extend' => 'Rozszerz',
 
 	'fields' => 'Własne pola',
 	'fields_desc' => 'Utwórz dodatkowe pola formularza',
 
 	'pagetypes' => 'Typy stron',
-	'pagetypes_desc' => 'Utwórz dodatkowe typy stron',
+	'pagetypes_desc' => 'Utwórz dodatkowy typ strony',
 
 	'variables' => 'Zmienne strony',
-	'variables_desc' => 'Utwórz dodatkowe zmienne do wykorzystania w kodzie strony',
+	'variables_desc' => 'Utwórz dodatkowe metadane',
 
 	'create_field' => 'Utwórz nowe pole',
 	'editing_custom_field' => 'Edytujesz pole &ldquo;%s&rdquo;',
@@ -27,18 +28,18 @@ return array(
 
 	// form fields
 	'type' => 'Przeznaczenie',
-	'type_explain' => 'Wybierz dla jakich elementów ma być przypisan pole',
+	'type_explain' => 'Wybierz dla jakich elementów ma być przypisane pole',
 
 	'pagetype' => 'Page Type',
-	'pagetype_explain' => 'The type of page you want to add this field to.',
+	'pagetype_explain' => 'Na stronach z jakim typem ma zostać dodane to pole.',
 
 	'field' => 'Pole',
 	'field_explain' => 'Typ pola formularza',
 
-	'key' => 'Unikatowa nazwa',
-	'key_explain' => 'Uniaktowa nazwa pola',
-	'key_missing' => 'Podaj unikatową nazwę',
-	'key_exists' => 'Podana unikatowa nazwa już istnieje',
+	'key' => 'Unikalna nazwa',
+	'key_explain' => 'Unikalna nazwa pola',
+	'key_missing' => 'Podaj unikalną nazwę',
+	'key_exists' => 'Podana unikalna nazwa już istnieje',
 
 	'label' => 'Etykieta',
 	'label_explain' => 'Nazwa etykiety dla tego pola',
@@ -56,9 +57,9 @@ return array(
 
 	// custom vars
 	'name' => 'Nazwa',
-	'name_explain' => 'Unikatowa nazwa',
-	'name_missing' => 'Podaj unikatową nazwę zmiennej',
-	'name_exists' => 'Podana unikatowa nazwa już jest używana',
+	'name_explain' => 'Unikalna nazwa',
+	'name_missing' => 'Podaj unikalną nazwę zmiennej',
+	'name_exists' => 'Podana nazwa już jest używana',
 
 	'value' => 'Wartość',
 	'value_explain' => 'Przypisz wartość do zmiennej, maksylamnie 64kb',

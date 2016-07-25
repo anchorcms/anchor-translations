@@ -11,7 +11,7 @@ return array(
 	// form fields
 	'title' => 'Tytuł',
 	'title_explain' => 'Tytuł kategorii',
-	'title_missing' => 'Podaj tytuł artykułu',
+	'title_missing' => 'Podaj tytuł kategorii, musi mieć minimalnie 3 znaki',
 
 	'slug' => 'Alias URL',
 	'slug_explain' => 'Alias URL Twojej kategorii',
