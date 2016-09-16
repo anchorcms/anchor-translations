@@ -35,7 +35,7 @@ return array(
 
 	'username' => 'Jméno',
 	'username_explain' => '',
-	'username_missing' => 'Zadejte prosím uživetelské jméno, dlouhé alespoň %s zanků',
+	'username_missing' => 'Zadejte prosím uživatelské jméno, dlouhé alespoň %s znaků',
 
 	'password' => 'Heslo',
 	'password_explain' => '',
