@@ -43,6 +43,8 @@ return array(
 	// messages
 	'updated' => 'Je pagina is bijgewerkt',
 	'created' => 'Je pagina is aangemaakt.',
-	'deleted' => 'Je pagina is verwijderd.'
+	'deleted' => 'Je pagina is verwijderd.',
 
+    'cannot_delete_home_page' => 'Je kan de home pagina niet verwijderen.',
+    'cannot_delete_posts_page' => 'Je kan het berichten overzicht niet verwijderen.'
 );
