@@ -10,8 +10,11 @@ return array(
 
 	// words
 	'save' => 'Sauvegarder',
+	'saving' => 'Sauvegarde...',
 	'delete' => 'Supprimer',
+	'deleting' => 'Suppression...',
 	'update' => 'Mettre à jour',
+	'updating' => 'Mise à jour...',
 	'edit' => 'Éditer',
 	'editing' => 'Édition',
 	'create' => 'Créer',
@@ -22,6 +25,7 @@ return array(
 	'manage' => 'Gérer',
 	'reset' => 'Réinitialiser',
 	'all' => 'Tous',
+	'cancel' => 'Annuler',
 
 	// pagination
 	'next' => 'Suivant',
