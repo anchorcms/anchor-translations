@@ -67,8 +67,8 @@ return array(
     // upgrade
     'upgrade' => 'Aktualizovat',
     'good_news' => 'Dobré zprávy!',
-    'new_version_available' => 'Je dostupná nové verze Anchor.',
-    'download_now' => 'Stáhnout inhned',
+    'new_version_available' => 'Je dostupná nová verze Anchor.',
+    'download_now' => 'Stáhnout ihned',
     'upgrade_later' => 'Stáhnout později',
 
     // debug profiler
