@@ -34,7 +34,7 @@ return array(
     'archived' => 'Archivado',
     'published' => 'Publicado',
     'pending' => 'Pendiente',
-    'approved' => 'Aprovado',
+    'approved' => 'Aprobado',
     'spam' => 'Spam',
 
     'inactive' => 'Inactivo',
