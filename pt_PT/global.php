@@ -9,11 +9,11 @@
 return array(
 
 	// words
-	'save' => 'Gravar',
+	'save' => 'Guardar',
 	'delete' => 'Eliminar',
 	'update' => 'Actualizar',
 	'edit' => 'Editar',
-	'editing' => 'A Editar',
+	'editing' => 'Editando',
 	'create' => 'Criar',
 	'created' => 'Criado',
 	'submit' => 'Enviar',
@@ -37,8 +37,8 @@ return array(
 	'approved' => 'Aprovado',
 	'spam' => 'Spam',
 
-	'inactive' => 'Inactivo',
-	'active' => 'Activo',
+	'inactive' => 'Inativo',
+	'active' => 'Ativo',
 
 	// roles
 	'administrator' => 'Administrador',
