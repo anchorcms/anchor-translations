@@ -1,7 +1,7 @@
 <?php
 
-return array(
+return [
 
-	'menu' => 'Menu',
+    'menu' => 'Menu',
 
-);
+];
