@@ -1,7 +1,6 @@
 <?php
 
 return array(
-
 	'pages' => 'Strony',
 
 	'create_page' => 'Utwórz nową stronę',
@@ -26,7 +25,7 @@ return array(
 	'name_explain' => '',
 
 	'slug' => 'Alias URL',
-	'slug_explain' => 'Alisa URL identyfikuje Twóją stronę, jest on generowany automatycznie lecz można go też edytować samodzielnie, powinien on zawierać tylko znaki ascii',
+	'slug_explain' => 'Alisa URL identyfikuje Twoją stronę, jest on generowany automatycznie lecz można go też edytować samodzielnie, powinien on zawierać tylko znaki ascii',
 	'slug_missing' => 'Podaj alisa URL, powinien on zawierać tylko znaki ascii',
 	'slug_duplicate' => 'Podany alias URL już istnieje',
 	'slug_invalid' => 'Alias URL musi zawierać litery',
@@ -35,7 +34,7 @@ return array(
 	'status_explain' => '',
 
 	'parent' => 'Nadrzędna pozycja',
-	'parent_explain' => 'Wskarz czy Twoja pozycja menu ma być podpozycją menu czy nie',
+	'parent_explain' => 'Wskaż czy Twoja pozycja w menu ma być podrzędna czy nie',
 
 	'pagetype' => 'Typ strony',
 	'pagetype_explain' => 'Wybierz typ strony',

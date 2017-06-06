@@ -10,8 +10,11 @@ return array(
 
 	// words
 	'save' => 'Save',
+	'saving' => 'Saving...',
 	'delete' => 'Delete',
+	'deleting' => 'Deleting...',
 	'update' => 'Update',
+	'updating' => 'Updating...',
 	'edit' => 'Edit',
 	'editing' => 'Editing',
 	'create' => 'Create',
@@ -22,6 +25,7 @@ return array(
 	'manage' => 'Manage',
 	'reset' => 'Reset',
 	'all' => 'All',
+	'cancel' => 'Cancel',
 
 	// pagination
 	'next' => 'Next',
@@ -50,10 +54,26 @@ return array(
 	'log_out' => 'Log out',
 	'logout' => 'Logout',
 
-	// pharses
+	// phrases
 	'visit_your_site' => 'Visit your site',
 	'powered_by_anchor' => 'Powered by Anchor, version %s',
-	'make_blogging_beautiful' => 'Make blogging beautiful.',
+	'make_blogging_beautiful' => 'Make blogging beautiful',
+
+	// intro
+	'welcome_to_anchor' => 'Welcome to Anchor',
+	'welcome_to_anchor_lets_go' => 'Welcome to Anchor. Let’s go.',
+	'run_the_installer' => 'Run the installer',
+
+	// upgrade
+	'upgrade' => 'Upgrade',
+	'good_news' => 'Great News!',
+	'new_version_available' => 'There\'s a new version of anchor available.',
+	'download_now' => 'Download Now',
+	'upgrade_later' => 'Upgrade Later',
+
+	// debug profiler
+	'profile' => 'Profile',
+	'profile_memory_usage' => 'Total memory usage',
 
 	// messages
 	'confirm_delete' => 'Are you sure you want to delete? This can’t be undone!'

@@ -15,10 +15,12 @@ return array(
 	'created' => 'Utworzono',
 	'submit' => 'Dodaj',
 	'close' => 'Zamknij',
+	'cancel' => 'Anuluj',
 	'status' => 'Status',
 	'manage' => 'Zarządzaj',
 	'reset' => 'Resetuj',
 	'all' => 'Wszystko',
+	'cancel' => 'Anuluj',
 
 	// pagination
 	'next' => 'Następny',
@@ -27,11 +29,11 @@ return array(
 	'last' => 'Ostatni',
 
 	// statuses
-	'draft' => 'Tworzonie',
-	'archived' => 'W archiwum',
-	'published' => 'Opublikowane',
-	'pending' => 'Oczekujące',
-	'approved' => 'Zatwierdzone',
+	'draft' => 'Szkic',
+	'archived' => 'Zarchiwizowany',
+	'published' => 'Opublikowany',
+	'pending' => 'Oczekujący',
+	'approved' => 'Zatwierdzony',
 	'spam' => 'Spam',
 
 	'inactive' => 'Nieaktywny',
@@ -39,7 +41,7 @@ return array(
 
 	// roles
 	'administrator' => 'Administrator',
-	'editor' => 'Edytor',
+	'editor' => 'Redaktor',
 	'user' => 'Użytkownik',
 
 	'log_in' => 'Zaloguj',
@@ -50,7 +52,8 @@ return array(
 	// pharses
 	'visit_your_site' => 'Strona',
 	'powered_by_anchor' => 'Anchor wersja %s',
-	'make_blogging_beautiful' => 'Uczyń blogowanie pięknym.',
+	//Wieczna bolaczka z tlumaczeniem sloganow. Just Don't It.
+	'make_blogging_beautiful' => 'Make blogging beautiful',
 
 	// intro
 	'welcome_to_anchor' => 'Witamy w Anchor',
@@ -59,8 +62,8 @@ return array(
 
 	// upgrade
 	'upgrade' => 'Aktualizacja',
-	'good_news' => 'Dobra wiadomość!',
-	'new_version_available' => 'Jest nowa wersja systemu',
+	'good_news' => 'Dobre wieści!',
+	'new_version_available' => 'Dostępna jest nowa wersja Anchor',
 	'download_now' => 'Pobierz teraz',
 	'upgrade_later' => 'Aktualizuj później',
 
@@ -69,6 +72,6 @@ return array(
 	'profile_memory_usage' => 'Całkowie zużycie pamięci',
 
 	// messages
-	'confirm_delete' => 'Jesteś pewien usunięcia? To może być nieodwracalne!'
+	'confirm_delete' => 'Jesteś pewien usunięcia? To jest nieodwracalne!'
 
 );
