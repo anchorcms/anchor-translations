@@ -17,7 +17,7 @@ return array(
     'title_missing' => 'Zadejte prosím nadpis stránky',
 
     'content' => 'Obsah',
-    'content_explain' => 'Obsah stránky. Použivá Markdown.',
+    'content_explain' => 'Obsah stránky. Používá  Markdown.',
 
     'show_in_menu' => 'Přidat do menu',
     'show_in_menu_explain' => '',

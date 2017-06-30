@@ -11,10 +11,10 @@ return array(
 	// form fields
 	'title' => 'Název',
 	'title_explain' => 'Název kategorie.',
-	'title_missing' => 'Zadejte prosím název',
+	'title_missing' => 'Zadejte prosím název (alespoň 3 znaky).',
 
-	'slug' => 'URL Segment',
-	'slug_explain' => 'URL segment kategorie',
+	'slug' => 'Část URL',
+	'slug_explain' => 'Část URL kategorie',
 
 	'description' => 'Popis',
 	'description_explain' => 'Co bude kategorie obsahovat.',

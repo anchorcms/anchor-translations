@@ -35,17 +35,17 @@ return array(
 
 	'username' => 'Jméno',
 	'username_explain' => '',
-	'username_missing' => 'Zadejte prosím uživetelské jméno, dlouhé alespoň %s zanků',
+	'username_missing' => 'Zadejte prosím uživatelské  jméno, dlouhé alespoň %s znaků.',
 
 	'password' => 'Heslo',
 	'password_explain' => '',
-	'password_too_short' => 'Heslo musí být alespoň %s znaků dlouhé',
+	'password_too_short' => 'Heslo musí být alespoň %s znaků dlouhé.',
 
 	'new_password' => 'Nové Heslo',
 
 	'email' => 'E-mail',
 	'email_explain' => '',
-	'email_missing' => 'Zadejte prosím platnou e-mailovou adresu',
+	'email_missing' => 'Zadejte prosím platnou e-mailovou adresu.',
 	'email_not_found' => 'Profil nenalezen.',
 
 	// messages

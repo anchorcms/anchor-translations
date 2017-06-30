@@ -17,14 +17,14 @@ return array(
     'sitedescription_explain' => 'Popis vašeho webu.',
     'sitedescription_missing' => 'Váš web potřebuje popis!',
 
-    'homepage' => 'Domovská Stránka',
+    'homepage' => 'Domovská stránka',
     'homepage_explain' => '',
 
     'postspage' => 'Stránka s příspěvky',
     'postspage_explain' => '',
     
-    'dashboard_page' => 'Dashboard Page',
-    'dashboard_page_explain' => 'Default dashboard page',
+    'dashboard_page' => 'Úvodní stránka',
+    'dashboard_page_explain' => 'Výchozí stránka po přihlášení do administrace.',
 
     'posts_per_page' => 'Příspěvků na stránku',
     'posts_per_page_explain' => '',
@@ -32,8 +32,8 @@ return array(
     'show_all_posts' => 'Zobrazit všechny příspěvky',
     'show_all_posts_explain' => 'Zobrazí všechny příspěvky bez stránkování (může být pomalé).',
 
-
     'auto_publish_comments' => 'Automatické schválení komentářů',
+    
     'auto_publish_comments_explain' => '',
 
     'comment_notifications' => 'E-mailové notifikace pro nové komentáře',
