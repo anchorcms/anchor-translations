@@ -1,6 +1,6 @@
 <?php
 
-return array(
+return [
 
     'comments' => 'Comentarios',
     'nocomments_desc' => 'Sin comentarios',
@@ -32,4 +32,4 @@ return array(
     'notify_subject' => 'Nuevo comentario agregado',
     'nofity_heading' => 'Nuevo comentario agregado a tu sitio'
 
-);
+];

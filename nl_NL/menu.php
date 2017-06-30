@@ -1,8 +1,8 @@
 <?php
 
-return array(
+return [
 
-	'menu' 		=> 'Menu',
-	'edit_menu' => 'Wijzig menu'
+    'menu' => 'Menu',
+    'edit_menu' => 'Wijzig menu'
 
-);
+];

@@ -5,7 +5,7 @@ return array(
 	'category' => 'Kategorie',
 	'categories' => 'Kategorie',
 
-	'create_category' => 'Vytvořit novou katergorii',
+	'create_category' => 'Vytvořit novou kategorii',
 	'edit_category' => 'Upravujete &#187;%s&#171;',
 
 	// form fields

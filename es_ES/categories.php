@@ -1,6 +1,6 @@
 <?php
 
-return array(
+return [
 
     'category' => 'Categor&iacute;a',
     'categories' => 'Categorias',
@@ -25,4 +25,4 @@ return array(
     'deleted' => 'Categoría eliminada.',
     'delete_error' => 'Debes tener al menos una categor&iacute;a.',
 
-);
+];

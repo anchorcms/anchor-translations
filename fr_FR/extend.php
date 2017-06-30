@@ -7,6 +7,9 @@ return array(
 	'fields' => 'Champs personnalisés',
 	'fields_desc' => 'Créer des champs additionnels',
 
+	'pagetypes' => 'Type de page du site',
+	'pagetypes_desc' => 'Créer des types de pages',
+
 	'variables' => 'Variables du site',
 	'variables_desc' => 'Créer des variables additionnelles',
 
@@ -18,9 +21,16 @@ return array(
 	'editing_variable' => 'Édition de la variable &ldquo;%s&rdquo;',
 	'novars_desc' => 'Aucune variable pour l\'instant',
 
+	'create_pagetype' => 'Créer un nouveau type de page',
+	'editing_pagetype' => 'Modifier un type de page &ldquo;%s&rdquo;',
+
 	// form fields
 	'type' => 'Type ',
 	'type_explain' => 'Le type de contenu destiné à ce nouveau champ.',
+	'notypes_desc' => 'Aucun type de page pour l\'instant.',
+
+	'pagetype' => 'Type de page',
+	'pagetype_explain' => 'Le type de page que vous voullez associer à ce champ.',
 
 	'field' => 'Champ ',
 	'field_explain' => 'Type de champ HTML',
@@ -59,6 +69,10 @@ return array(
 	'variable_created' => 'La variable a été créée',
 	'variable_updated' => 'La variable a été mise à jour',
 	'variable_deleted' => 'La variable a été supprimée',
+
+	'pagetype_created' => 'Votre type de page a été créé',
+	'pagetype_updated' => 'Votre type de page a été mis à jour',
+	'pagetype_deleted' => 'Votre type de page a été supprimée',
 
 	'field_created' => 'Le champ a été créé',
 	'field_updated' => 'Le champ a été mis à jour',

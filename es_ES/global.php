@@ -6,7 +6,7 @@
  * This global file will provide the majority of the translations in anchor
  * to remove duplicate translations in section specific language files.
  */
-return array(
+return [
 
     // words
     'save' => 'Guardar',
@@ -34,7 +34,7 @@ return array(
     'archived' => 'Archivado',
     'published' => 'Publicado',
     'pending' => 'Pendiente',
-    'approved' => 'Aprovado',
+    'approved' => 'Aprobado',
     'spam' => 'Spam',
 
     'inactive' => 'Inactivo',
@@ -74,4 +74,4 @@ return array(
     // messages
     'confirm_delete' => 'Seguro deseas eliminar? Esto no puede deshacerse!'
 
-);
+];

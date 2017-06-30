@@ -5,26 +5,30 @@ return array(
 	'posts' => '文章',
 
 	'create_post' => '发表文章',
-	'noposts_desc' => '您没有文章!',
+	'noposts_desc' => '还没有文章！',
 
 	// form fields
 	'title' => '标题',
 	'title_explain' => '',
-	'title_missing' => '请输入标题',
+	'title_missing' => '标题至少应包含3个字符',
 
-	'content' => '文章正文',
-	'content_explain' => '来写吧.',
+	'content' => '正文',
+	'content_explain' => '',
 
-	'slug' => '缩写',
-	'slug_explain' => '用缩写来识别您的文章,只能包含 ASCII 字符',
-	'slug_missing' => '请输入一个缩写网址,只能包含 ASCII 字符',
-	'slug_duplicate' => '缩写已存在',
-	'slug_invalid' => '缩写必须包含字母',
+	'slug' => 'URI别名',
+	'slug_explain' => '文章的URI别名,只能包含 ASCII 字符',
+	'slug_missing' => 'URI别名至少应包含3个字符,只能包含 ASCII 字符',
+	'slug_duplicate' => 'URI别名已存在',
+	'slug_invalid' => 'URI别名必须包含字母',
+
+    'time' => '发布时间(GMT)',
+    'time_explain' => '格式: YYYY-MM-DD HH:MM:SS',
+    'time_invalid' => '无效时间格式',
 
 	'description' => '描述',
 	'description_explain' => '',
 
-	'status' => '统计',
+	'status' => '状态',
 	'status_explain' => '',
 
 	'category' => '分类',
@@ -40,8 +44,8 @@ return array(
 	'custom_js_explain' => '',
 
 	// messages
-	'updated' => '您的文章已更新',
-	'created' => '您的文章已创建',
-	'deleted' => '您的文章已删除'
+	'updated' => '文章已更新',
+	'created' => '文章已新建',
+	'deleted' => '文章已删除'
 
 );

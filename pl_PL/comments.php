@@ -8,7 +8,8 @@ return array(
 	'view_comment' => 'Zobacz komentarz',
 
 	// form fields
-	'name' => 'Nazwa',
+	// TODO: podpatrzeć na stronach 
+	'name' => 'Autor',
 	'name_explain' => 'Nazwa autora',
 	'name_missing' => 'Podaj nazwę autora',
 
