@@ -5,7 +5,7 @@ return array(
 	'users' => 'Utilisateurs',
 
 	'create_user' => 'Créer un utilisateur',
-	'add_user' => 'Ajour d\'un nouvel utilisateur',
+	'add_user' => 'Ajout d\'un nouvel utilisateur',
 	'editing_user' => 'Edition du profil &ldquo;%s&rdquo;',
 	'remembered' => 'Je connais mon mot de passe',
 	'forgotten_password' => 'Mot de passe oublié ?',
