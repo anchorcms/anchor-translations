@@ -10,13 +10,13 @@ return array(
 
     // words
     'save' => 'Uložit',
-    'saving' => 'Ukládám&#133;',
+    'saving' => 'Ukládám…',
     'delete' => 'Smazat',
-    'deleting' => 'Mažu&#133;',
+    'deleting' => 'Mažu…',
     'update' => 'Aktualizovat',
-    'updating' => 'Aktualizuji&#133;',
+    'updating' => 'Aktualizuji…',
     'edit' => 'Upravit',
-    'editing' => 'Upravuji&#133;',
+    'editing' => 'Upravuji…',
     'create' => 'Vytvořit',
     'created' => 'Vytvořeno',
     'submit' => 'Odeslat',
@@ -26,6 +26,7 @@ return array(
     'reset' => 'Obnovit',
     'all' => 'Vše',
     'cancel' => 'Zrušit',
+    'error' => 'Chyba',
 
     // pagination
     'next' => 'Další',
@@ -56,20 +57,28 @@ return array(
 
     // phrases
     'visit_your_site' => 'Jdi na web',
-    'powered_by_anchor' => 'Provozováno pomocí Anchor, verze %s',
+    'powered_by_anchor' => 'Provozováno pomocí Anchor&#160;CMS, verze&#160;%s',
     'make_blogging_beautiful' => 'Make blogging beautiful.',
+    'error_phrase' => 'Oh no! Your Anchor has gotten caught on something…',
+    'error_button' => 'Get me out of here!',
     
     // intro
-    'welcome_to_anchor' => 'Vítejte v Anchor',
-    'welcome_to_anchor_lets_go' => 'Vítejte v Anchor. Jde se na to.',
+    'welcome_to_anchor' => 'Vítejte v Anchor&#160;CMS',
+    'welcome_to_anchor_lets_go' => 'Vítejte v Anchor&#160;CMS. Jde se na to.',
     'run_the_installer' => 'Spusťte installer',
 
     // upgrade
     'upgrade' => 'Aktualizovat',
+    'upgrading' => 'Aktualizuji…',
     'good_news' => 'Dobré zprávy!',
-    'new_version_available' => 'Je dostupná nová verze Anchor.',
+    'new_version_available' => 'Je dostupná nové verze Anchor&#160;CMS.',
+    'up_to_date' => 'Anchor&#160;CMS je aktuální!',
+    'better_version' => 'Je k&#160;dispozici novější verze Anchor&#160;CMS. Aktualizujte!',
     'download_now' => 'Stáhnout ihned',
-    'upgrade_later' => 'Stáhnout později',
+    'upgrade_later' => 'Aktualizovat později',
+    'upgrade_good' => 'Anchor&#160;CMS je úspěšně aktualizován!',
+    'upgrade_bad' => 'Nepodařilo se aktualizovat na poslední verzi…',
+    'upgrade_finished_thanks' => 'Děkujeme!',
 
     // debug profiler
     'profile' => 'Profil',
