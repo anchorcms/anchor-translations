@@ -2,34 +2,34 @@
 
 return array(
 
-	'comments' => 'Комментарии',
-	'nocomments_desc' => 'Здесь пусто',
-	'editing_comment' => 'Редактировать комментарий',
-	'view_comment' => 'Смотреть комментарий',
+    'comments' => 'Комментарии',
+    'nocomments_desc' => 'Нет комментариев.',
+    'editing_comment' => 'Редактировать комментарий',
+    'view_comment' => 'Показать комментарий',
 
-	// form fields
-	'name' => 'Имя',
-	'name_explain' => 'Кто оставил комментарий',
-	'name_missing' => 'Пожалуйста, введите имя',
+    // form fields
+    'name' => 'Имя',
+    'name_explain' => 'Автор',
+    'name_missing' => 'Пожалуйста, введите Имя',
 
-	'email' => 'Email',
-	'email_explain' => 'Адрес для связи',
-	'email_missing' => 'Введите Email', // frontend message (appears on your site!)
+    'email' => 'Email',
+    'email_explain' => 'Email Автора',
+    'email_missing' => 'Пожалуйста, введите корректный email', // frontend message (appears on your site!)
 
-	'text' => 'Комментарий',
-	'text_explain' => '',
-	'text_missing' => 'Введите текст', // frontend message (appears on your site!)
+    'text' => 'Комментарий',
+    'text_explain' => '',
+    'text_missing' => 'Пожалуйста, напишите комментарий', // frontend message (appears on your site!)
 
-	'status' => 'Статус',
-	'status_explain' => '',
+    'status' => 'Статус',
+    'status_explain' => '',
 
-	// messages
-	'created' => 'Комментарий добавлен', // frontend message (appears on your site!)
-	'updated' => 'Комментарий успешно обновлен',
-	'deleted' => 'Комментарий удалён',
+    // messages
+    'created' => 'Комментарий добавлен', // frontend message (appears on your site!)
+    'updated' => 'Комментарий обновлен',
+    'deleted' => 'Комментарий удален',
 
-	// email notification
-	'notify_subject' => 'Новый комментарий в блоге',
-	'nofity_heading' => 'На вашем сайте появился новый комменатрий.'
+    // email notification
+    'notify_subject' => 'Добавлен новый комментарий',
+    'nofity_heading' => 'Новый комментарий.'
 
 );
