@@ -2,27 +2,27 @@
 
 return array(
 
-	'category' => 'Категория',
-	'categories' => 'Категории',
+    'category' => 'Категория',
+    'categories' => 'Категории',
 
-	'create_category' => 'Создать категорию',
-	'edit_category' => 'Редактирование &ldquo;%s&rdquo;',
+    'create_category' => 'Создать категорию',
+    'edit_category' => 'Редактировать &ldquo;%s&rdquo;',
 
-	// form fields
-	'title' => 'Название',
-	'title_explain' => 'Отображается на страницах блога',
-	'title_missing' => 'Пожалуйста, придумайте название',
+    // form fields
+    'title' => 'Название',
+    'title_explain' => 'Название категории.',
+    'title_missing' => 'Пожалуйста, введите название, минимум 3 символа.',
 
-	'slug' => 'Адрес',
-	'slug_explain' => 'Уникальная ссылка для просмотра категории на сайте',
+    'slug' => 'ЧПУ',
+    'slug_explain' => 'ЧПУ для категории.',
 
-	'description' => 'Описание',
-	'description_explain' => 'Кратко расскажите о том, какие записи войдут в этот раздел',
+    'description' => 'Описание',
+    'description_explain' => 'О чем эта категория.',
 
-	// messages
-	'created' => 'Ктегория успешно добавлена',
-	'updated' => 'Настройки сохранены',
-	'deleted' => 'Категория удалена',
-	'delete_error' => 'Нельзя удалить все категории',
+    // messages
+    'created' => 'Категория добавлена.',
+    'updated' => 'Категория обновлена.',
+    'deleted' => 'Категория удалена.',
+    'delete_error' => 'У Вас должна быть хотя бы одна категория.',
 
 );

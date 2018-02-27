@@ -2,44 +2,47 @@
 
 return array(
 
-	'pages' => 'Страницы',
+    'pages' => 'Страницы',
 
-	'create_page' => 'Создать страницы',
-	'nopages_desc' => 'Здесь пусто.',
-	'redirect' => 'URL',
+    'create_page' => 'Создать страницу',
+    'nopages_desc' => 'У Вас нет страниц.',
+    'redirect' => 'Перенаправление(redirect)',
 
-	// form fields
-	'redirect_url' => 'Адрес для перенаправления',
-	'redirect_missing' => 'Пожалуйста, введите URL',
+    // form fields
+    'redirect_url' => 'На какой Url перенаправлять',
+    'redirect_missing' => 'Пожалуйста, введите корректный url',
 
-	'title' => 'Название страницы',
-	'title_explain' => '',
-	'title_missing' => 'Пожалуйста, введите название',
+    'title' => 'Заголовок страницы',
+    'title_explain' => '',
+    'title_missing' => 'Заголовок страницы должен содержать минимум 3 символа',
 
-	'content' => 'Содержимое',
-	'content_explain' => 'Текст в формате Markdown.',
+    'content' => 'Контент',
+    'content_explain' => 'Содержимое страницы. Используйте Markdown.',
 
-	'show_in_menu' => 'Показывать в меню?',
-	'show_in_menu_explain' => '',
+    'show_in_menu' => 'Показывать в Меню',
+    'show_in_menu_explain' => '',
 
-	'name' => 'Имя',
-	'name_explain' => '',
+    'name' => 'Имя',
+    'name_explain' => '',
 
-	'slug' => 'Адрес',
-	'slug_explain' => 'Уникальная ссылка на страницу',
-	'slug_missing' => 'Пожалуйста, введите адрес',
-	'slug_duplicate' => 'Такой адрес уже используется',
-	'slug_invalid' => 'Адрес должен содержать буквы',
+    'slug' => 'ЧПУ и ID(Slug)',
+    'slug_explain' => 'Slug uri нужен для идентификации Вашей страницы, может содержать только ascii символы',
+    'slug_missing' => 'Slug должен содержать минимум 3 символа, используйте только ascii символы',
+    'slug_duplicate' => 'Такой Slug уже существует',
+    'slug_invalid' => 'Slug должен содержать буквы',
 
-	'status' => 'Статус',
-	'status_explain' => '',
+    'status' => 'Статус',
+    'status_explain' => '',
 
-	'parent' => 'Родитель',
-	'parent_explain' => '',
+    'parent' => 'Родитель',
+    'parent_explain' => '',
 
-	// messages
-	'updated' => 'Настройки сохранены',
-	'created' => 'Страница успешно создана',
-	'deleted' => 'Страница удалена'
+    'pagetype' => 'Тип Страницы',
+    'pagetype_explain' => 'Выберите тип страницы, который больше всего подходит для неё.',
+
+    // messages
+    'updated' => 'Cтраница обновлена.',
+    'created' => 'Cтраница создана.',
+    'deleted' => 'Cтраница удалена.'
 
 );
